@@ -8,22 +8,56 @@
 
 #import "PXViewController.h"
 
-@interface PXViewController ()
+#import <PXBelowStatusBarView/PXBelowStatusBarView.h>
+#import <PXInfiniteContentView/PXInfiniteContentView.h>
+#import <SPHStringContentFillView/SPHStringContentFillView.h>
+#import <PXMultiForwarder/PXMultiForwarder.h>
 
+@interface PXViewController () <PXInfiniteContentViewDelegate>
 @end
 
 @implementation PXViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void) loadView {
+    PXBelowStatusBarView* v = [PXBelowStatusBarView new];
+    [v setBackgroundColor:[UIColor whiteColor]];
+    PXInfiniteContentView* content = [[PXInfiniteContentView alloc] initWithViewClass:[SPHStringContentFillView class]];
+    [v setContainedView:content];
+    [self setView:v];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) viewDidLoad {
+    [super viewDidLoad];
+    
+    [[self infiniteContentView] setDelegate:self];
+    
+    [[self allViews] setBackgroundColor:[UIColor whiteColor]];
+}
+
+- (PXInfiniteContentView*) infiniteContentView {
+    return (PXInfiniteContentView*)[(PXBelowStatusBarView*)[self view] containedView];
+}
+
+- (SPHStringContentFillView*) leftView {
+    return (SPHStringContentFillView*)[[self infiniteContentView] leftView];
+}
+- (SPHStringContentFillView*) centerView {
+    return (SPHStringContentFillView*)[[self infiniteContentView] centerView];
+}
+- (SPHStringContentFillView*) rightView {
+    return (SPHStringContentFillView*)[[self infiniteContentView] rightView];
+}
+- (SPHStringContentFillView*) allViews {
+    return (SPHStringContentFillView*)[[PXMultiForwarder alloc] initWithObjects:[self leftView], [self centerView], [self rightView], nil];
+}
+
+#pragma mark PXInfiniteContentViewDelegate Methods
+- (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView transitionedToIndex:(int)index {
+    [[self allViews] regenerate];
+}
+
+- (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView willShowView:(SPHStringContentFillView*)view forIndex:(int)index {
+    [view setContentString:[NSString stringWithFormat:@"Content@%+d", index]];
 }
 
 @end

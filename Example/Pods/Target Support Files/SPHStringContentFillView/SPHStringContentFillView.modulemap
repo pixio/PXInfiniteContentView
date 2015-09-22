@@ -1,0 +1,6 @@
+framework module SPHStringContentFillView {
+  umbrella header "SPHStringContentFillView-umbrella.h"
+
+  export *
+  module * { export * }
+}

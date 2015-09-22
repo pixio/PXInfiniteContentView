@@ -1,0 +1,6 @@
+framework module PXInfiniteContentView {
+  umbrella header "PXInfiniteContentView-umbrella.h"
+
+  export *
+  module * { export * }
+}

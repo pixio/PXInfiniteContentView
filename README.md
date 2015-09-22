@@ -1,15 +1,14 @@
 # PXInfiniteContentView
 
-[![CI Status](http://img.shields.io/travis/Spencer Phippen/PXInfiniteContentView.svg?style=flat)](https://travis-ci.org/Spencer Phippen/PXInfiniteContentView)
 [![Version](https://img.shields.io/cocoapods/v/PXInfiniteContentView.svg?style=flat)](http://cocoapods.org/pods/PXInfiniteContentView)
 [![License](https://img.shields.io/cocoapods/l/PXInfiniteContentView.svg?style=flat)](http://cocoapods.org/pods/PXInfiniteContentView)
 [![Platform](https://img.shields.io/cocoapods/p/PXInfiniteContentView.svg?style=flat)](http://cocoapods.org/pods/PXInfiniteContentView)
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+A view that can scroll forever in either direction to lazy-load "infinite" content.
 
-## Requirements
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 

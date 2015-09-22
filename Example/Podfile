@@ -3,6 +3,9 @@ use_frameworks!
 
 target 'PXInfiniteContentView_Example', :exclusive => true do
   pod "PXInfiniteContentView", :path => "../"
+  pod 'SPHStringContentFillView'
+  pod 'PXBelowStatusBarView'
+  pod 'PXMultiForwarder'
 end
 
 target 'PXInfiniteContentView_Tests', :exclusive => true do

@@ -21,7 +21,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A7A735961BF8502824B32B3C /* Pods_PXInfiniteContentView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FE3B1EC73AD60E767F4722 /* Pods_PXInfiniteContentView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,7 @@
 		07353286BD4B4E67C1C85E73 /* PXInfiniteContentView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXInfiniteContentView.podspec; path = ../PXInfiniteContentView.podspec; sourceTree = "<group>"; };
 		08FE3B1EC73AD60E767F4722 /* Pods_PXInfiniteContentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBA348F939F6DB99E239FCE /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* PXInfiniteContentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PXInfiniteContentView.app; path = PXInfiniteContentView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* PXInfiniteContentView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXInfiniteContentView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,7 +51,7 @@
 		6003F5A5195388D20070C39A /* PXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* PXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = PXInfiniteContentView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* PXInfiniteContentView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInfiniteContentView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		67896631E59168DADDB6001B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		69D173A410D12C9DE46F8BFE /* Pods-PXInfiniteContentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXInfiniteContentView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A5EEC3C47154A0E0DEA51971 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA45DBBB9B2306DBE9D4AD83 /* Pods-PXInfiniteContentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXInfiniteContentView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCE2A859F7FC98101AA56E61 /* Pods_PXInfiniteContentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,8 +106,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* PXInfiniteContentView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* PXInfiniteContentView_Example.app */,
+				6003F5AE195388D20070C39A /* PXInfiniteContentView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +130,6 @@
 			children = (
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
 				6003F5A6195388D20070C39A /* PXViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -213,7 +210,7 @@
 			);
 			name = PXInfiniteContentView_Example;
 			productName = PXInfiniteContentView;
-			productReference = 6003F58A195388D20070C39A /* PXInfiniteContentView.app */;
+			productReference = 6003F58A195388D20070C39A /* PXInfiniteContentView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* PXInfiniteContentView_Tests */ = {
@@ -234,7 +231,7 @@
 			);
 			name = PXInfiniteContentView_Tests;
 			productName = PXInfiniteContentViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* PXInfiniteContentView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

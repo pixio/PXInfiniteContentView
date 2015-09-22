@@ -1,40 +1,24 @@
-#
-# Be sure to run `pod lib lint PXInfiniteContentView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "PXInfiniteContentView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PXInfiniteContentView."
+  s.summary          = 'A view that can scroll forever in either direction to lazy-load "infinite" content.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       A view that can scroll forever in either direction, with delegate methods that let you load
+                       the content for a view at a particular index lazily (only when it is shown).
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PXInfiniteContentView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/pixio/PXInfiniteContentView"
   s.license          = 'MIT'
   s.author           = { "Spencer Phippen" => "spencer.phippen@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PXInfiniteContentView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/pixio/PXInfiniteContentView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
+  s.public_header_files = 'Pod/Classes/{PXInfiniteContentView,PXInfiniteContentBounds}.h'
   s.resource_bundles = {
     'PXInfiniteContentView' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
