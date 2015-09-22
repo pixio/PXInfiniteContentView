@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '94A8F6AE191B2E3870610431'
+               BlueprintIdentifier = 'BE9D7DCC0630ED2F737C9598'
                BlueprintName = 'PXInfiniteContentView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PXInfiniteContentView.framework'>

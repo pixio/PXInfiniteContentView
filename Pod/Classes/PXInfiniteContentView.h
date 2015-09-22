@@ -13,7 +13,13 @@
 
 @protocol PXInfiniteContentViewDelegate <NSObject>
 @optional
+/**
+ * Called when a transition completes - the center view post-transition is at the given index.
+ */
 - (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView transitionedToIndex:(int)index;
+/**
+ * Called when a view is about to become visible for the given index (including partway through a still-occuring user-initiated scroll).
+ */
 - (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView willShowView:(id)view forIndex:(int)index;
 @end
 
@@ -42,6 +48,12 @@
  */
 @property (nonatomic) PXInfiniteContentBounds* contentBounds;
 
+/**
+ * Animates a change to the current index + offset.
+ * No animation occurs if offset is 0.
+ * Otherwise, the animation occurs like a normal transition in the direction of the offset, but the view that appears will be
+ * associated with the index at the given offset.
+ */
 - (void) animateChangeWithOffset:(int)offset;
 
 @end
