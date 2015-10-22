@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PXInfiniteContentView"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = 'A view that can scroll forever in either direction to lazy-load "infinite" content.'
 
   s.description      = <<-DESC

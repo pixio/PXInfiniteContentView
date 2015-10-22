@@ -146,11 +146,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     
     int sizeMultiplier = 3 - (!!onLeftBoundary) - (!!onRightBoundary);
     const CGRect entireArea = [self bounds];
-    // We add 1e-2 to the height to make the scroll view think it can scroll vertically.
-    // If we don't do this, the pan gesture recognizer doesn't get a chance to process the touch
-    // events and can't fail (which is a problem because we make all other other gesture recognizers
-    // require the pan gesture recognizer to fail).
-    const CGSize contentSize = CGSizeMake(entireArea.size.width * sizeMultiplier, entireArea.size.height + 1e-2);
+    const CGSize contentSize = CGSizeMake(entireArea.size.width * sizeMultiplier, entireArea.size.height);
     [self setContentSize:contentSize];
     
     const CGFloat xOffset = onLeftBoundary ? -entireArea.size.width : 0;
@@ -260,10 +256,6 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     }
 
     return [super gestureRecognizerShouldBegin:gestureRecognizer];
-}
-
-- (BOOL) gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer*)otherGestureRecognizer {
-    return gestureRecognizer == [self panGestureRecognizer] && ![[self gestureRecognizers] containsObject:otherGestureRecognizer];
 }
 
 #pragma mark UIScrollViewDelegate Methods
