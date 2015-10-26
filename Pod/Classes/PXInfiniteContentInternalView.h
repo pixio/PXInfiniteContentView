@@ -32,6 +32,8 @@
 @property (nonatomic) int index;
 @property (nonatomic) PXInfiniteContentBounds* contentBounds;
 
+@property (nonatomic) BOOL bouncesAtBoundaries;
+
 - (void) animateChangeWithOffset:(int)offset;
 
 @end

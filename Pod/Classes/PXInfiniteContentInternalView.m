@@ -50,9 +50,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     _index = 0;
     _contentBounds = [PXInfiniteContentBounds noBounds];
     _afterTransitionBounds = [PXInfiniteContentBounds noBounds];
-    
+
     [self setDelaysContentTouches:FALSE];
-    [self setBounces:FALSE];
     [self setShowsHorizontalScrollIndicator:FALSE];
     [self setShowsVerticalScrollIndicator:FALSE];
     [self setPagingEnabled:TRUE];
@@ -123,6 +122,15 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     _afterTransitionBounds = _contentBounds;
 }
 
+- (BOOL) bouncesAtBoundaries {
+    return [self bounces];
+}
+
+- (void) setBouncesAtBoundaries:(BOOL)bouncesAtBoundaries {
+    [self setBounces:bouncesAtBoundaries];
+    [self setNeedsLayout];
+}
+
 - (void) notifyInternalDelegateOfTransitionToIndex:(int)index {
     if (_internalDelegate)
         [_internalDelegate internalInfiniteContentView:self transitionedToIndex:index];
@@ -143,7 +151,10 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 
     BOOL onLeftBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
     BOOL onRightBoundary = [_contentBounds hasUpperBound] && _index == [_contentBounds upperBound];
-    
+
+    [_leftView setHidden:[self bouncesAtBoundaries] && onLeftBoundary];
+    [_rightView setHidden:[self bouncesAtBoundaries] && onRightBoundary];
+
     int sizeMultiplier = 3 - (!!onLeftBoundary) - (!!onRightBoundary);
     const CGRect entireArea = [self bounds];
     const CGSize contentSize = CGSizeMake(entireArea.size.width * sizeMultiplier, entireArea.size.height);

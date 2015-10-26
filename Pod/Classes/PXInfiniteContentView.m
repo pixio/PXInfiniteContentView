@@ -47,6 +47,7 @@
 
     _scroll = scroll;
     [_scroll setInternalDelegate:self];
+    [self setBouncesAtBoundaries:FALSE];
     [self addSubview:_scroll];
     
     return self;
@@ -98,6 +99,14 @@
 
 - (void) setContentBounds:(PXInfiniteContentBounds*)contentBounds {
     [_scroll setContentBounds:contentBounds];
+}
+
+- (BOOL) bouncesAtBoundaries {
+    return [_scroll bouncesAtBoundaries];
+}
+
+- (void) setBounces:(BOOL)bounces {
+    [_scroll setBouncesAtBoundaries:bounces];
 }
 
 #pragma mark UIView Methods

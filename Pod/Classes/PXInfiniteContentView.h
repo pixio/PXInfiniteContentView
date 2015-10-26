@@ -48,6 +48,9 @@
  */
 @property (nonatomic) PXInfiniteContentBounds* contentBounds;
 
+/** If TRUE, the view will "bounce" (like the UIScrollView bounces property) on the left/right boundaries. Defaults to FALSE. */
+@property (nonatomic) BOOL bouncesAtBoundaries;
+
 /**
  * Animates a change to the current index + offset.
  * No animation occurs if offset is 0.
