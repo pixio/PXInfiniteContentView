@@ -14,7 +14,7 @@ int main(int argc, char * argv[])
 {
     @autoreleasepool {
         // COMMENT THIS OUT AND USE THE LINE BELOW TO TEST THE SWIFT EXAMPLE
-        //return UIApplicationMain(argc, argv, nil, NSStringFromClass([PXAppDelegate class]));
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PXAppDelegate class]));
+        //return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
