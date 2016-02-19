@@ -1,6 +1,6 @@
 {
   "name": "PXInfiniteContentView",
-  "version": "0.1.1",
+  "version": "0.3.0",
   "summary": "A view that can scroll forever in either direction to lazy-load \"infinite\" content.",
   "description": "A view that can scroll forever in either direction, with delegate methods that let you load\nthe content for a view at a particular index lazily (only when it is shown).",
   "homepage": "https://github.com/pixio/PXInfiniteContentView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/pixio/PXInfiniteContentView.git",
-    "tag": "0.1.1"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "7.0"

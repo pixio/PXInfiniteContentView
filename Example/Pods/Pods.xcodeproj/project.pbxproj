@@ -7,255 +7,255 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6B3225F08DFDDEBC011B361E7DC234 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601C6B50C3C2B80902ACAEBAFE02B1B /* Pods-PXInfiniteContentView_Example-dummy.m */; };
-		0F1094CD91EE6A1D4A60C54643F3CAE8 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E0ED5E36320850302324F1DFB24D3D /* Pods-PXInfiniteContentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1801ACA548F3500444469E031980CB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		1D8A134605FA8D0EC3C59445FD7FCCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		322400A44143798D044FBE106EE37AB4 /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2247E74306158F4429A1A80426FF19DF /* SPHStringContentFillView-dummy.m */; };
-		36E1A01550C699390794DD1F6245D425 /* PXMultiForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9791FD2F2148DA4ED1842E0751C79ECB /* PXMultiForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3870CFA922DA222F18818271D5043A92 /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DD9FFFF1076D229A3A00F1F7309AA46 /* SPHStringContentFillView.bundle */; };
-		3AFD65E767C5452D8FEA37C4BB347130 /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5121A9375D6A00A02605E1A28CD4489 /* SPHStringContentFillView.mm */; };
-		42D9DEC789A22EB2E8FC9106B0350B8B /* UIViewController+PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D619BE169B1D2EAA8D9AAA22B279BAED /* UIViewController+PXBelowStatusBarView.m */; };
-		482BEDAB3CBACDB72E31298387DBF66D /* PXInfiniteContentInternalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FA30DE4EEF78C54AE2CD24A6EA73C /* PXInfiniteContentInternalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4AA7A1311BE560F961FB3FD1B7D4B185 /* PXMultiForwarder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0023D2BEB8658D6337FD0EF81E10044D /* PXMultiForwarder.bundle */; };
-		5ADD2965F06180D8528341CB5C3F6307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		5BBD4F30129FA4E1353F30CD9F98ADC6 /* PXInfiniteContentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DFA026838BB31CD38E737F88AE055 /* PXInfiniteContentView-dummy.m */; };
-		674FDFE33304AC973A57E267DE43190C /* PXBelowStatusBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D11BCB1EC438AF9A7EEEDDC7552C8116 /* PXBelowStatusBarView.bundle */; };
-		7323037905BB0654F5E81E8377880C54 /* PXInfiniteContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53337221E0986D67D2D0933AE76BDE51 /* PXInfiniteContentView.m */; };
-		79F2D20AC375C4DAE1519EA4D18F060A /* PXInfiniteContentInternalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 410034092180263159B4EA6B1BA35114 /* PXInfiniteContentInternalView.m */; };
-		8B1B76178FA4D215A01ECCC08C75D9EE /* PXBelowStatusBarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34DE1D1B84E24C41D73F885D7C6D22 /* PXBelowStatusBarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CAE40C164A61862C95B887D2B36797E /* PXInfiniteContentBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 709F7A4699073B2472B9BD9D4B1EDE97 /* PXInfiniteContentBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5B5E9EC05A465B33FF5AA320D878EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		A80FFB35BD6D49DCA38EA9108BACE275 /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */; };
-		AD9D09C976EFA71E134FB532B587ED96 /* PXMultiForwarder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D4CC317F348F752B2C136747328D97 /* PXMultiForwarder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3BD57DEAA20F8C4ABA7EB54605D18F1 /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA02A4B2B675BE27278EEED41EEA788 /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2BFD44F6F6F2F539C97D069C6833477 /* PXInfiniteContentView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FD068723F69DB7143DFDFD9EC4F49DF /* PXInfiniteContentView.bundle */; };
-		C900B944DFE1264677A6B318E1B64D68 /* PXMultiForwarder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4718DBA5A1E5CC0C45DF983ACCD6CB4 /* PXMultiForwarder-dummy.m */; };
-		D14AE8F1E42AB85F70DE09B3457244F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		D3FC68BEC1DBDF899AFE9AD03FAA39E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */; };
-		DBC7A90FF39A364AEAC34226FD5B3F17 /* PXBelowStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AAAF6F761DF1228B58F4592FCAE3C4 /* PXBelowStatusBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1C4C8EBB974C14BFDCAB91E17D6F80B /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04341CABBA346D28C059F1FF021344A8 /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E473E7D1E22D58E1B14FD7C0527ACBDA /* PXInfiniteContentBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8E23100003F767BD7213E9AF4BA30F /* PXInfiniteContentBounds.m */; };
-		E7D17562AF7625AA2AE70B3FFBAC8F66 /* PXInfiniteContentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B7F0D2C74F91553FEC0C13C8EADF6C /* PXInfiniteContentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF5BDDC543EEAB45907E051B6F8A2973 /* PXBelowStatusBarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B649CBFD877EF56E6AC819931B2C4A2 /* PXBelowStatusBarView-dummy.m */; };
-		F14F752F8E57CECEDC43283E5A00A77B /* PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB711A3E96CE7F454F4DB1DC52C073 /* PXBelowStatusBarView.m */; };
-		F661063B5A4BF0A21370CBEEA1981585 /* PXMultiForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 021BF89945A1ACCB0D51C198364E6242 /* PXMultiForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F82F9F099BEF9079C3B998E6F46D8185 /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC9298B326B0EAAE23CD0D6C5AC0A146 /* PXInfiniteContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C50D03CBDE32038396BE9F8CED629857 /* PXInfiniteContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0952468058BDEE235EBBA4D3D3F47C4F /* PXInfiniteContentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C32594099B1F9DE872E2EC248384A06 /* PXInfiniteContentInternalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */; };
+		10D8138E10BB01B92F4093DB7ED79706 /* PXBelowStatusBarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159BFF18D23A06704AB39E45D6A70402 /* PXInfiniteContentView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */; };
+		24573DB608BB0EFAD5062F2B760F1970 /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */; };
+		2F1065AAA7D90BF763439F7E9575C257 /* PXBelowStatusBarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */; };
+		2FE7BA5D12183ADB97347E4BF7FF94AF /* PXInfiniteContentInternalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35A9417269ADEDE2C27EA0E504DF1E0A /* PXMultiForwarder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */; };
+		3671B777ABB7EB563E6A92F072988FB4 /* PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */; };
+		407D4DB9E101BB858BEFE226B2D860AE /* PXInfiniteContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */; };
+		475DA3BF46D69DC37CFA17ABCDF1F0D3 /* PXMultiForwarder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A8028B823FBD477EA3E51A1B1ABE19 /* PXMultiForwarder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */; };
+		51F9836EE023A4123A990F1584A8BB89 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0938686108C22175CCEB9245D9771B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		694CBB09A20EB82850CA0B0B031899EF /* PXInfiniteContentBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AE4A65E5E03C54E3179F6BCD24CBBE /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */; };
+		7533E91B5ED051298D005FAE4DE686BE /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */; };
+		793FA6009907BA78641822391321532F /* PXInfiniteContentBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */; };
+		7BD279BB214BE5421BC9934EB73B1281 /* UIViewController+PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */; };
+		820C3FC7604460EBB4DD0E476A88727C /* PXMultiForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C72D351BF4C0E89040742027D27862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		94971718231B5844436F1670FF777639 /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E76145DDFD874CF358A6F7BFAB756E /* PXInfiniteContentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */; };
+		A6AEF01AB06E93623361FBE213872755 /* PXMultiForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD6C227A383F0DDCAA2ECB7E7675AD82 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */; };
+		AE501BC4F9831E2EB81F2814293C1A69 /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B582DBAA420CE5E83B887C0610F309FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C2126148E056CF0492C7C1F56821D2ED /* PXInfiniteContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6337FC01E010B4564730C789151B95 /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */; };
+		DEC94C8381893E1AC2DBA3F433A7B73D /* PXBelowStatusBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */; };
+		E112D657023A852869C060725BF0E9E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F78DEB1A41645DC79539EA504FCDFC54 /* PXBelowStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7A7C95DEBBC4867FF69E041CAEC2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FAB67FA58C8111E96B703C2988BA9845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FEA5C717DB84984944F69A6C50E4627A /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09DA43CA5C147A0D917B1C892982FFC3 /* PBXContainerItemProxy */ = {
+		08223BE4CE88AE9016BE1A0FA8589E46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E58E70DDCA27922B9D340669042CE09;
+			remoteGlobalIDString = A53211B9BBDE9F9E65A04305C4094F26;
 			remoteInfo = "SPHStringContentFillView-SPHStringContentFillView";
 		};
-		164702DC82B19F61E96ACE0593DA6FE2 /* PBXContainerItemProxy */ = {
+		1C4423A5B0A5B5F8BC10C866CD29BCD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC6B55DBFCAEE8E38A35628F285D1AC1;
-			remoteInfo = PXBelowStatusBarView;
-		};
-		30B51932E909A23441CEDB4F6B254B12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65B8C69818CA76A17F0F446599557CD5;
-			remoteInfo = PXMultiForwarder;
-		};
-		37066BCCC87DB842495274335741D484 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C33C743EFACDF0DB3034522B67C4DE2;
-			remoteInfo = PXInfiniteContentView;
-		};
-		457EC13FFB37B840A907DE967278A1A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E48DDB5280184E8E609B302F3891EAED;
-			remoteInfo = "PXBelowStatusBarView-PXBelowStatusBarView";
-		};
-		958F970C2DADDBEDE3DE7841502998F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F97E0F1B8C05E45CF453DAE6B12282F;
-			remoteInfo = "PXInfiniteContentView-PXInfiniteContentView";
-		};
-		9AE6D3C10F84434D2E5604DD46C8451D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 391A4876CB620405BA5BF66D027E23E9;
-			remoteInfo = SPHStringContentFillView;
-		};
-		AE8E8DEDB00E80B8BFC6136D523399DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F5D85674AF2CBA1732BEC19343F3277;
+			remoteGlobalIDString = CFBD222675837D14CE0A1335215B4323;
 			remoteInfo = "PXMultiForwarder-PXMultiForwarder";
 		};
-		E199ED60348B9BBDE4A9C0150BB8F01F /* PBXContainerItemProxy */ = {
+		4EB2CA68F4906EEF949DA3EE2D91CEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C33C743EFACDF0DB3034522B67C4DE2;
+			remoteGlobalIDString = 4924123EE0A73C74FE2FB21E2980C32F;
+			remoteInfo = PXMultiForwarder;
+		};
+		9740886E3C2D68E641553CF19BCFB3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2741FC5583FDBB5EB6F5191749F2DFC;
+			remoteInfo = "PXBelowStatusBarView-PXBelowStatusBarView";
+		};
+		975C6C8CCDDD54F8D4CA7A182D8B0CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66C003B19E31E35A7EA85D093133BB3;
+			remoteInfo = SPHStringContentFillView;
+		};
+		9A87BF83C808FF9E8F19F484FBAED198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA89ED11E8CCD25BB284221AF9C9D51;
+			remoteInfo = PXBelowStatusBarView;
+		};
+		9D2FA3A26980531FDAD7E6EE0B4392D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D945AB840231AD5D637D497D3D50BF;
+			remoteInfo = PXInfiniteContentView;
+		};
+		BC480897E3BC33BB2AFC67E173AC6EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18270FEA44513E2DA5FFAFE42FCCA59A;
+			remoteInfo = "PXInfiniteContentView-PXInfiniteContentView";
+		};
+		E85DB572BE4B6F6F8CCB0535A1F3D560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D945AB840231AD5D637D497D3D50BF;
 			remoteInfo = PXInfiniteContentView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0023D2BEB8658D6337FD0EF81E10044D /* PXMultiForwarder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXMultiForwarder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		021BF89945A1ACCB0D51C198364E6242 /* PXMultiForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXMultiForwarder.m; path = Pod/Classes/PXMultiForwarder.m; sourceTree = "<group>"; };
-		042FA30DE4EEF78C54AE2CD24A6EA73C /* PXInfiniteContentInternalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentInternalView.h; sourceTree = "<group>"; };
-		04341CABBA346D28C059F1FF021344A8 /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
+		0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXInfiniteContentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0B649CBFD877EF56E6AC819931B2C4A2 /* PXBelowStatusBarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXBelowStatusBarView-dummy.m"; sourceTree = "<group>"; };
-		0DD9FFFF1076D229A3A00F1F7309AA46 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXInfiniteContentView.xcconfig; sourceTree = "<group>"; };
-		2247E74306158F4429A1A80426FF19DF /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
+		0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInfiniteContentView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXBelowStatusBarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXMultiForwarder.m; path = Pod/Classes/PXMultiForwarder.m; sourceTree = "<group>"; };
 		29B2E6E7C16E6A43394F2276339B9B90 /* PXBelowStatusBarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXBelowStatusBarView.modulemap; sourceTree = "<group>"; };
-		2FBB711A3E96CE7F454F4DB1DC52C073 /* PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXBelowStatusBarView.m; path = Pod/Classes/PXBelowStatusBarView.m; sourceTree = "<group>"; };
-		33D4CC317F348F752B2C136747328D97 /* PXMultiForwarder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-umbrella.h"; sourceTree = "<group>"; };
-		3C9EF2EF80626AE4382020C26B240822 /* Pods-PXInfiniteContentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentBounds.m; sourceTree = "<group>"; };
+		2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
+		34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FF735222408D9F4ACC6E255131C7933 /* PXBelowStatusBarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-prefix.pch"; sourceTree = "<group>"; };
-		410034092180263159B4EA6B1BA35114 /* PXInfiniteContentInternalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentInternalView.m; sourceTree = "<group>"; };
 		433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXMultiForwarder.xcconfig; sourceTree = "<group>"; };
-		53337221E0986D67D2D0933AE76BDE51 /* PXInfiniteContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentView.m; sourceTree = "<group>"; };
-		5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXMultiForwarder-dummy.m"; sourceTree = "<group>"; };
+		50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBelowStatusBarView.h; path = Pod/Classes/PXBelowStatusBarView.h; sourceTree = "<group>"; };
+		5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentInternalView.h; sourceTree = "<group>"; };
+		612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
 		64628F349B92F9D113DE228311DD0051 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6601C6B50C3C2B80902ACAEBAFE02B1B /* Pods-PXInfiniteContentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Example-dummy.m"; sourceTree = "<group>"; };
 		664352B92B0A1341917A9D2D1E1AC0A1 /* PXMultiForwarder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXMultiForwarder.modulemap; sourceTree = "<group>"; };
 		6B764F05FB07E991182E02A55F6A4FED /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C8E23100003F767BD7213E9AF4BA30F /* PXInfiniteContentBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentBounds.m; sourceTree = "<group>"; };
-		709F7A4699073B2472B9BD9D4B1EDE97 /* PXInfiniteContentBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentBounds.h; sourceTree = "<group>"; };
-		716DFA026838BB31CD38E737F88AE055 /* PXInfiniteContentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXInfiniteContentView-dummy.m"; sourceTree = "<group>"; };
 		72B9E88F822817FDD88CC3213CDA0A5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Example-dummy.m"; sourceTree = "<group>"; };
+		760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMultiForwarder.h; path = Pod/Classes/PXMultiForwarder.h; sourceTree = "<group>"; };
 		7AEB80669621BE4079F384919967D94F /* PXInfiniteContentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-prefix.pch"; sourceTree = "<group>"; };
-		7BA02A4B2B675BE27278EEED41EEA788 /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPHStringContentFillView.h; path = Pod/Classes/SPHStringContentFillView.h; sourceTree = "<group>"; };
-		7CF3ED68F7C375C53A7C50F81F734CBF /* PXInfiniteContentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXInfiniteContentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		86FE3E79FE974A685925B3A228EFE872 /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPHStringContentFillView.h; path = Pod/Classes/SPHStringContentFillView.h; sourceTree = "<group>"; };
+		87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-umbrella.h"; sourceTree = "<group>"; };
 		8AADCF9165D38BE0DBED66B11D7C9374 /* SPHStringContentFillView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-prefix.pch"; sourceTree = "<group>"; };
 		9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Tests-dummy.m"; sourceTree = "<group>"; };
-		9791FD2F2148DA4ED1842E0751C79ECB /* PXMultiForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMultiForwarder.h; path = Pod/Classes/PXMultiForwarder.h; sourceTree = "<group>"; };
+		91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9EF2ED9CBAB248E64C2B4393626A4981 /* SPHStringContentFillView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPHStringContentFillView.modulemap; sourceTree = "<group>"; };
-		9FD068723F69DB7143DFDFD9EC4F49DF /* PXInfiniteContentView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInfiniteContentView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-umbrella.h"; sourceTree = "<group>"; };
+		A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXMultiForwarder.xcconfig; sourceTree = "<group>"; };
 		A39FF6A2B223BC18BF7F2019E9AF2503 /* Pods-PXInfiniteContentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Tests.modulemap"; sourceTree = "<group>"; };
-		A4718DBA5A1E5CC0C45DF983ACCD6CB4 /* PXMultiForwarder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXMultiForwarder-dummy.m"; sourceTree = "<group>"; };
 		A5FDB1483D93E9742383FAEE63FCBF1B /* Pods-PXInfiniteContentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD73AC5CC329B4901C442A66F2EFFF5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFD35C8FBA82A67EE476EAE6851AB9FB /* Pods-PXInfiniteContentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXBelowStatusBarView.m; path = Pod/Classes/PXBelowStatusBarView.m; sourceTree = "<group>"; };
 		B1CB7768ECAE8DA4389B6B6D264326CE /* PXInfiniteContentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXInfiniteContentView.modulemap; sourceTree = "<group>"; };
 		B1FCAFAB5B247A513945700CE2E2DF90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
+		B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentView.m; sourceTree = "<group>"; };
+		B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentInternalView.m; sourceTree = "<group>"; };
 		B83DCF6E1682F6566AC5EF3EE6D199A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8BB7BC9C7C3E4C5A354BC0B76A9D860 /* Pods-PXInfiniteContentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE635B860179E93E46DA20709A37794F /* Pods-PXInfiniteContentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C50D03CBDE32038396BE9F8CED629857 /* PXInfiniteContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentView.h; sourceTree = "<group>"; };
+		C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PXBelowStatusBarView.m"; path = "Pod/Classes/UIViewController+PXBelowStatusBarView.m"; sourceTree = "<group>"; };
 		C643C06826F8A1EB5C7CF7233EAAEDE8 /* Pods-PXInfiniteContentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D11BCB1EC438AF9A7EEEDDC7552C8116 /* PXBelowStatusBarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXBelowStatusBarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D60C928058DD26E0CBBF0014A080022E /* PXMultiForwarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXMultiForwarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D619BE169B1D2EAA8D9AAA22B279BAED /* UIViewController+PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PXBelowStatusBarView.m"; path = "Pod/Classes/UIViewController+PXBelowStatusBarView.m"; sourceTree = "<group>"; };
-		D9B7F0D2C74F91553FEC0C13C8EADF6C /* PXInfiniteContentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-umbrella.h"; sourceTree = "<group>"; };
+		C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SPHStringContentFillView.mm; path = Pod/Classes/SPHStringContentFillView.mm; sourceTree = "<group>"; };
+		CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXMultiForwarder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
+		CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXMultiForwarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentView.h; sourceTree = "<group>"; };
+		D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-umbrella.h"; sourceTree = "<group>"; };
 		DAD9113257E0E056DA58FFA5B6715EC9 /* PXMultiForwarder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-prefix.pch"; sourceTree = "<group>"; };
-		E1AAAF6F761DF1228B58F4592FCAE3C4 /* PXBelowStatusBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBelowStatusBarView.h; path = Pod/Classes/PXBelowStatusBarView.h; sourceTree = "<group>"; };
+		E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXBelowStatusBarView-dummy.m"; sourceTree = "<group>"; };
 		E248E1B4300C8C3942B4D7EC9E84316A /* Pods-PXInfiniteContentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXBelowStatusBarView.xcconfig; sourceTree = "<group>"; };
 		E77B51AC27B33714B2CDFD9E03666F39 /* Pods-PXInfiniteContentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-resources.sh"; sourceTree = "<group>"; };
-		E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXBelowStatusBarView.xcconfig; sourceTree = "<group>"; };
-		EC8E6628F986B620EE495944114D87FB /* PXBelowStatusBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXBelowStatusBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE71FD5035B03C6D6AB8CAA7AD12A88D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF41208A957FDD331C147B0E8BB8B5A2 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4E0ED5E36320850302324F1DFB24D3D /* Pods-PXInfiniteContentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F5121A9375D6A00A02605E1A28CD4489 /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SPHStringContentFillView.mm; path = Pod/Classes/SPHStringContentFillView.mm; sourceTree = "<group>"; };
+		F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXInfiniteContentView-dummy.m"; sourceTree = "<group>"; };
 		F615EEDB24CAE6016DF3CEA6D6D09ACA /* Pods-PXInfiniteContentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Example.modulemap"; sourceTree = "<group>"; };
 		F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB34DE1D1B84E24C41D73F885D7C6D22 /* PXBelowStatusBarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-umbrella.h"; sourceTree = "<group>"; };
+		F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentBounds.h; sourceTree = "<group>"; };
+		FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXBelowStatusBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXInfiniteContentView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0961FB2E8C14109D55EA736045D8C902 /* Frameworks */ = {
+		10957B3323C08AF2A0814E971A975597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2927C0428D42BE984C8A8009424C8658 /* Frameworks */ = {
+		15B57707C193D335C4D4633C37BA8DEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B5E9EC05A465B33FF5AA320D878EEF /* Foundation.framework in Frameworks */,
+				B582DBAA420CE5E83B887C0610F309FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36AE339FC4D8E1B9D96BE99A5F849D80 /* Frameworks */ = {
+		2F7EC32F57184FA18FDD09A077449B1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FC68BEC1DBDF899AFE9AD03FAA39E9 /* Foundation.framework in Frameworks */,
+				FA7A7C95DEBBC4867FF69E041CAEC2D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60D958B6504867AB1E54A184634E4BF2 /* Frameworks */ = {
+		5AA6C8D7B9B26EAA89705AD67EA2AD65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1801ACA548F3500444469E031980CB19 /* Foundation.framework in Frameworks */,
+				92C72D351BF4C0E89040742027D27862 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66F66367FAA65B6907A148DEE420E992 /* Frameworks */ = {
+		7E004E9C36FAD9C71C8C9C8040656F04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0938686108C22175CCEB9245D9771B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		677D17CB439B56E8C1DE7720E8E0E6E5 /* Frameworks */ = {
+		A6856D978160457CCEE4DDE845ADB9A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8A134605FA8D0EC3C59445FD7FCCCA /* Foundation.framework in Frameworks */,
+				FAB67FA58C8111E96B703C2988BA9845 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67CB6F061981EF69747680FDD99190F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D14AE8F1E42AB85F70DE09B3457244F8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91D8C9029135C578CF76DE6B1D1A4E33 /* Frameworks */ = {
+		EC0063B141DB2D0E36B081A2AE809938 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BF747BF8935F6784FABFBDCE74A26B /* Frameworks */ = {
+		F21BFCF86FF8E2CB1A9EE6BC7363A194 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADD2965F06180D8528341CB5C3F6307 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98713A3EC898E0D62245B7718F0F2F0 /* Frameworks */ = {
+		F4E50279521E4A772124EB0EAD084434 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80C86ECEE99351743531B3982770AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E112D657023A852869C060725BF0E9E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +265,8 @@
 		17C3E3156FAEFE5DDE6F7295B71BE80E /* SPHStringContentFillView */ = {
 			isa = PBXGroup;
 			children = (
-				7BA02A4B2B675BE27278EEED41EEA788 /* SPHStringContentFillView.h */,
-				F5121A9375D6A00A02605E1A28CD4489 /* SPHStringContentFillView.mm */,
+				866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */,
+				C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */,
 				E528F7F537688AC1D94F632D85AF409E /* Support Files */,
 			);
 			path = SPHStringContentFillView;
@@ -293,9 +293,9 @@
 		34523B4EEBA17FACBA9C40D74DE05BC5 /* PXBelowStatusBarView */ = {
 			isa = PBXGroup;
 			children = (
-				E1AAAF6F761DF1228B58F4592FCAE3C4 /* PXBelowStatusBarView.h */,
-				2FBB711A3E96CE7F454F4DB1DC52C073 /* PXBelowStatusBarView.m */,
-				D619BE169B1D2EAA8D9AAA22B279BAED /* UIViewController+PXBelowStatusBarView.m */,
+				50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */,
+				AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */,
+				C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */,
 				42A020D8884CB4A5E2A830A4E4971C5E /* Support Files */,
 			);
 			path = PXBelowStatusBarView;
@@ -304,12 +304,12 @@
 		417AC4901DB2A0D43F59345C72D18698 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				709F7A4699073B2472B9BD9D4B1EDE97 /* PXInfiniteContentBounds.h */,
-				6C8E23100003F767BD7213E9AF4BA30F /* PXInfiniteContentBounds.m */,
-				042FA30DE4EEF78C54AE2CD24A6EA73C /* PXInfiniteContentInternalView.h */,
-				410034092180263159B4EA6B1BA35114 /* PXInfiniteContentInternalView.m */,
-				C50D03CBDE32038396BE9F8CED629857 /* PXInfiniteContentView.h */,
-				53337221E0986D67D2D0933AE76BDE51 /* PXInfiniteContentView.m */,
+				F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */,
+				2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */,
+				5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */,
+				B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */,
+				D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */,
+				B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -319,21 +319,13 @@
 			children = (
 				B1FCAFAB5B247A513945700CE2E2DF90 /* Info.plist */,
 				29B2E6E7C16E6A43394F2276339B9B90 /* PXBelowStatusBarView.modulemap */,
-				E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */,
-				0B649CBFD877EF56E6AC819931B2C4A2 /* PXBelowStatusBarView-dummy.m */,
+				E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */,
+				E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */,
 				3FF735222408D9F4ACC6E255131C7933 /* PXBelowStatusBarView-prefix.pch */,
-				FB34DE1D1B84E24C41D73F885D7C6D22 /* PXBelowStatusBarView-umbrella.h */,
+				87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PXBelowStatusBarView";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5C5E5F8EBEC34AC2ECBDD6CFD607E68A /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		5D980AD4453156554AAD6E6D4ED3C41E /* PXInfiniteContentView */ = {
@@ -359,10 +351,10 @@
 			children = (
 				AD73AC5CC329B4901C442A66F2EFFF5B /* Info.plist */,
 				B1CB7768ECAE8DA4389B6B6D264326CE /* PXInfiniteContentView.modulemap */,
-				1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */,
-				716DFA026838BB31CD38E737F88AE055 /* PXInfiniteContentView-dummy.m */,
+				FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */,
+				F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */,
 				7AEB80669621BE4079F384919967D94F /* PXInfiniteContentView-prefix.pch */,
-				D9B7F0D2C74F91553FEC0C13C8EADF6C /* PXInfiniteContentView-umbrella.h */,
+				D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PXInfiniteContentView";
@@ -385,10 +377,10 @@
 			children = (
 				EE71FD5035B03C6D6AB8CAA7AD12A88D /* Info.plist */,
 				664352B92B0A1341917A9D2D1E1AC0A1 /* PXMultiForwarder.modulemap */,
-				4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */,
-				A4718DBA5A1E5CC0C45DF983ACCD6CB4 /* PXMultiForwarder-dummy.m */,
+				A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */,
+				4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */,
 				DAD9113257E0E056DA58FFA5B6715EC9 /* PXMultiForwarder-prefix.pch */,
-				33D4CC317F348F752B2C136747328D97 /* PXMultiForwarder-umbrella.h */,
+				A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PXMultiForwarder";
@@ -411,12 +403,12 @@
 				F615EEDB24CAE6016DF3CEA6D6D09ACA /* Pods-PXInfiniteContentView_Example.modulemap */,
 				EF41208A957FDD331C147B0E8BB8B5A2 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */,
 				6B764F05FB07E991182E02A55F6A4FED /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */,
-				6601C6B50C3C2B80902ACAEBAFE02B1B /* Pods-PXInfiniteContentView_Example-dummy.m */,
+				743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */,
 				E248E1B4300C8C3942B4D7EC9E84316A /* Pods-PXInfiniteContentView_Example-frameworks.sh */,
 				B8BB7BC9C7C3E4C5A354BC0B76A9D860 /* Pods-PXInfiniteContentView_Example-resources.sh */,
-				F4E0ED5E36320850302324F1DFB24D3D /* Pods-PXInfiniteContentView_Example-umbrella.h */,
-				AFD35C8FBA82A67EE476EAE6851AB9FB /* Pods-PXInfiniteContentView_Example.debug.xcconfig */,
-				3C9EF2EF80626AE4382020C26B240822 /* Pods-PXInfiniteContentView_Example.release.xcconfig */,
+				34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */,
+				D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */,
+				91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */,
 			);
 			name = "Pods-PXInfiniteContentView_Example";
 			path = "Target Support Files/Pods-PXInfiniteContentView_Example";
@@ -425,7 +417,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -433,11 +425,19 @@
 		BE45AAC2E0EA915036637057D1635E2C /* PXMultiForwarder */ = {
 			isa = PBXGroup;
 			children = (
-				9791FD2F2148DA4ED1842E0751C79ECB /* PXMultiForwarder.h */,
-				021BF89945A1ACCB0D51C198364E6242 /* PXMultiForwarder.m */,
+				760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */,
+				1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */,
 				92A375240C9623091C038795B11B046A /* Support Files */,
 			);
 			path = PXMultiForwarder;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		DAB3D3672047A52993537FE5AB1A92E0 /* Products */ = {
@@ -445,14 +445,14 @@
 			children = (
 				B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */,
 				433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */,
-				D11BCB1EC438AF9A7EEEDDC7552C8116 /* PXBelowStatusBarView.bundle */,
-				EC8E6628F986B620EE495944114D87FB /* PXBelowStatusBarView.framework */,
-				9FD068723F69DB7143DFDFD9EC4F49DF /* PXInfiniteContentView.bundle */,
-				7CF3ED68F7C375C53A7C50F81F734CBF /* PXInfiniteContentView.framework */,
-				0023D2BEB8658D6337FD0EF81E10044D /* PXMultiForwarder.bundle */,
-				D60C928058DD26E0CBBF0014A080022E /* PXMultiForwarder.framework */,
-				0DD9FFFF1076D229A3A00F1F7309AA46 /* SPHStringContentFillView.bundle */,
-				86FE3E79FE974A685925B3A228EFE872 /* SPHStringContentFillView.framework */,
+				1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */,
+				FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */,
+				0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */,
+				0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */,
+				CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */,
+				CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */,
+				612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */,
+				F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -462,10 +462,10 @@
 			children = (
 				B83DCF6E1682F6566AC5EF3EE6D199A5 /* Info.plist */,
 				9EF2ED9CBAB248E64C2B4393626A4981 /* SPHStringContentFillView.modulemap */,
-				B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */,
-				2247E74306158F4429A1A80426FF19DF /* SPHStringContentFillView-dummy.m */,
+				2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */,
+				CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */,
 				8AADCF9165D38BE0DBED66B11D7C9374 /* SPHStringContentFillView-prefix.pch */,
-				04341CABBA346D28C059F1FF021344A8 /* SPHStringContentFillView-umbrella.h */,
+				61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SPHStringContentFillView";
@@ -491,161 +491,70 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01867DDFA0B83E558E7C171419F77439 /* Headers */ = {
+		02C885E39EF0DDB2281EC028435463A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82F9F099BEF9079C3B998E6F46D8185 /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */,
+				FEA5C717DB84984944F69A6C50E4627A /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433D7EF13ABFE30ED303A0D884777897 /* Headers */ = {
+		1D2781867AD62F6CF85735CF8ADCDB73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9D09C976EFA71E134FB532B587ED96 /* PXMultiForwarder-umbrella.h in Headers */,
-				36E1A01550C699390794DD1F6245D425 /* PXMultiForwarder.h in Headers */,
+				10D8138E10BB01B92F4093DB7ED79706 /* PXBelowStatusBarView-umbrella.h in Headers */,
+				F78DEB1A41645DC79539EA504FCDFC54 /* PXBelowStatusBarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7460D69604A61436C9C97A01A2EF565D /* Headers */ = {
+		6472706F64F410BAD09B5EF85555E954 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1B76178FA4D215A01ECCC08C75D9EE /* PXBelowStatusBarView-umbrella.h in Headers */,
-				DBC7A90FF39A364AEAC34226FD5B3F17 /* PXBelowStatusBarView.h in Headers */,
+				694CBB09A20EB82850CA0B0B031899EF /* PXInfiniteContentBounds.h in Headers */,
+				2FE7BA5D12183ADB97347E4BF7FF94AF /* PXInfiniteContentInternalView.h in Headers */,
+				0952468058BDEE235EBBA4D3D3F47C4F /* PXInfiniteContentView-umbrella.h in Headers */,
+				C2126148E056CF0492C7C1F56821D2ED /* PXInfiniteContentView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A62D243517A02480B14ADEE241A36584 /* Headers */ = {
+		B44813C2D56535A0B2CC79C86B1413AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C4C8EBB974C14BFDCAB91E17D6F80B /* SPHStringContentFillView-umbrella.h in Headers */,
-				B3BD57DEAA20F8C4ABA7EB54605D18F1 /* SPHStringContentFillView.h in Headers */,
+				475DA3BF46D69DC37CFA17ABCDF1F0D3 /* PXMultiForwarder-umbrella.h in Headers */,
+				820C3FC7604460EBB4DD0E476A88727C /* PXMultiForwarder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACC4918DAE9FA612CAAE55901D613E0F /* Headers */ = {
+		E33DA1DA4556D6DBBED02DA84E1DEB3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1094CD91EE6A1D4A60C54643F3CAE8 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */,
+				51F9836EE023A4123A990F1584A8BB89 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7852A89E2C66E2F6BB098FFCC9257D5 /* Headers */ = {
+		F017D0B0B968C5A1BE1BD6BB48C9C599 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CAE40C164A61862C95B887D2B36797E /* PXInfiniteContentBounds.h in Headers */,
-				482BEDAB3CBACDB72E31298387DBF66D /* PXInfiniteContentInternalView.h in Headers */,
-				E7D17562AF7625AA2AE70B3FFBAC8F66 /* PXInfiniteContentView-umbrella.h in Headers */,
-				FC9298B326B0EAAE23CD0D6C5AC0A146 /* PXInfiniteContentView.h in Headers */,
+				94971718231B5844436F1670FF777639 /* SPHStringContentFillView-umbrella.h in Headers */,
+				AE501BC4F9831E2EB81F2814293C1A69 /* SPHStringContentFillView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F5D85674AF2CBA1732BEC19343F3277 /* PXMultiForwarder-PXMultiForwarder */ = {
+		18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3792263AD92701A2FC18703A7FD2F9E /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */;
+			buildConfigurationList = 24BCF6413DF5F8D7547385E8C1126626 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */;
 			buildPhases = (
-				92FA6DB597CB2903A4E565AFD6706151 /* Sources */,
-				91D8C9029135C578CF76DE6B1D1A4E33 /* Frameworks */,
-				0CCB1B6A2F2D69D73623AB5A32DD9D6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PXMultiForwarder-PXMultiForwarder";
-			productName = "PXMultiForwarder-PXMultiForwarder";
-			productReference = 0023D2BEB8658D6337FD0EF81E10044D /* PXMultiForwarder.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		391A4876CB620405BA5BF66D027E23E9 /* SPHStringContentFillView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C162CA23D34275043CF1BFAECC097FAA /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
-			buildPhases = (
-				A9A075597C2399B6DB6A586EA8D9682C /* Sources */,
-				67CB6F061981EF69747680FDD99190F7 /* Frameworks */,
-				EB36D3036B3679FF976BA48833E2732A /* Resources */,
-				A62D243517A02480B14ADEE241A36584 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F04F8E5A7068EE48117783608C8C04F /* PBXTargetDependency */,
-			);
-			name = SPHStringContentFillView;
-			productName = SPHStringContentFillView;
-			productReference = 86FE3E79FE974A685925B3A228EFE872 /* SPHStringContentFillView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		65B8C69818CA76A17F0F446599557CD5 /* PXMultiForwarder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04870E792F5D741CCD985A19C6F6CADB /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */;
-			buildPhases = (
-				41BB0BC5F6CF04E0EEA6D2AFECFAA33E /* Sources */,
-				60D958B6504867AB1E54A184634E4BF2 /* Frameworks */,
-				7992859A55BA2DFAF92358E9B06FCE21 /* Resources */,
-				433D7EF13ABFE30ED303A0D884777897 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F4FB7826C36255699F081E8B5933554 /* PBXTargetDependency */,
-			);
-			name = PXMultiForwarder;
-			productName = PXMultiForwarder;
-			productReference = D60C928058DD26E0CBBF0014A080022E /* PXMultiForwarder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C33C743EFACDF0DB3034522B67C4DE2 /* PXInfiniteContentView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8F6DDEF73C04ECA2EB42E91ADF71AB4 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */;
-			buildPhases = (
-				05FB90403B833E99F5FECACC6B00A286 /* Sources */,
-				36AE339FC4D8E1B9D96BE99A5F849D80 /* Frameworks */,
-				2AF273A6C5FE573F0CF0658D221C66EE /* Resources */,
-				C7852A89E2C66E2F6BB098FFCC9257D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE75A9CD12F9A4B94DFAFB347790C439 /* PBXTargetDependency */,
-			);
-			name = PXInfiniteContentView;
-			productName = PXInfiniteContentView;
-			productReference = 7CF3ED68F7C375C53A7C50F81F734CBF /* PXInfiniteContentView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6E58E70DDCA27922B9D340669042CE09 /* SPHStringContentFillView-SPHStringContentFillView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 227B12C36E1E4C664EFA83A1F67E96D8 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
-			buildPhases = (
-				23FBD3900F42A478D61E928358AFCC48 /* Sources */,
-				0961FB2E8C14109D55EA736045D8C902 /* Frameworks */,
-				B7F6E1D6AEA9CD6A6E0525FC8BC79885 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SPHStringContentFillView-SPHStringContentFillView";
-			productName = "SPHStringContentFillView-SPHStringContentFillView";
-			productReference = 0DD9FFFF1076D229A3A00F1F7309AA46 /* SPHStringContentFillView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6F97E0F1B8C05E45CF453DAE6B12282F /* PXInfiniteContentView-PXInfiniteContentView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D1518A2DC14B1C67AA9869AA8F01555 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */;
-			buildPhases = (
-				4BBAACCC6A073813F0780E540C76ED68 /* Sources */,
-				66F66367FAA65B6907A148DEE420E992 /* Frameworks */,
-				FBAFB0FF4F348F04B6BF962897697DE0 /* Resources */,
+				FA24DE598AF86E374FEC4916A7132E82 /* Sources */,
+				F21BFCF86FF8E2CB1A9EE6BC7363A194 /* Frameworks */,
+				955B011457E3DE726CDDBCEE468F9D5F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -653,55 +562,146 @@
 			);
 			name = "PXInfiniteContentView-PXInfiniteContentView";
 			productName = "PXInfiniteContentView-PXInfiniteContentView";
-			productReference = 9FD068723F69DB7143DFDFD9EC4F49DF /* PXInfiniteContentView.bundle */;
+			productReference = 0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		77ACF792E531E3629D66546597D49375 /* Pods-PXInfiniteContentView_Example */ = {
+		3D8C6EC75120F57CB12520E756209FAB /* Pods-PXInfiniteContentView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F13C74A7C66032186217DAD851A14D6 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */;
+			buildConfigurationList = E82DA84AC2059C3DF3F8223F75F2750E /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */;
 			buildPhases = (
-				D48A8C4A30842E7E1A1D7282A61F198A /* Sources */,
-				677D17CB439B56E8C1DE7720E8E0E6E5 /* Frameworks */,
-				ACC4918DAE9FA612CAAE55901D613E0F /* Headers */,
+				D532C761892E48E4025D815ADB904660 /* Sources */,
+				FC80C86ECEE99351743531B3982770AC /* Frameworks */,
+				E33DA1DA4556D6DBBED02DA84E1DEB3C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6CF131CD5CD1E11434D2AE2400DB0145 /* PBXTargetDependency */,
-				020B7C247821E314E8A07B79F9F43BB0 /* PBXTargetDependency */,
-				F1736D832EF8D60752E78A9598C76BBD /* PBXTargetDependency */,
-				09B5CC9389F22324C9A4865456A1260E /* PBXTargetDependency */,
+				AB2BFBD73F22EF2EE28FE929123E816C /* PBXTargetDependency */,
+				23ACD47250733AD33EF4E252FAD7892F /* PBXTargetDependency */,
+				EE5D563A1AB2E019545311F8839384EC /* PBXTargetDependency */,
+				C4D226145D1BE8E0E18CE0F81B78C3B3 /* PBXTargetDependency */,
 			);
 			name = "Pods-PXInfiniteContentView_Example";
 			productName = "Pods-PXInfiniteContentView_Example";
 			productReference = B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC7DCB505573B02500A6C7DB9B9EB2C0 /* Pods-PXInfiniteContentView_Tests */ = {
+		4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE5B0E4DCF485A7E04D259670150D04 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */;
+			buildConfigurationList = 0467EC67E3D78BD1E42FEE5BCA68AA1F /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */;
 			buildPhases = (
-				AFDF36BFEBA8A334B13A2280BEEFE57B /* Sources */,
-				D6BF747BF8935F6784FABFBDCE74A26B /* Frameworks */,
-				01867DDFA0B83E558E7C171419F77439 /* Headers */,
+				78292C36610D3EEC9DDE5EA9A930C6C3 /* Sources */,
+				A6856D978160457CCEE4DDE845ADB9A3 /* Frameworks */,
+				D0D9F211A4B57393F64F0C49CC5E1009 /* Resources */,
+				B44813C2D56535A0B2CC79C86B1413AA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8155FB2260CBA541962A860CAF010526 /* PBXTargetDependency */,
+				058552A863E812FD9023D68027D2B6F4 /* PBXTargetDependency */,
+			);
+			name = PXMultiForwarder;
+			productName = PXMultiForwarder;
+			productReference = CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6709DBCF59A0F2A264972BE961B650E4 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */;
+			buildPhases = (
+				C4C39B5A9948877242BA9E9C7E7ED5EB /* Sources */,
+				5AA6C8D7B9B26EAA89705AD67EA2AD65 /* Frameworks */,
+				BD18C48E8EBF53384E3954E8E52CBFE5 /* Resources */,
+				1D2781867AD62F6CF85735CF8ADCDB73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC88ECD13FF8AE978714B5DE24414685 /* PBXTargetDependency */,
+			);
+			name = PXBelowStatusBarView;
+			productName = PXBelowStatusBarView;
+			productReference = FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF39F874F0046B79A8FF951CC5512DC /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
+			buildPhases = (
+				8C21C1EB47C66E8ED2B0BF940BAE9B50 /* Sources */,
+				10957B3323C08AF2A0814E971A975597 /* Frameworks */,
+				1E167597DADACB1376D351735CBA15AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPHStringContentFillView-SPHStringContentFillView";
+			productName = "SPHStringContentFillView-SPHStringContentFillView";
+			productReference = 612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B90C14AEF2567029749C85592DADDF5E /* Pods-PXInfiniteContentView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34B5EF110D923C039919DEAB9CC2B02 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */;
+			buildPhases = (
+				20133C3044E5B1832094CFA2EEB82232 /* Sources */,
+				15B57707C193D335C4D4633C37BA8DEA /* Frameworks */,
+				02C885E39EF0DDB2281EC028435463A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6663CCFD2ACF6A091474E84161DA5207 /* PBXTargetDependency */,
 			);
 			name = "Pods-PXInfiniteContentView_Tests";
 			productName = "Pods-PXInfiniteContentView_Tests";
 			productReference = 433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E48DDB5280184E8E609B302F3891EAED /* PXBelowStatusBarView-PXBelowStatusBarView */ = {
+		C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ECF01150A42FDBC2EBB79CB8588F49B /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */;
+			buildConfigurationList = 3D11DFB1A5CF4C3CE3ADECEFABB4095E /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
 			buildPhases = (
-				D2B79C12D4658336B976DB81185A230A /* Sources */,
-				D98713A3EC898E0D62245B7718F0F2F0 /* Frameworks */,
-				5A5C05CA0A65128EDADF7A0AB076695D /* Resources */,
+				8F683DC5642C2BC397BC0C5F08C96D9F /* Sources */,
+				7E004E9C36FAD9C71C8C9C8040656F04 /* Frameworks */,
+				0333CF8F7BD63336C46EFE023FD70DAE /* Resources */,
+				F017D0B0B968C5A1BE1BD6BB48C9C599 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F138A4A37E3F679A49BB4F3AE4D4CD /* PBXTargetDependency */,
+			);
+			name = SPHStringContentFillView;
+			productName = SPHStringContentFillView;
+			productReference = F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFAE127EB6614B1547AD01B351AE20B /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */;
+			buildPhases = (
+				FF883947CFAA3A61228D815E7F9F63F8 /* Sources */,
+				EC0063B141DB2D0E36B081A2AE809938 /* Frameworks */,
+				73F64DCF7CA042FFEE15DEE5D295027C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXMultiForwarder-PXMultiForwarder";
+			productName = "PXMultiForwarder-PXMultiForwarder";
+			productReference = CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92697288146C7C4700F22A68DB4EA0EA /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */;
+			buildPhases = (
+				80240F3E742321045F0BE831707916DE /* Sources */,
+				F4E50279521E4A772124EB0EAD084434 /* Frameworks */,
+				44BF1489D286C20A4E986311781301F6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -709,26 +709,26 @@
 			);
 			name = "PXBelowStatusBarView-PXBelowStatusBarView";
 			productName = "PXBelowStatusBarView-PXBelowStatusBarView";
-			productReference = D11BCB1EC438AF9A7EEEDDC7552C8116 /* PXBelowStatusBarView.bundle */;
+			productReference = 1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		FC6B55DBFCAEE8E38A35628F285D1AC1 /* PXBelowStatusBarView */ = {
+		F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74D965E3EF19676B24B1EF7B1ED0169C /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */;
+			buildConfigurationList = 47C193B4A43E00C62EA7DC9E896F743A /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */;
 			buildPhases = (
-				804C254BE6ABF4ACCA20EFBBDD1B09B5 /* Sources */,
-				2927C0428D42BE984C8A8009424C8658 /* Frameworks */,
-				EC27032BBCE7ED1697DFB3BB36B90839 /* Resources */,
-				7460D69604A61436C9C97A01A2EF565D /* Headers */,
+				4A4B9BC281DD436EF233AB00A615E14B /* Sources */,
+				2F7EC32F57184FA18FDD09A077449B1D /* Frameworks */,
+				6FA2768E5B00449E4BB6745386266A3B /* Resources */,
+				6472706F64F410BAD09B5EF85555E954 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A30EA1E88EEB52B32220427F12AEB19 /* PBXTargetDependency */,
+				5DDDA198B40EB378AC0F8EB92A7EC698 /* PBXTargetDependency */,
 			);
-			name = PXBelowStatusBarView;
-			productName = PXBelowStatusBarView;
-			productReference = EC8E6628F986B620EE495944114D87FB /* PXBelowStatusBarView.framework */;
+			name = PXInfiniteContentView;
+			productName = PXInfiniteContentView;
+			productReference = 0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -752,254 +752,227 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77ACF792E531E3629D66546597D49375 /* Pods-PXInfiniteContentView_Example */,
-				CC7DCB505573B02500A6C7DB9B9EB2C0 /* Pods-PXInfiniteContentView_Tests */,
-				FC6B55DBFCAEE8E38A35628F285D1AC1 /* PXBelowStatusBarView */,
-				E48DDB5280184E8E609B302F3891EAED /* PXBelowStatusBarView-PXBelowStatusBarView */,
-				6C33C743EFACDF0DB3034522B67C4DE2 /* PXInfiniteContentView */,
-				6F97E0F1B8C05E45CF453DAE6B12282F /* PXInfiniteContentView-PXInfiniteContentView */,
-				65B8C69818CA76A17F0F446599557CD5 /* PXMultiForwarder */,
-				0F5D85674AF2CBA1732BEC19343F3277 /* PXMultiForwarder-PXMultiForwarder */,
-				391A4876CB620405BA5BF66D027E23E9 /* SPHStringContentFillView */,
-				6E58E70DDCA27922B9D340669042CE09 /* SPHStringContentFillView-SPHStringContentFillView */,
+				3D8C6EC75120F57CB12520E756209FAB /* Pods-PXInfiniteContentView_Example */,
+				B90C14AEF2567029749C85592DADDF5E /* Pods-PXInfiniteContentView_Tests */,
+				9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */,
+				E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */,
+				F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */,
+				18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */,
+				4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */,
+				CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */,
+				C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */,
+				A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CCB1B6A2F2D69D73623AB5A32DD9D6C /* Resources */ = {
+		0333CF8F7BD63336C46EFE023FD70DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24573DB608BB0EFAD5062F2B760F1970 /* SPHStringContentFillView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E167597DADACB1376D351735CBA15AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AF273A6C5FE573F0CF0658D221C66EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2BFD44F6F6F2F539C97D069C6833477 /* PXInfiniteContentView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A5C05CA0A65128EDADF7A0AB076695D /* Resources */ = {
+		44BF1489D286C20A4E986311781301F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7992859A55BA2DFAF92358E9B06FCE21 /* Resources */ = {
+		6FA2768E5B00449E4BB6745386266A3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA7A1311BE560F961FB3FD1B7D4B185 /* PXMultiForwarder.bundle in Resources */,
+				159BFF18D23A06704AB39E45D6A70402 /* PXInfiniteContentView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7F6E1D6AEA9CD6A6E0525FC8BC79885 /* Resources */ = {
+		73F64DCF7CA042FFEE15DEE5D295027C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB36D3036B3679FF976BA48833E2732A /* Resources */ = {
+		955B011457E3DE726CDDBCEE468F9D5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3870CFA922DA222F18818271D5043A92 /* SPHStringContentFillView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC27032BBCE7ED1697DFB3BB36B90839 /* Resources */ = {
+		BD18C48E8EBF53384E3954E8E52CBFE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				674FDFE33304AC973A57E267DE43190C /* PXBelowStatusBarView.bundle in Resources */,
+				DEC94C8381893E1AC2DBA3F433A7B73D /* PXBelowStatusBarView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBAFB0FF4F348F04B6BF962897697DE0 /* Resources */ = {
+		D0D9F211A4B57393F64F0C49CC5E1009 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A8028B823FBD477EA3E51A1B1ABE19 /* PXMultiForwarder.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05FB90403B833E99F5FECACC6B00A286 /* Sources */ = {
+		20133C3044E5B1832094CFA2EEB82232 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473E7D1E22D58E1B14FD7C0527ACBDA /* PXInfiniteContentBounds.m in Sources */,
-				79F2D20AC375C4DAE1519EA4D18F060A /* PXInfiniteContentInternalView.m in Sources */,
-				5BBD4F30129FA4E1353F30CD9F98ADC6 /* PXInfiniteContentView-dummy.m in Sources */,
-				7323037905BB0654F5E81E8377880C54 /* PXInfiniteContentView.m in Sources */,
+				7533E91B5ED051298D005FAE4DE686BE /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23FBD3900F42A478D61E928358AFCC48 /* Sources */ = {
+		4A4B9BC281DD436EF233AB00A615E14B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793FA6009907BA78641822391321532F /* PXInfiniteContentBounds.m in Sources */,
+				0C32594099B1F9DE872E2EC248384A06 /* PXInfiniteContentInternalView.m in Sources */,
+				96E76145DDFD874CF358A6F7BFAB756E /* PXInfiniteContentView-dummy.m in Sources */,
+				407D4DB9E101BB858BEFE226B2D860AE /* PXInfiniteContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41BB0BC5F6CF04E0EEA6D2AFECFAA33E /* Sources */ = {
+		78292C36610D3EEC9DDE5EA9A930C6C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C900B944DFE1264677A6B318E1B64D68 /* PXMultiForwarder-dummy.m in Sources */,
-				F661063B5A4BF0A21370CBEEA1981585 /* PXMultiForwarder.m in Sources */,
+				35A9417269ADEDE2C27EA0E504DF1E0A /* PXMultiForwarder-dummy.m in Sources */,
+				A6AEF01AB06E93623361FBE213872755 /* PXMultiForwarder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BBAACCC6A073813F0780E540C76ED68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		804C254BE6ABF4ACCA20EFBBDD1B09B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF5BDDC543EEAB45907E051B6F8A2973 /* PXBelowStatusBarView-dummy.m in Sources */,
-				F14F752F8E57CECEDC43283E5A00A77B /* PXBelowStatusBarView.m in Sources */,
-				42D9DEC789A22EB2E8FC9106B0350B8B /* UIViewController+PXBelowStatusBarView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92FA6DB597CB2903A4E565AFD6706151 /* Sources */ = {
+		80240F3E742321045F0BE831707916DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9A075597C2399B6DB6A586EA8D9682C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				322400A44143798D044FBE106EE37AB4 /* SPHStringContentFillView-dummy.m in Sources */,
-				3AFD65E767C5452D8FEA37C4BB347130 /* SPHStringContentFillView.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AFDF36BFEBA8A334B13A2280BEEFE57B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A80FFB35BD6D49DCA38EA9108BACE275 /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2B79C12D4658336B976DB81185A230A /* Sources */ = {
+		8C21C1EB47C66E8ED2B0BF940BAE9B50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D48A8C4A30842E7E1A1D7282A61F198A /* Sources */ = {
+		8F683DC5642C2BC397BC0C5F08C96D9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6B3225F08DFDDEBC011B361E7DC234 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */,
+				73AE4A65E5E03C54E3179F6BCD24CBBE /* SPHStringContentFillView-dummy.m in Sources */,
+				DC6337FC01E010B4564730C789151B95 /* SPHStringContentFillView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C39B5A9948877242BA9E9C7E7ED5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1065AAA7D90BF763439F7E9575C257 /* PXBelowStatusBarView-dummy.m in Sources */,
+				3671B777ABB7EB563E6A92F072988FB4 /* PXBelowStatusBarView.m in Sources */,
+				7BD279BB214BE5421BC9934EB73B1281 /* UIViewController+PXBelowStatusBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D532C761892E48E4025D815ADB904660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6C227A383F0DDCAA2ECB7E7675AD82 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA24DE598AF86E374FEC4916A7132E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF883947CFAA3A61228D815E7F9F63F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		020B7C247821E314E8A07B79F9F43BB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXInfiniteContentView;
-			target = 6C33C743EFACDF0DB3034522B67C4DE2 /* PXInfiniteContentView */;
-			targetProxy = E199ED60348B9BBDE4A9C0150BB8F01F /* PBXContainerItemProxy */;
-		};
-		09B5CC9389F22324C9A4865456A1260E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SPHStringContentFillView;
-			target = 391A4876CB620405BA5BF66D027E23E9 /* SPHStringContentFillView */;
-			targetProxy = 9AE6D3C10F84434D2E5604DD46C8451D /* PBXContainerItemProxy */;
-		};
-		1F04F8E5A7068EE48117783608C8C04F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SPHStringContentFillView-SPHStringContentFillView";
-			target = 6E58E70DDCA27922B9D340669042CE09 /* SPHStringContentFillView-SPHStringContentFillView */;
-			targetProxy = 09DA43CA5C147A0D917B1C892982FFC3 /* PBXContainerItemProxy */;
-		};
-		4F4FB7826C36255699F081E8B5933554 /* PBXTargetDependency */ = {
+		058552A863E812FD9023D68027D2B6F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PXMultiForwarder-PXMultiForwarder";
-			target = 0F5D85674AF2CBA1732BEC19343F3277 /* PXMultiForwarder-PXMultiForwarder */;
-			targetProxy = AE8E8DEDB00E80B8BFC6136D523399DA /* PBXContainerItemProxy */;
+			target = CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */;
+			targetProxy = 1C4423A5B0A5B5F8BC10C866CD29BCD1 /* PBXContainerItemProxy */;
 		};
-		5A30EA1E88EEB52B32220427F12AEB19 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PXBelowStatusBarView-PXBelowStatusBarView";
-			target = E48DDB5280184E8E609B302F3891EAED /* PXBelowStatusBarView-PXBelowStatusBarView */;
-			targetProxy = 457EC13FFB37B840A907DE967278A1A3 /* PBXContainerItemProxy */;
-		};
-		6CF131CD5CD1E11434D2AE2400DB0145 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXBelowStatusBarView;
-			target = FC6B55DBFCAEE8E38A35628F285D1AC1 /* PXBelowStatusBarView */;
-			targetProxy = 164702DC82B19F61E96ACE0593DA6FE2 /* PBXContainerItemProxy */;
-		};
-		8155FB2260CBA541962A860CAF010526 /* PBXTargetDependency */ = {
+		23ACD47250733AD33EF4E252FAD7892F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXInfiniteContentView;
-			target = 6C33C743EFACDF0DB3034522B67C4DE2 /* PXInfiniteContentView */;
-			targetProxy = 37066BCCC87DB842495274335741D484 /* PBXContainerItemProxy */;
+			target = F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */;
+			targetProxy = 9D2FA3A26980531FDAD7E6EE0B4392D8 /* PBXContainerItemProxy */;
 		};
-		AE75A9CD12F9A4B94DFAFB347790C439 /* PBXTargetDependency */ = {
+		5DDDA198B40EB378AC0F8EB92A7EC698 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PXInfiniteContentView-PXInfiniteContentView";
-			target = 6F97E0F1B8C05E45CF453DAE6B12282F /* PXInfiniteContentView-PXInfiniteContentView */;
-			targetProxy = 958F970C2DADDBEDE3DE7841502998F7 /* PBXContainerItemProxy */;
+			target = 18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */;
+			targetProxy = BC480897E3BC33BB2AFC67E173AC6EB6 /* PBXContainerItemProxy */;
 		};
-		F1736D832EF8D60752E78A9598C76BBD /* PBXTargetDependency */ = {
+		6663CCFD2ACF6A091474E84161DA5207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXInfiniteContentView;
+			target = F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */;
+			targetProxy = E85DB572BE4B6F6F8CCB0535A1F3D560 /* PBXContainerItemProxy */;
+		};
+		A5F138A4A37E3F679A49BB4F3AE4D4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SPHStringContentFillView-SPHStringContentFillView";
+			target = A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */;
+			targetProxy = 08223BE4CE88AE9016BE1A0FA8589E46 /* PBXContainerItemProxy */;
+		};
+		AB2BFBD73F22EF2EE28FE929123E816C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXBelowStatusBarView;
+			target = 9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */;
+			targetProxy = 9A87BF83C808FF9E8F19F484FBAED198 /* PBXContainerItemProxy */;
+		};
+		C4D226145D1BE8E0E18CE0F81B78C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPHStringContentFillView;
+			target = C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */;
+			targetProxy = 975C6C8CCDDD54F8D4CA7A182D8B0CE0 /* PBXContainerItemProxy */;
+		};
+		EC88ECD13FF8AE978714B5DE24414685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXBelowStatusBarView-PXBelowStatusBarView";
+			target = E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */;
+			targetProxy = 9740886E3C2D68E641553CF19BCFB3EA /* PBXContainerItemProxy */;
+		};
+		EE5D563A1AB2E019545311F8839384EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXMultiForwarder;
-			target = 65B8C69818CA76A17F0F446599557CD5 /* PXMultiForwarder */;
-			targetProxy = 30B51932E909A23441CEDB4F6B254B12 /* PBXContainerItemProxy */;
+			target = 4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */;
+			targetProxy = 4EB2CA68F4906EEF949DA3EE2D91CEB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01881884A30F45216F0D53FFDC20CE6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1034,32 +1007,35 @@
 			};
 			name = Release;
 		};
-		09BE442EEACA9579CC1B9AFF877BCA82 /* Release */ = {
+		05A407FCD2977E698AC5855B1D2ADFE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */;
+			baseConfigurationReference = D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PXBelowStatusBarView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1100,60 +1076,9 @@
 			};
 			name = Debug;
 		};
-		106882BA86C1526F5C70B7339E161872 /* Debug */ = {
+		1961B2EF9AC736EB9DA0C378D503427A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.3.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXMultiForwarder/PXMultiForwarder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXMultiForwarder/PXMultiForwarder.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXMultiForwarder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		153AAAB4219572AEB6F2FE61C50FD7D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SPHStringContentFillView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		1C871A404BF5CCAF6FBDD4035CC8A598 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SPHStringContentFillView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		27B2EFAFFD1B3E3B7E6CEE156FB90899 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */;
+			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = PXInfiniteContentView;
@@ -1163,219 +1088,27 @@
 			};
 			name = Release;
 		};
-		3732AEDC3E197FA8B9822296D4A83535 /* Debug */ = {
+		20D67022AE14E2F0166B86229B812980 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */;
+			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		49B0FCC09F3A06E5AC5AD3B1BD405040 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXMultiForwarder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		776F11DC7113CBCBC1EE6C9594228DA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PXInfiniteContentView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81C16B7813A8B0447FDC30792A183F6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFD35C8FBA82A67EE476EAE6851AB9FB /* Pods-PXInfiniteContentView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8336A085709ED1E3DE3912B27B350D58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A56CB571E19375B149F51DCFDB58287 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.2.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.2.2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		9300B97C3853534349E38F449C571C18 /* Debug */ = {
+		2B559B2245E65E635D85AA8251FBA030 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXInfiniteContentView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9383534B32B2026ED601789BD0857F43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9EF2EF80626AE4382020C26B240822 /* Pods-PXInfiniteContentView_Example.release.xcconfig */;
+			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		94528C4C47BD608F7DD005197C9C5928 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXMultiForwarder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B5255E51D152B12F0F40CB0EAAEB31B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D4878E35C896664EDFDA4770196AF1 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.2.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.2.2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
@@ -1394,39 +1127,15 @@
 			};
 			name = Release;
 		};
-		C53CFDFB62F5AC62F5367A4C49973C10 /* Release */ = {
+		40643C46D0CB0CBB49762C0487E3F82B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8EBC61B462600DE93074B38A27EAB93 /* PXBelowStatusBarView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DC0D6A978087B9E06AAA29991E2D0EB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E472CF1D7C09B48EE8258D1B8253D89 /* PXInfiniteContentView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXInfiniteContentView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		ED74774BCD2E045703FB9DB3B5267110 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4767C296ED043ED113DA91FA1D89B307 /* PXMultiForwarder.xcconfig */;
+			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.3.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXMultiForwarder/PXMultiForwarder-prefix.pch";
@@ -1445,7 +1154,193 @@
 			};
 			name = Release;
 		};
-		FC99F9D57F7C8831BDC05F2351171189 /* Debug */ = {
+		504619A6C7C12ECE8D325417722ECB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXMultiForwarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6019156D95C6976B3B36BB3A4704C44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		64269EB2D9FCE66DFE4DAE77856821A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F90C4E2ECF024DC1083F1A9ACA3F4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		780F307A88BE83B65E5F3EC84AFBB8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		865CC2B6A4B5DF30F52FD4A926F68817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SPHStringContentFillView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A82411455D7581FD7CBC0FB5425E42D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC6551A11591CA84C2DB87226C9CAD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXMultiForwarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B23634FA3B7CE328DB32404B086F4E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXMultiForwarder/PXMultiForwarder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXMultiForwarder/PXMultiForwarder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXMultiForwarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B286289E0EF953F031118D1B042230E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1460,6 +1355,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1474,23 +1370,131 @@
 			};
 			name = Debug;
 		};
+		BFCD91F29AF459CE3669345251688574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF9ACFA974D8519C9FF7C8870D5FCD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1B6BB9EC0F6FF21D1AE03476ED496BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SPHStringContentFillView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E2612FCE251E812F0C44915E08E5E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F2E049ED030F9813778095AEB13F719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04870E792F5D741CCD985A19C6F6CADB /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */ = {
+		0467EC67E3D78BD1E42FEE5BCA68AA1F /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				106882BA86C1526F5C70B7339E161872 /* Debug */,
-				ED74774BCD2E045703FB9DB3B5267110 /* Release */,
+				B23634FA3B7CE328DB32404B086F4E53 /* Debug */,
+				40643C46D0CB0CBB49762C0487E3F82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		227B12C36E1E4C664EFA83A1F67E96D8 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
+		24BCF6413DF5F8D7547385E8C1126626 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				153AAAB4219572AEB6F2FE61C50FD7D4 /* Debug */,
-				1C871A404BF5CCAF6FBDD4035CC8A598 /* Release */,
+				6019156D95C6976B3B36BB3A4704C44F /* Debug */,
+				1961B2EF9AC736EB9DA0C378D503427A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1504,74 +1508,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ECF01150A42FDBC2EBB79CB8588F49B /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */ = {
+		3D11DFB1A5CF4C3CE3ADECEFABB4095E /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3732AEDC3E197FA8B9822296D4A83535 /* Debug */,
-				C53CFDFB62F5AC62F5367A4C49973C10 /* Release */,
+				865CC2B6A4B5DF30F52FD4A926F68817 /* Debug */,
+				2B559B2245E65E635D85AA8251FBA030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D1518A2DC14B1C67AA9869AA8F01555 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */ = {
+		47C193B4A43E00C62EA7DC9E896F743A /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC0D6A978087B9E06AAA29991E2D0EB2 /* Debug */,
-				27B2EFAFFD1B3E3B7E6CEE156FB90899 /* Release */,
+				780F307A88BE83B65E5F3EC84AFBB8AD /* Debug */,
+				A82411455D7581FD7CBC0FB5425E42D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74D965E3EF19676B24B1EF7B1ED0169C /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */ = {
+		6709DBCF59A0F2A264972BE961B650E4 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01881884A30F45216F0D53FFDC20CE6D /* Debug */,
-				09BE442EEACA9579CC1B9AFF877BCA82 /* Release */,
+				F2E049ED030F9813778095AEB13F719B /* Debug */,
+				CF9ACFA974D8519C9FF7C8870D5FCD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F13C74A7C66032186217DAD851A14D6 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */ = {
+		7BF39F874F0046B79A8FF951CC5512DC /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81C16B7813A8B0447FDC30792A183F6D /* Debug */,
-				9383534B32B2026ED601789BD0857F43 /* Release */,
+				20D67022AE14E2F0166B86229B812980 /* Debug */,
+				E1B6BB9EC0F6FF21D1AE03476ED496BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C162CA23D34275043CF1BFAECC097FAA /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
+		92697288146C7C4700F22A68DB4EA0EA /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A56CB571E19375B149F51DCFDB58287 /* Debug */,
-				B5255E51D152B12F0F40CB0EAAEB31B7 /* Release */,
+				6F90C4E2ECF024DC1083F1A9ACA3F4B2 /* Debug */,
+				E2612FCE251E812F0C44915E08E5E7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE5B0E4DCF485A7E04D259670150D04 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */ = {
+		B34B5EF110D923C039919DEAB9CC2B02 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC99F9D57F7C8831BDC05F2351171189 /* Debug */,
-				8336A085709ED1E3DE3912B27B350D58 /* Release */,
+				B286289E0EF953F031118D1B042230E0 /* Debug */,
+				BFCD91F29AF459CE3669345251688574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3792263AD92701A2FC18703A7FD2F9E /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */ = {
+		DBFAE127EB6614B1547AD01B351AE20B /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94528C4C47BD608F7DD005197C9C5928 /* Debug */,
-				49B0FCC09F3A06E5AC5AD3B1BD405040 /* Release */,
+				504619A6C7C12ECE8D325417722ECB8F /* Debug */,
+				AC6551A11591CA84C2DB87226C9CAD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8F6DDEF73C04ECA2EB42E91ADF71AB4 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */ = {
+		E82DA84AC2059C3DF3F8223F75F2750E /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9300B97C3853534349E38F449C571C18 /* Debug */,
-				776F11DC7113CBCBC1EE6C9594228DA7 /* Release */,
+				05A407FCD2977E698AC5855B1D2ADFE5 /* Debug */,
+				64269EB2D9FCE66DFE4DAE77856821A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
