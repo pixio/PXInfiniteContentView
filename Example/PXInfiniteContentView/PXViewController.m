@@ -31,6 +31,9 @@
     
     [[self infiniteContentView] setDelegate:self];
     
+    // uncomment to test bounds
+//    [[self infiniteContentView] setContentBounds:[PXInfiniteContentBounds lowerBound:-3 upperBound:3]];
+    
     [[self allViews] setBackgroundColor:[UIColor whiteColor]];
 }
 

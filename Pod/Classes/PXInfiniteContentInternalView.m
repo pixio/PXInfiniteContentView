@@ -45,18 +45,18 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     self = [super initWithFrame:CGRectZero];
     if (!self)
         return nil;
-
+    
     _state = PXInfiniteContentInternalNotMovingState;
     _index = 0;
     _contentBounds = [PXInfiniteContentBounds noBounds];
     _afterTransitionBounds = [PXInfiniteContentBounds noBounds];
-
+    
     [self setDelaysContentTouches:FALSE];
     [self setShowsHorizontalScrollIndicator:FALSE];
     [self setShowsVerticalScrollIndicator:FALSE];
     [self setPagingEnabled:TRUE];
     [self setDirectionalLockEnabled:TRUE];
-
+    
     _leftView = leftView;
     _centerView = rightView;
     _rightView = centerView;
@@ -148,33 +148,48 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 #pragma mark UIView Methods
 - (void) layoutSubviews {
     [super layoutSubviews];
-
-    BOOL onLeftBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
-    BOOL onRightBoundary = [_contentBounds hasUpperBound] && _index == [_contentBounds upperBound];
-
-    [_leftView setHidden:[self bouncesAtBoundaries] && onLeftBoundary];
-    [_rightView setHidden:[self bouncesAtBoundaries] && onRightBoundary];
-
-    int sizeMultiplier = 3 - (!!onLeftBoundary) - (!!onRightBoundary);
+    
+    BOOL onLowerBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
+    BOOL onUpperBoundary = [_contentBounds hasUpperBound] && _index == [_contentBounds upperBound];
+    
+    [_leftView setHidden:[self bouncesAtBoundaries] && onLowerBoundary];
+    [_rightView setHidden:[self bouncesAtBoundaries] && onUpperBoundary];
+    
+    int sizeMultiplier = 3 - (!!onLowerBoundary) - (!!onUpperBoundary);
     const CGRect entireArea = [self bounds];
     const CGSize contentSize = CGSizeMake(entireArea.size.width * sizeMultiplier, entireArea.size.height);
     [self setContentSize:contentSize];
     
-    const CGFloat xOffset = onLeftBoundary ? -entireArea.size.width : 0;
-    const CGRect leftArea = CGRectMake(xOffset, 0, entireArea.size.width, entireArea.size.height);
-    const CGRect centerArea = CGRectMake(xOffset + entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
-    const CGRect rightArea = CGRectMake(xOffset + 2*entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
+    const CGFloat xOffset = (onLowerBoundary ? -entireArea.size.width : 0);
+    CGRect leftArea;
+    CGRect centerArea;
+    CGRect rightArea;
+    leftArea = CGRectMake(xOffset, 0, entireArea.size.width, entireArea.size.height);
+    centerArea = CGRectMake(0, 0, entireArea.size.width, entireArea.size.height);
+    rightArea = CGRectMake(entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
+    if (onLowerBoundary) {
+    } else {
+        leftArea = CGRectMake(0, 0, entireArea.size.width, entireArea.size.height);
+        centerArea = CGRectMake(entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
+        rightArea = CGRectMake(2 * entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
+    }
     
     if (_state == PXInfiniteContentInternalNotMovingState) {
-        const CGPoint desiredOffset = CGPointMake(entireArea.size.width, 0.0);
-        if (!CGPointEqualToPoint(desiredOffset, [self contentOffset])) {
-            [self setContentOffset:desiredOffset animated:FALSE];
+        if (!onLowerBoundary) {
+            const CGPoint desiredOffset = CGPointMake(entireArea.size.width, 0.0);
+            if (!CGPointEqualToPoint(desiredOffset, [self contentOffset])) {
+                [self setContentOffset:desiredOffset animated:FALSE];
+            }
         }
     }
     
     [_centerView setFrame:centerArea];
     [_leftView setFrame:leftArea];
     [_rightView setFrame:rightArea];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"%p", self);
+    });
 }
 
 #pragma mark PXInfiniteContentInternalView Methods
@@ -183,7 +198,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
         case PXInfiniteContentInternalNotMovingState: {
             if (_state == PXInfiniteContentInternalScrollingState ||
                 _state == PXInfiniteContentInternalFinishingTransitionState) {
-                const CGFloat centerThreshold = [self bounds].size.width;
+                BOOL onLowerBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
+                const CGFloat centerThreshold = (!onLowerBoundary ? [self bounds].size.width : 0);
                 const BOOL isCenter = fabs([self contentOffset].x - centerThreshold) < 0.5;
                 const BOOL isLeft = !isCenter && [self contentOffset].x < centerThreshold;
                 const BOOL isRight = !isCenter && !isLeft && [self contentOffset].x > centerThreshold;
@@ -206,14 +222,14 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
                 }
             }
             _state = state;
-
+            
             [self setContentBounds:_afterTransitionBounds];
             if (_hasAfterTransitionIndex) {
                 [self setIndex:_afterTransitionIndex notify:FALSE];
                 _hasAfterTransitionIndex = FALSE;
             }
             [self notifyInternalDelegateOfTransitionToIndex:_index];
-
+            
             [self setNeedsLayout];
             break;
         }
@@ -265,7 +281,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
         }
         return allowed;
     }
-
+    
     return [super gestureRecognizerShouldBegin:gestureRecognizer];
 }
 
