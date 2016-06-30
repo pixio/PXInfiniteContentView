@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PXInfiniteContentView"
-  s.version          = "0.4.2"
+  s.version          = "0.4.3"
   s.summary          = 'A view that can scroll forever in either direction to lazy-load "infinite" content.'
 
   s.description      = <<-DESC
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*.{h,m}'
-  s.public_header_files = 'Pod/Classes/{PXInfiniteContentView,PXInfiniteContentBounds}.h'
+  s.public_header_files = 'Pod/Classes/{PXInfiniteContentView,PXPageIndexBounds}.h'
 end

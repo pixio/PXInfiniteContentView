@@ -1,14 +1,14 @@
 //
-//  PXInfiniteContentBounds.m
+//  PXPageIndexBounds.m
 //  PXInfiniteContentView
 //
 //  Created by Spencer Phippen on 2015/08/20.
 //
 //
 
-#import "PXInfiniteContentBounds.h"
+#import "PXPageIndexBounds.h"
 
-@implementation PXInfiniteContentBounds
+@implementation PXPageIndexBounds
 
 - (instancetype) init {
     NSAssert(FALSE, @"Bad init function");

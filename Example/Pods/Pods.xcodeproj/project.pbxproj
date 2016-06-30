@@ -21,10 +21,10 @@
 		51A8028B823FBD477EA3E51A1B1ABE19 /* PXMultiForwarder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */; };
 		51F9836EE023A4123A990F1584A8BB89 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D0938686108C22175CCEB9245D9771B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		694CBB09A20EB82850CA0B0B031899EF /* PXInfiniteContentBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		694CBB09A20EB82850CA0B0B031899EF /* PXPageIndexBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AE4A65E5E03C54E3179F6BCD24CBBE /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */; };
 		7533E91B5ED051298D005FAE4DE686BE /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */; };
-		793FA6009907BA78641822391321532F /* PXInfiniteContentBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */; };
+		793FA6009907BA78641822391321532F /* PXPageIndexBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */; };
 		7BD279BB214BE5421BC9934EB73B1281 /* UIViewController+PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */; };
 		820C3FC7604460EBB4DD0E476A88727C /* PXMultiForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92C72D351BF4C0E89040742027D27862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -117,7 +117,7 @@
 		1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXBelowStatusBarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXMultiForwarder.m; path = Pod/Classes/PXMultiForwarder.m; sourceTree = "<group>"; };
 		29B2E6E7C16E6A43394F2276339B9B90 /* PXBelowStatusBarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXBelowStatusBarView.modulemap; sourceTree = "<group>"; };
-		2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentBounds.m; sourceTree = "<group>"; };
+		2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPageIndexBounds.m; sourceTree = "<group>"; };
 		2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
 		34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Example-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -177,7 +177,7 @@
 		F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXInfiniteContentView-dummy.m"; sourceTree = "<group>"; };
 		F615EEDB24CAE6016DF3CEA6D6D09ACA /* Pods-PXInfiniteContentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Example.modulemap"; sourceTree = "<group>"; };
 		F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentBounds.h; sourceTree = "<group>"; };
+		F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPageIndexBounds.h; sourceTree = "<group>"; };
 		FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXBelowStatusBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXInfiniteContentView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -304,8 +304,8 @@
 		417AC4901DB2A0D43F59345C72D18698 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F801D351BE586279E366FC73CCAB2E4B /* PXInfiniteContentBounds.h */,
-				2AE616D80412C358694AC01A0E0854B2 /* PXInfiniteContentBounds.m */,
+				F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */,
+				2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */,
 				5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */,
 				B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */,
 				D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */,
@@ -512,7 +512,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694CBB09A20EB82850CA0B0B031899EF /* PXInfiniteContentBounds.h in Headers */,
+				694CBB09A20EB82850CA0B0B031899EF /* PXPageIndexBounds.h in Headers */,
 				2FE7BA5D12183ADB97347E4BF7FF94AF /* PXInfiniteContentInternalView.h in Headers */,
 				0952468058BDEE235EBBA4D3D3F47C4F /* PXInfiniteContentView-umbrella.h in Headers */,
 				C2126148E056CF0492C7C1F56821D2ED /* PXInfiniteContentView.h in Headers */,
@@ -842,7 +842,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793FA6009907BA78641822391321532F /* PXInfiniteContentBounds.m in Sources */,
+				793FA6009907BA78641822391321532F /* PXPageIndexBounds.m in Sources */,
 				0C32594099B1F9DE872E2EC248384A06 /* PXInfiniteContentInternalView.m in Sources */,
 				96E76145DDFD874CF358A6F7BFAB756E /* PXInfiniteContentView-dummy.m in Sources */,
 				407D4DB9E101BB858BEFE226B2D860AE /* PXInfiniteContentView.m in Sources */,

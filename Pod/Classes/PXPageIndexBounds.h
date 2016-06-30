@@ -1,5 +1,5 @@
 //
-//  PXInfiniteContentBounds.h
+//  PXPageIndexBounds.h
 //  PXInfiniteContentView
 //
 //  Created by Spencer Phippen on 2015/08/20.
@@ -14,7 +14,7 @@
  *  PXInfiniteContentView begins at index 0 and content bounds potentially limit
  *  the number of pages that can be displayed in either direction..
  */
-@interface PXInfiniteContentBounds : NSObject
+@interface PXPageIndexBounds : NSObject
 
 - (instancetype) init __attribute__((unavailable("Use one of the other init methods")));
 

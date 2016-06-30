@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-#import "PXInfiniteContentBounds.h"
+#import "PXPageIndexBounds.h"
 #import "PXInfiniteContentView.h"
 
 FOUNDATION_EXPORT double PXInfiniteContentViewVersionNumber;

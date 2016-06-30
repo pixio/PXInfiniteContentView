@@ -93,11 +93,11 @@
     [_scroll setIndex:index];
 }
 
-- (PXInfiniteContentBounds*) contentBounds {
+- (PXPageIndexBounds*) contentBounds {
     return [_scroll contentBounds];
 }
 
-- (void) setContentBounds:(PXInfiniteContentBounds*)contentBounds {
+- (void) setContentBounds:(PXPageIndexBounds*)contentBounds {
     [_scroll setContentBounds:contentBounds];
 }
 

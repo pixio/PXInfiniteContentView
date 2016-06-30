@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PXInfiniteContentBounds.h"
+#import "PXPageIndexBounds.h"
 
 @class PXInfiniteContentInternalView;
 
@@ -30,7 +30,7 @@
 @property (nonatomic) id rightView;
 
 @property (nonatomic) int index;
-@property (nonatomic) PXInfiniteContentBounds* contentBounds;
+@property (nonatomic) PXPageIndexBounds* contentBounds;
 
 @property (nonatomic) BOOL bouncesAtBoundaries;
 

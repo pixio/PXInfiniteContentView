@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     
     BOOL _hasAfterTransitionIndex;
     int _afterTransitionIndex;
-    PXInfiniteContentBounds* _afterTransitionBounds;
+    PXPageIndexBounds* _afterTransitionBounds;
 }
 
 #pragma mark Constructors
@@ -48,8 +48,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     
     _state = PXInfiniteContentInternalNotMovingState;
     _index = 0;
-    _contentBounds = [PXInfiniteContentBounds noBounds];
-    _afterTransitionBounds = [PXInfiniteContentBounds noBounds];
+    _contentBounds = [PXPageIndexBounds noBounds];
+    _afterTransitionBounds = [PXPageIndexBounds noBounds];
     
     [self setDelaysContentTouches:FALSE];
     [self setShowsHorizontalScrollIndicator:FALSE];
@@ -115,7 +115,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     }
 }
 
-- (void) setContentBounds:(PXInfiniteContentBounds*)contentBounds {
+- (void) setContentBounds:(PXPageIndexBounds*)contentBounds {
     NSParameterAssert(contentBounds);
     if (_state == PXInfiniteContentInternalNotMovingState) {
         _contentBounds = contentBounds;

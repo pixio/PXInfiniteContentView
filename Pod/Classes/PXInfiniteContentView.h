@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PXInfiniteContentBounds.h"
+#import "PXPageIndexBounds.h"
 
 @class PXInfiniteContentView;
 
@@ -46,7 +46,7 @@
  * If the view is currently scrolling, the index change will not take effect until the transition is complete.
  * The index property will be clamped to these bounds when the change takes effect (whether immediately or after the current transition).
  */
-@property (nonatomic) PXInfiniteContentBounds* contentBounds;
+@property (nonatomic) PXPageIndexBounds* contentBounds;
 
 /** If TRUE, the view will "bounce" (like the UIScrollView bounces property) on the left/right boundaries. Defaults to FALSE. */
 @property (nonatomic) BOOL bouncesAtBoundaries;
