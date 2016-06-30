@@ -186,10 +186,6 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     [_centerView setFrame:centerArea];
     [_leftView setFrame:leftArea];
     [_rightView setFrame:rightArea];
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSLog(@"%p", self);
-    });
 }
 
 #pragma mark PXInfiniteContentInternalView Methods
