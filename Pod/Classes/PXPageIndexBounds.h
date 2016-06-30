@@ -19,37 +19,37 @@
 - (instancetype) init __attribute__((unavailable("Use one of the other init methods")));
 
 /**
- *  Create a contentBounds with no bounds.
+ *  Create a pageIndexBounds with no bounds.
  */
 + (instancetype) noBounds;
 
 /**
- *  Create a contentBounds with only a lower bound.  This only limits leftward swipes
+ *  Create a pageIndexBounds with only a lower bound.  This only limits leftward swipes
  *
  *  @param lowerBound the lower bound.
  *
- *  @return a contentBounds with only a lower bound
+ *  @return a pageIndexBounds with only a lower bound
  */
 + (instancetype) lowerBound:(int)lowerBound;
 
 /**
- *  Create a contentBounds with only an upper bound.  This only limits rightward swipes
+ *  Create a pageIndexBounds with only an upper bound.  This only limits rightward swipes
  *
  *  @param upperBound the upper bound.
  *
- *  @return a contentBounds with only an upper bound
+ *  @return a pageIndexBounds with only an upper bound
  */
 + (instancetype) upperBound:(int)upperBound;
 
 /**
- *  Create a contentBounds with lower and upper bounds, limiting scrolls in both directions.
+ *  Create a pageIndexBounds with lower and upper bounds, limiting scrolls in both directions.
  *
  *  Note that lowerBound must be less than or equal to upperBound.
  *
  *  @param lowerBound the lowest page index
  *  @param upperBound the hightest page index
  *
- *  @return a new contentBounds object
+ *  @return a new pageIndexBounds object
  */
 + (instancetype) lowerBound:(int)lowerBound upperBound:(int)upperBound;
 

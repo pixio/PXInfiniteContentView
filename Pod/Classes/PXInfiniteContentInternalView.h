@@ -30,7 +30,7 @@
 @property (nonatomic) id rightView;
 
 @property (nonatomic) int index;
-@property (nonatomic) PXPageIndexBounds* contentBounds;
+@property (nonatomic) PXPageIndexBounds* pageIndexBounds;
 
 @property (nonatomic) BOOL bouncesAtBoundaries;
 

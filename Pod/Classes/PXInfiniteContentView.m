@@ -93,12 +93,12 @@
     [_scroll setIndex:index];
 }
 
-- (PXPageIndexBounds*) contentBounds {
-    return [_scroll contentBounds];
+- (PXPageIndexBounds*) pageIndexBounds {
+    return [_scroll pageIndexBounds];
 }
 
-- (void) setContentBounds:(PXPageIndexBounds*)contentBounds {
-    [_scroll setContentBounds:contentBounds];
+- (void) setPageIndexBounds:(PXPageIndexBounds*)pageIndexBounds {
+    [_scroll setPageIndexBounds:pageIndexBounds];
 }
 
 - (BOOL) bouncesAtBoundaries {

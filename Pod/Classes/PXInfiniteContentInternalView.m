@@ -48,7 +48,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     
     _state = PXInfiniteContentInternalNotMovingState;
     _index = 0;
-    _contentBounds = [PXPageIndexBounds noBounds];
+    _pageIndexBounds = [PXPageIndexBounds noBounds];
     _afterTransitionBounds = [PXPageIndexBounds noBounds];
     
     [self setDelaysContentTouches:FALSE];
@@ -102,7 +102,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 - (void) setIndex:(int)index notify:(BOOL)notify {
     if (_state == PXInfiniteContentInternalNotMovingState) {
         const int oldIndex = _index;
-        _index = [_contentBounds clampValue:index];
+        _index = [_pageIndexBounds clampValue:index];
         if (_index != oldIndex && notify) {
             [self notifyInternalDelegateOfTransitionToIndex:_index];
             [self notifyInternalDelegateOfShowView:_centerView forIndex:_index];
@@ -115,15 +115,15 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     }
 }
 
-- (void) setContentBounds:(PXPageIndexBounds*)contentBounds {
-    NSParameterAssert(contentBounds);
+- (void) setPageIndexBounds:(PXPageIndexBounds*)pageIndexBounds {
+    NSParameterAssert(pageIndexBounds);
     if (_state == PXInfiniteContentInternalNotMovingState) {
-        _contentBounds = contentBounds;
-        _index = [_contentBounds clampValue:_index];
+        _pageIndexBounds = pageIndexBounds;
+        _index = [_pageIndexBounds clampValue:_index];
         [self setNeedsLayout];
         [self layoutIfNeeded];
     }
-    _afterTransitionBounds = _contentBounds;
+    _afterTransitionBounds = _pageIndexBounds;
 }
 
 - (BOOL) bouncesAtBoundaries {
@@ -141,7 +141,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 }
 
 - (void) notifyInternalDelegateOfShowView:(id)view forIndex:(int)index {
-    if ([_contentBounds clampValue:index] != index) {
+    if ([_pageIndexBounds clampValue:index] != index) {
         return;
     }
     
@@ -153,8 +153,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 - (void) layoutSubviews {
     [super layoutSubviews];
     
-    BOOL onLowerBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
-    BOOL onUpperBoundary = [_contentBounds hasUpperBound] && _index == [_contentBounds upperBound];
+    BOOL onLowerBoundary = [_pageIndexBounds hasLowerBound] && _index == [_pageIndexBounds lowerBound];
+    BOOL onUpperBoundary = [_pageIndexBounds hasUpperBound] && _index == [_pageIndexBounds upperBound];
     
     [_leftView setHidden:[self bouncesAtBoundaries] && onLowerBoundary];
     [_rightView setHidden:[self bouncesAtBoundaries] && onUpperBoundary];
@@ -198,7 +198,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
         case PXInfiniteContentInternalNotMovingState: {
             if (_state == PXInfiniteContentInternalScrollingState ||
                 _state == PXInfiniteContentInternalFinishingTransitionState) {
-                BOOL onLowerBoundary = [_contentBounds hasLowerBound] && _index == [_contentBounds lowerBound];
+                BOOL onLowerBoundary = [_pageIndexBounds hasLowerBound] && _index == [_pageIndexBounds lowerBound];
                 const CGFloat centerThreshold = (!onLowerBoundary ? [self bounds].size.width : 0);
                 const BOOL isCenter = fabs([self contentOffset].x - centerThreshold) < 0.5;
                 const BOOL isLeft = !isCenter && [self contentOffset].x < centerThreshold;
@@ -223,7 +223,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
             }
             _state = state;
             
-            [self setContentBounds:_afterTransitionBounds];
+            [self setPageIndexBounds:_afterTransitionBounds];
             if (_hasAfterTransitionIndex) {
                 [self setIndex:_afterTransitionIndex notify:FALSE];
                 _hasAfterTransitionIndex = FALSE;
@@ -249,7 +249,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 
 - (void) animateChangeWithOffset:(int)offset {
     if (_state == PXInfiniteContentInternalNotMovingState) {
-        const int newIndex = [_contentBounds clampValue:_index + offset];
+        const int newIndex = [_pageIndexBounds clampValue:_index + offset];
         const int realOffset = newIndex - _index;
         if (realOffset == 0) {
             return;
