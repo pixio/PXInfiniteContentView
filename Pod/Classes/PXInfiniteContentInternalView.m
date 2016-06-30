@@ -165,18 +165,9 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     [self setContentSize:contentSize];
     
     const CGFloat xOffset = (onLowerBoundary ? -entireArea.size.width : 0);
-    CGRect leftArea;
-    CGRect centerArea;
-    CGRect rightArea;
-    leftArea = CGRectMake(xOffset, 0, entireArea.size.width, entireArea.size.height);
-    centerArea = CGRectMake(0, 0, entireArea.size.width, entireArea.size.height);
-    rightArea = CGRectMake(entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
-    if (onLowerBoundary) {
-    } else {
-        leftArea = CGRectMake(0, 0, entireArea.size.width, entireArea.size.height);
-        centerArea = CGRectMake(entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
-        rightArea = CGRectMake(2 * entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
-    }
+    CGRect leftArea = CGRectMake(xOffset, 0, entireArea.size.width, entireArea.size.height);
+    CGRect centerArea = CGRectMake(xOffset + entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
+    CGRect rightArea = CGRectMake(xOffset + 2 * entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
     
     if (_state == PXInfiniteContentInternalNotMovingState) {
         if (!onLowerBoundary) {
@@ -230,6 +221,9 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
             }
             [self notifyInternalDelegateOfTransitionToIndex:_index];
             
+            [self notifyInternalDelegateOfShowView:_leftView forIndex:_index-1];
+            [self notifyInternalDelegateOfShowView:_rightView forIndex:_index+1];
+            
             [self setNeedsLayout];
             break;
         }
@@ -275,10 +269,6 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     if (gestureRecognizer == [self panGestureRecognizer]) {
         CGPoint velocity = [[self panGestureRecognizer] velocityInView:self];
         BOOL allowed = _state == PXInfiniteContentInternalNotMovingState && fabs(velocity.x) > fabs(velocity.y);
-        if (allowed) {
-            [self notifyInternalDelegateOfShowView:_leftView forIndex:_index-1];
-            [self notifyInternalDelegateOfShowView:_rightView forIndex:_index+1];
-        }
         return allowed;
     }
     
