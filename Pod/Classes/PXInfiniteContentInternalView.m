@@ -172,11 +172,14 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     CGRect rightArea = CGRectMake(xOffset + 2 * entireArea.size.width, 0, entireArea.size.width, entireArea.size.height);
     
     if (_state == PXInfiniteContentInternalNotMovingState) {
-        if (!onLowerBoundary) {
-            const CGPoint desiredOffset = CGPointMake(entireArea.size.width, 0.0);
-            if (!CGPointEqualToPoint(desiredOffset, [self contentOffset])) {
-                [self setContentOffset:desiredOffset animated:FALSE];
-            }
+        CGPoint desiredOffset;
+        if (onLowerBoundary) {
+            desiredOffset = CGPointMake(0, 0.0);
+        } else {
+            desiredOffset = CGPointMake(entireArea.size.width, 0.0);
+        }
+        if (!CGPointEqualToPoint(desiredOffset, [self contentOffset])) {
+            [self setContentOffset:desiredOffset animated:FALSE];
         }
     }
     
