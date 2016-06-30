@@ -36,4 +36,6 @@
 
 - (void) animateChangeWithOffset:(int)offset;
 
+- (void)reloadData;
+
 @end

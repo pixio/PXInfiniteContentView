@@ -130,6 +130,11 @@
         [_delegate infiniteContentView:self willShowView:view forIndex:index];
 }
 
+- (void)reloadData
+{
+    [_scroll reloadData];
+}
+
 #pragma mark PXInfiniteContentInternalViewDelegate Methods
 - (void) internalInfiniteContentView:(PXInfiniteContentInternalView*)infiniteContentView transitionedToIndex:(int)index {
     [self notifyDelegateOfTransitionToIndex:index];

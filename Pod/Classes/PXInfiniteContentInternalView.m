@@ -105,7 +105,9 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
         _index = [_pageIndexBounds clampValue:index];
         if (_index != oldIndex && notify) {
             [self notifyInternalDelegateOfTransitionToIndex:_index];
+            [self notifyInternalDelegateOfShowView:_leftView forIndex:_index - 1];
             [self notifyInternalDelegateOfShowView:_centerView forIndex:_index];
+            [self notifyInternalDelegateOfShowView:_rightView forIndex:_index + 1];
         }
         [self setNeedsLayout];
         [self layoutIfNeeded];
@@ -262,6 +264,13 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
             [self setIndex:newIndex notify:FALSE];
         }
     }
+}
+
+- (void)reloadData
+{
+    [self notifyInternalDelegateOfShowView:_leftView forIndex:_index - 1];
+    [self notifyInternalDelegateOfShowView:_centerView forIndex:_index];
+    [self notifyInternalDelegateOfShowView:_rightView forIndex:_index + 1];
 }
 
 #pragma mark UIGestureRecognizerDelegate Methods

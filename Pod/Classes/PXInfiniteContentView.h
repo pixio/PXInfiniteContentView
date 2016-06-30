@@ -52,6 +52,14 @@
 @property (nonatomic) BOOL bouncesAtBoundaries;
 
 /**
+ *  Reload the center, left, and right content from the delegate.
+ *  
+ *  This view loads it's content when the delegate is set (initially) and when scrolling completes.
+ *  If the data set changes between scrolls, make sure to call reloadData to properly prepare the left and right views.
+ */
+- (void)reloadData;
+
+/**
  * Animates a change to the current index + offset.
  * No animation occurs if offset is 0.
  * Otherwise, the animation occurs like a normal transition in the direction of the offset, but the view that appears will be
