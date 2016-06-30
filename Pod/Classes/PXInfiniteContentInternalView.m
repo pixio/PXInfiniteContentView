@@ -107,6 +107,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
             [self notifyInternalDelegateOfTransitionToIndex:_index];
             [self notifyInternalDelegateOfShowView:_centerView forIndex:_index];
         }
+        [self setNeedsLayout];
+        [self layoutIfNeeded];
     } else {
         _hasAfterTransitionIndex = TRUE;
         _afterTransitionIndex = index;
@@ -118,6 +120,8 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     if (_state == PXInfiniteContentInternalNotMovingState) {
         _contentBounds = contentBounds;
         _index = [_contentBounds clampValue:_index];
+        [self setNeedsLayout];
+        [self layoutIfNeeded];
     }
     _afterTransitionBounds = _contentBounds;
 }
