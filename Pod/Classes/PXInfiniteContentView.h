@@ -39,6 +39,7 @@
 @property (nonatomic) id leftView;
 @property (nonatomic) id centerView;
 @property (nonatomic) id rightView;
+@property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 
 /** If the view is currently scrolling, the index change will not take effect until the transition is complete. */
 @property (nonatomic) int index;

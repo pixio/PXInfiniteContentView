@@ -109,6 +109,15 @@
     [_scroll setBouncesAtBoundaries:bounces];
 }
 
+- (BOOL) shouldBeRequiredToFailByGestureRecognizers
+{
+    return [_scroll shouldBeRequiredToFailByGestureRecognizers];
+}
+
+-(void) setShouldBeRequiredToFailByGestureRecognizers:(BOOL)shouldBeRequiredToFailByGestureRecognizers
+{
+    [_scroll setShouldBeRequiredToFailByGestureRecognizers:shouldBeRequiredToFailByGestureRecognizers];
+}
 #pragma mark UIView Methods
 - (void) layoutSubviews {
     [super layoutSubviews];

@@ -280,7 +280,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 - (BOOL) gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer {
     if (gestureRecognizer == [self panGestureRecognizer]) {
         CGPoint velocity = [[self panGestureRecognizer] velocityInView:self];
-        BOOL allowed = _state == PXInfiniteContentInternalNotMovingState && fabs(velocity.x) > fabs(velocity.y);
+        BOOL allowed = _state == PXInfiniteContentInternalNotMovingState && fabs(velocity.x) > fabs(velocity.y) * 3.0;
         return allowed;
     }
     
@@ -290,7 +290,10 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 - (BOOL) gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer*)otherGestureRecognizer {
     return gestureRecognizer == [self panGestureRecognizer];
 }
-
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+    return [self shouldBeRequiredToFailByGestureRecognizers];
+}
 #pragma mark UIScrollViewDelegate Methods
 - (void) scrollViewDidScroll:(UIScrollView*)scrollView {
     NSAssert([scrollView contentOffset].y == 0.0, @"Non-zero y offset in PXInfiniteContentView - this may be caused by not calling setting automaticallyAdjustsScrollViewInsets to FALSE in a containing view controller");
