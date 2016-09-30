@@ -28,7 +28,7 @@
 @property (nonatomic) id leftView;
 @property (nonatomic) id centerView;
 @property (nonatomic) id rightView;
-
+@property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 @property (nonatomic) int index;
 @property (nonatomic) PXPageIndexBounds* pageIndexBounds;
 
