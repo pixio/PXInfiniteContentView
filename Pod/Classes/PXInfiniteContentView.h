@@ -41,6 +41,11 @@
 @property (nonatomic) id rightView;
 @property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 
+/**
+ Paging Velocity Threshold setts the swipe velocity required to start the gesture recognizer. This helps in keeping it more like a paged scrollview.
+ */
+@property (nonatomic) CGFloat pagingVelocityThreshold;
+
 /** If the view is currently scrolling, the index change will not take effect until the transition is complete. */
 @property (nonatomic) int index;
 /**

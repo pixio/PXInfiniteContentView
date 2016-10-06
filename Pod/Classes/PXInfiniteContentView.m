@@ -118,6 +118,15 @@
 {
     [_scroll setShouldBeRequiredToFailByGestureRecognizers:shouldBeRequiredToFailByGestureRecognizers];
 }
+
+-(void)setPagingVelocityThreshold:(CGFloat)pagingVelocityThreshold
+{
+    [_scroll setPagingVelocityThreshold:pagingVelocityThreshold];
+}
+-(CGFloat)pagingVelocityThreshold
+{
+    return [_scroll pagingVelocityThreshold];
+}
 #pragma mark UIView Methods
 - (void) layoutSubviews {
     [super layoutSubviews];

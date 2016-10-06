@@ -56,6 +56,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
     [self setShowsVerticalScrollIndicator:FALSE];
     [self setPagingEnabled:TRUE];
     [self setDirectionalLockEnabled:TRUE];
+    [self setPagingVelocityThreshold:0.0];
     
     _leftView = leftView;
     _centerView = rightView;
@@ -280,7 +281,7 @@ typedef NS_ENUM(NSInteger, PXInfiniteContentInternalState) {
 - (BOOL) gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer {
     if (gestureRecognizer == [self panGestureRecognizer]) {
         CGPoint velocity = [[self panGestureRecognizer] velocityInView:self];
-        BOOL allowed = _state == PXInfiniteContentInternalNotMovingState && fabs(velocity.x) > fabs(velocity.y) * 3.0;
+        BOOL allowed = _state == PXInfiniteContentInternalNotMovingState && fabs(velocity.x) > fabs(velocity.y) * 3.0 && fabs(velocity.x) > _pagingVelocityThreshold;
         return allowed;
     }
     
