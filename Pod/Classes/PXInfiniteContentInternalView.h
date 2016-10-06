@@ -31,6 +31,7 @@
 @property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 @property (nonatomic) int index;
 @property (nonatomic) PXPageIndexBounds* pageIndexBounds;
+@property (nonatomic) CGFloat pagingVelocityThreshold;
 
 @property (nonatomic) BOOL bouncesAtBoundaries;
 
