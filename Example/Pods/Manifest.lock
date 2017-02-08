@@ -1,6 +1,6 @@
 PODS:
   - PXBelowStatusBarView (0.1.1)
-  - PXInfiniteContentView (0.3.0)
+  - PXInfiniteContentView (0.4.8)
   - PXMultiForwarder (0.3.1)
   - SPHStringContentFillView (0.2.2)
 
@@ -12,12 +12,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   PXInfiniteContentView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   PXBelowStatusBarView: d45cabd45adf68d5890d96a9cca255ef65563037
-  PXInfiniteContentView: f7f4600abfa5996fe4cc61ee76533aed08be9a82
+  PXInfiniteContentView: a2cfb9ee614990e4b00bdc459069530ca77141be
   PXMultiForwarder: 9f04af9d194896c382ef7f43d128794b4f06b519
   SPHStringContentFillView: 49593a3da4791f50ebbecc06b5d9a23f744c032c
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ad75dbe6a81aad784d3882cb8314d5e8b2a79264
+
+COCOAPODS: 1.2.0

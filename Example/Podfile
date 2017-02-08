@@ -1,14 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'PXInfiniteContentView_Example', :exclusive => true do
+target 'PXInfiniteContentView_Example' do
   pod "PXInfiniteContentView", :path => "../"
   pod 'SPHStringContentFillView'
   pod 'PXBelowStatusBarView'
   pod 'PXMultiForwarder'
 end
 
-target 'PXInfiniteContentView_Tests', :exclusive => true do
+target 'PXInfiniteContentView_Tests' do
   pod "PXInfiniteContentView", :path => "../"
 
   
