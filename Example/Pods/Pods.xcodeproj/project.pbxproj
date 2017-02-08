@@ -1081,6 +1081,7 @@
 			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXInfiniteContentView/Info.plist";
 				PRODUCT_NAME = PXInfiniteContentView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1093,6 +1094,7 @@
 			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/SPHStringContentFillView/Info.plist";
 				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1159,6 +1161,7 @@
 			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXMultiForwarder/Info.plist";
 				PRODUCT_NAME = PXMultiForwarder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1171,6 +1174,7 @@
 			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXInfiniteContentView/Info.plist";
 				PRODUCT_NAME = PXInfiniteContentView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1213,6 +1217,7 @@
 			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXBelowStatusBarView/Info.plist";
 				PRODUCT_NAME = PXBelowStatusBarView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1306,6 +1311,7 @@
 			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXMultiForwarder/Info.plist";
 				PRODUCT_NAME = PXMultiForwarder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1432,6 +1438,7 @@
 			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/SPHStringContentFillView/Info.plist";
 				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1444,6 +1451,7 @@
 			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/PXBelowStatusBarView/Info.plist";
 				PRODUCT_NAME = PXBelowStatusBarView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

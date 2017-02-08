@@ -8,8 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		31575113563E6065B233A6C4 /* Pods_PXInfiniteContentView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE2A859F7FC98101AA56E61 /* Pods_PXInfiniteContentView_Example.framework */; };
-		551891AA1C768D9600C54CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891A91C768D9600C54CA2 /* AppDelegate.swift */; };
-		551891AC1C768DA500C54CA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891AB1C768DA500C54CA2 /* ViewController.swift */; };
+		4B74B9DB1E49360900A7719E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B74B9DA1E49360900A7719E /* Assets.xcassets */; };
+		4B74B9E91E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74B9E81E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.swift */; };
+		4B74B9F11E49365200A7719E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		4B74B9F21E49365600A7719E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		4B74B9F31E49365900A7719E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		4B74B9F41E49365F00A7719E /* Pods_PXInfiniteContentView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE2A859F7FC98101AA56E61 /* Pods_PXInfiniteContentView_Example.framework */; };
+		4BFD94FE1E4BC892006BD0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891A91C768D9600C54CA2 /* AppDelegate.swift */; };
+		4BFD94FF1E4BC897006BD0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891AB1C768DA500C54CA2 /* ViewController.swift */; };
+		4BFD95011E4BC9AB006BD0EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD95001E4BC9AB006BD0EE /* Default-568h@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B74B9E51E49360900A7719E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B74B9D01E49360900A7719E;
+			remoteInfo = PXInfiniteContentView_SwiftExample;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -40,9 +54,16 @@
 		07353286BD4B4E67C1C85E73 /* PXInfiniteContentView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXInfiniteContentView.podspec; path = ../PXInfiniteContentView.podspec; sourceTree = "<group>"; };
 		08FE3B1EC73AD60E767F4722 /* Pods_PXInfiniteContentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBA348F939F6DB99E239FCE /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		551891A81C768D9600C54CA2 /* PXInfiniteContentView_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView_Example-Bridging-Header.h"; sourceTree = "<group>"; };
-		551891A91C768D9600C54CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		551891AB1C768DA500C54CA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B74B9D11E49360900A7719E /* PXInfiniteContentView_SwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXInfiniteContentView_SwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B74B9DA1E49360900A7719E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B74B9DF1E49360900A7719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B74B9E41E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInfiniteContentView_SwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B74B9E81E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXInfiniteContentView_SwiftExampleTests.swift; sourceTree = "<group>"; };
+		4B74B9EA1E49360900A7719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFD95001E4BC9AB006BD0EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		551891A81C768D9600C54CA2 /* PXInfiniteContentView_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PXInfiniteContentView_Example-Bridging-Header.h"; path = "../PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		551891A91C768D9600C54CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../PXInfiniteContentView/AppDelegate.swift; sourceTree = "<group>"; };
+		551891AB1C768DA500C54CA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../PXInfiniteContentView/ViewController.swift; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PXInfiniteContentView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXInfiniteContentView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,6 +92,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B74B9CE1E49360900A7719E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B74B9F11E49365200A7719E /* CoreGraphics.framework in Frameworks */,
+				4B74B9F21E49365600A7719E /* UIKit.framework in Frameworks */,
+				4B74B9F31E49365900A7719E /* Foundation.framework in Frameworks */,
+				4B74B9F41E49365F00A7719E /* Pods_PXInfiniteContentView_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B74B9E11E49360900A7719E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,22 +135,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		551891A71C768D4800C54CA2 /* Swift */ = {
+		4B74B9D21E49360900A7719E /* PXInfiniteContentView_SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
 				551891A91C768D9600C54CA2 /* AppDelegate.swift */,
 				551891AB1C768DA500C54CA2 /* ViewController.swift */,
 				551891A81C768D9600C54CA2 /* PXInfiniteContentView_Example-Bridging-Header.h */,
+				4B74B9DA1E49360900A7719E /* Assets.xcassets */,
+				4B74B9DF1E49360900A7719E /* Info.plist */,
 			);
-			name = Swift;
+			path = PXInfiniteContentView_SwiftExample;
+			sourceTree = "<group>";
+		};
+		4B74B9E71E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B74B9E81E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.swift */,
+				4B74B9EA1E49360900A7719E /* Info.plist */,
+			);
+			path = PXInfiniteContentView_SwiftExampleTests;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4BFD95001E4BC9AB006BD0EE /* Default-568h@2x.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PXInfiniteContentView */,
 				6003F5B5195388D20070C39A /* Tests */,
+				4B74B9D21E49360900A7719E /* PXInfiniteContentView_SwiftExample */,
+				4B74B9E71E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				7B0893565BCAB189C8EF0BEC /* Pods */,
@@ -123,6 +176,8 @@
 			children = (
 				6003F58A195388D20070C39A /* PXInfiniteContentView_Example.app */,
 				6003F5AE195388D20070C39A /* PXInfiniteContentView_Tests.xctest */,
+				4B74B9D11E49360900A7719E /* PXInfiniteContentView_SwiftExample.app */,
+				4B74B9E41E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +198,6 @@
 		6003F593195388D20070C39A /* Example for PXInfiniteContentView */ = {
 			isa = PBXGroup;
 			children = (
-				551891A71C768D4800C54CA2 /* Swift */,
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
@@ -209,6 +263,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B74B9D01E49360900A7719E /* PXInfiniteContentView_SwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B74B9EF1E49360900A7719E /* Build configuration list for PBXNativeTarget "PXInfiniteContentView_SwiftExample" */;
+			buildPhases = (
+				4B74B9CD1E49360900A7719E /* Sources */,
+				4B74B9CE1E49360900A7719E /* Frameworks */,
+				4B74B9CF1E49360900A7719E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXInfiniteContentView_SwiftExample;
+			productName = PXInfiniteContentView_SwiftExample;
+			productReference = 4B74B9D11E49360900A7719E /* PXInfiniteContentView_SwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B74B9E31E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B74B9F01E49360900A7719E /* Build configuration list for PBXNativeTarget "PXInfiniteContentView_SwiftExampleTests" */;
+			buildPhases = (
+				4B74B9E01E49360900A7719E /* Sources */,
+				4B74B9E11E49360900A7719E /* Frameworks */,
+				4B74B9E21E49360900A7719E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B74B9E61E49360900A7719E /* PBXTargetDependency */,
+			);
+			name = PXInfiniteContentView_SwiftExampleTests;
+			productName = PXInfiniteContentView_SwiftExampleTests;
+			productReference = 4B74B9E41E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6003F589195388D20070C39A /* PXInfiniteContentView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PXInfiniteContentView_Example" */;
@@ -257,10 +346,22 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PX;
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Spencer Phippen";
 				TargetAttributes = {
+					4B74B9D01E49360900A7719E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B74B9E31E49360900A7719E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B74B9D01E49360900A7719E;
+					};
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0820;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,11 +382,29 @@
 			targets = (
 				6003F589195388D20070C39A /* PXInfiniteContentView_Example */,
 				6003F5AD195388D20070C39A /* PXInfiniteContentView_Tests */,
+				4B74B9D01E49360900A7719E /* PXInfiniteContentView_SwiftExample */,
+				4B74B9E31E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B74B9CF1E49360900A7719E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B74B9DB1E49360900A7719E /* Assets.xcassets in Resources */,
+				4BFD95011E4BC9AB006BD0EE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B74B9E21E49360900A7719E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,12 +518,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B74B9CD1E49360900A7719E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFD94FF1E4BC897006BD0EE /* ViewController.swift in Sources */,
+				4BFD94FE1E4BC892006BD0EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B74B9E01E49360900A7719E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B74B9E91E49360900A7719E /* PXInfiniteContentView_SwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551891AC1C768DA500C54CA2 /* ViewController.swift in Sources */,
-				551891AA1C768D9600C54CA2 /* AppDelegate.swift in Sources */,
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -422,6 +556,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B74B9E61E49360900A7719E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B74B9D01E49360900A7719E /* PXInfiniteContentView_SwiftExample */;
+			targetProxy = 4B74B9E51E49360900A7719E /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* PXInfiniteContentView_Example */;
@@ -449,6 +588,110 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4B74B9EB1E49360900A7719E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXInfiniteContentView_SwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXInfiniteContentView-SwiftExample.PXInfiniteContentView-SwiftExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B74B9EC1E49360900A7719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXInfiniteContentView_SwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXInfiniteContentView-SwiftExample.PXInfiniteContentView-SwiftExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B74B9ED1E49360900A7719E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXInfiniteContentView_SwiftExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXInfiniteContentView-SwiftExample.PXInfiniteContentView-SwiftExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXInfiniteContentView_SwiftExample.app/PXInfiniteContentView_SwiftExample";
+			};
+			name = Debug;
+		};
+		4B74B9EE1E49360900A7719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXInfiniteContentView_SwiftExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXInfiniteContentView-SwiftExample.PXInfiniteContentView-SwiftExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXInfiniteContentView_SwiftExample.app/PXInfiniteContentView_SwiftExample";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -462,13 +705,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -481,9 +730,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -501,21 +752,29 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -533,9 +792,10 @@
 				INFOPLIST_FILE = "PXInfiniteContentView/PXInfiniteContentView-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -552,8 +812,9 @@
 				INFOPLIST_FILE = "PXInfiniteContentView/PXInfiniteContentView-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PXInfiniteContentView/PXInfiniteContentView_Example-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -575,6 +836,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXInfiniteContentView_Example.app/PXInfiniteContentView_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -594,6 +856,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXInfiniteContentView_Example.app/PXInfiniteContentView_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -603,6 +866,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B74B9EF1E49360900A7719E /* Build configuration list for PBXNativeTarget "PXInfiniteContentView_SwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B74B9EB1E49360900A7719E /* Debug */,
+				4B74B9EC1E49360900A7719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B74B9F01E49360900A7719E /* Build configuration list for PBXNativeTarget "PXInfiniteContentView_SwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B74B9ED1E49360900A7719E /* Debug */,
+				4B74B9EE1E49360900A7719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "PXInfiniteContentView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
