@@ -30,13 +30,13 @@ class ViewController: UIViewController, PXInfiniteContentViewDelegate {
     }
     
     var allViews: SPHStringContentFillView {
-        return (PXMultiForwarder(arrayOfObjects: [leftView, centerView, rightView]) as AnyObject) as! SPHStringContentFillView
+        return (PXMultiForwarder(arrayOf: [leftView, centerView, rightView]) as AnyObject) as! SPHStringContentFillView
     }
     
     override func loadView() {
         super.loadView()
         let belowStatusBarView: PXBelowStatusBarView = PXBelowStatusBarView()
-        belowStatusBarView.backgroundColor = UIColor.whiteColor()
+        belowStatusBarView.backgroundColor = UIColor.white
         
         let infiniteContentView: PXInfiniteContentView = PXInfiniteContentView(viewClass: SPHStringContentFillView.self)
         belowStatusBarView.containedView = infiniteContentView
@@ -46,14 +46,14 @@ class ViewController: UIViewController, PXInfiniteContentViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         infiniteContentView.delegate = self
-        allViews.backgroundColor = UIColor.whiteColor()
+        allViews.backgroundColor = UIColor.white
     }
     
-    func infiniteContentView(infiniteContentView: PXInfiniteContentView!, transitionedToIndex index: Int32) {
+    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView, transitionedTo index: Int32) {
         allViews.regenerate()
     }
     
-    func infiniteContentView(infiniteContentView: PXInfiniteContentView!, willShowView view: AnyObject!, forIndex index: Int32) {
+    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView, willShow view: UIView, for index: Int32) {
         (view as! SPHStringContentFillView).contentString = "Content +\(index)"
     }
 }

@@ -1,0 +1,6 @@
+framework module Pods_PXInfiniteContentView_SwiftExample {
+  umbrella header "Pods-PXInfiniteContentView_SwiftExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

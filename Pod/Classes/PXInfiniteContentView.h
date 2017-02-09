@@ -16,11 +16,11 @@
 /**
  * Called when a transition completes - the center view post-transition is at the given index.
  */
-- (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView transitionedToIndex:(int)index;
+- (void) infiniteContentView:(PXInfiniteContentView* _Nonnull)infiniteContentView transitionedToIndex:(int)index;
 /**
  * Called when a view is about to become visible for the given index (including partway through a still-occuring user-initiated scroll).
  */
-- (void) infiniteContentView:(PXInfiniteContentView*)infiniteContentView willShowView:(id)view forIndex:(int)index;
+- (void) infiniteContentView:(PXInfiniteContentView* _Nonnull)infiniteContentView willShowView:(UIView* _Nonnull)view forIndex:(int)index;
 @end
 
 /**
@@ -30,15 +30,15 @@
  */
 @interface PXInfiniteContentView : UIView
 
-- (instancetype) init __attribute__((unavailable("Use one of the other init methods")));
-- (instancetype) initWithFrame:(CGRect)frame __attribute__((unavailable("Use one of the other init methods")));
-- (instancetype) initWithViewClass:(Class)class;
+- (instancetype _Nonnull) init __attribute__((unavailable("Use one of the other init methods")));
+- (instancetype _Nonnull) initWithFrame:(CGRect)frame __attribute__((unavailable("Use one of the other init methods")));
+- (instancetype _Nonnull) initWithViewClass:(Class _Nonnull)class;
 
-@property (nonatomic, weak) id<PXInfiniteContentViewDelegate> delegate;
+@property (nonatomic, weak, nullable) id<PXInfiniteContentViewDelegate> delegate;
 
-@property (nonatomic) id leftView;
-@property (nonatomic) id centerView;
-@property (nonatomic) id rightView;
+@property (nonatomic, nonnull) UIView* leftView;
+@property (nonatomic, nonnull) UIView* centerView;
+@property (nonatomic, nonnull) UIView* rightView;
 @property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 
 /**
@@ -52,7 +52,7 @@
  * If the view is currently scrolling, the index change will not take effect until the transition is complete.
  * The index property will be clamped to these bounds when the change takes effect (whether immediately or after the current transition).
  */
-@property (nonatomic) PXPageIndexBounds* pageIndexBounds;
+@property (nonatomic, nonnull) PXPageIndexBounds* pageIndexBounds;
 
 /** If TRUE, the view will "bounce" (like the UIScrollView bounces property) on the left/right boundaries. Defaults to FALSE. */
 @property (nonatomic) BOOL bouncesAtBoundaries;

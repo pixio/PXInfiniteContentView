@@ -7,701 +7,741 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0952468058BDEE235EBBA4D3D3F47C4F /* PXInfiniteContentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C32594099B1F9DE872E2EC248384A06 /* PXInfiniteContentInternalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */; };
-		10D8138E10BB01B92F4093DB7ED79706 /* PXBelowStatusBarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		159BFF18D23A06704AB39E45D6A70402 /* PXInfiniteContentView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */; };
-		24573DB608BB0EFAD5062F2B760F1970 /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */; };
-		2F1065AAA7D90BF763439F7E9575C257 /* PXBelowStatusBarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */; };
-		2FE7BA5D12183ADB97347E4BF7FF94AF /* PXInfiniteContentInternalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35A9417269ADEDE2C27EA0E504DF1E0A /* PXMultiForwarder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */; };
-		3671B777ABB7EB563E6A92F072988FB4 /* PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */; };
-		407D4DB9E101BB858BEFE226B2D860AE /* PXInfiniteContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */; };
-		475DA3BF46D69DC37CFA17ABCDF1F0D3 /* PXMultiForwarder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A8028B823FBD477EA3E51A1B1ABE19 /* PXMultiForwarder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */; };
-		51F9836EE023A4123A990F1584A8BB89 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D0938686108C22175CCEB9245D9771B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		694CBB09A20EB82850CA0B0B031899EF /* PXPageIndexBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73AE4A65E5E03C54E3179F6BCD24CBBE /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */; };
-		7533E91B5ED051298D005FAE4DE686BE /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */; };
-		793FA6009907BA78641822391321532F /* PXPageIndexBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */; };
-		7BD279BB214BE5421BC9934EB73B1281 /* UIViewController+PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */; };
-		820C3FC7604460EBB4DD0E476A88727C /* PXMultiForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C72D351BF4C0E89040742027D27862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		94971718231B5844436F1670FF777639 /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96E76145DDFD874CF358A6F7BFAB756E /* PXInfiniteContentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */; };
-		A6AEF01AB06E93623361FBE213872755 /* PXMultiForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AD6C227A383F0DDCAA2ECB7E7675AD82 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */; };
-		AE501BC4F9831E2EB81F2814293C1A69 /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B582DBAA420CE5E83B887C0610F309FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C2126148E056CF0492C7C1F56821D2ED /* PXInfiniteContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC6337FC01E010B4564730C789151B95 /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */; };
-		DEC94C8381893E1AC2DBA3F433A7B73D /* PXBelowStatusBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */; };
-		E112D657023A852869C060725BF0E9E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F78DEB1A41645DC79539EA504FCDFC54 /* PXBelowStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA7A7C95DEBBC4867FF69E041CAEC2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		FAB67FA58C8111E96B703C2988BA9845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		FEA5C717DB84984944F69A6C50E4627A /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FB1692CD1CF819480D6DB9B60F987D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0353A32EC9B9B51929E1127C79546147 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E29340E894850DFC1B334964FA3CE /* Pods-PXInfiniteContentView_Example-dummy.m */; };
+		1495E1075ADE902E91D286B8CC0D1C15 /* Pods-PXInfiniteContentView_SwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9BE06637780B2969995431A3462D3C /* Pods-PXInfiniteContentView_SwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A59CA8306B4D86873F1D50DDB74658 /* PXInfiniteContentView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC18ACB4281E33A0B4CB5F613217A8D /* PXInfiniteContentView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		197563F6933A095FE0B4F94606810C48 /* PXInfiniteContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A05449FDD6EE9D6E23DBB0F5E0D6A25A /* PXInfiniteContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB94E9EB93FF4F08FBB6DE20B6E6C19 /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F287E802A65FD5B031BA2CE2B33A619 /* Pods-PXInfiniteContentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EEF78F0D094297AA9A1FB3D7300863E /* SPHStringContentFillView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E85167D42B9B3850FC2B851FD7276205 /* SPHStringContentFillView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2383BD12C299187B3093F16253ACF602 /* PXMultiForwarder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 233628466F882BCD95100000BE933138 /* PXMultiForwarder.bundle */; };
+		2567316DD9ABB8E7556AC63E01D6E09A /* PXMultiForwarder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DEC159A2C39A96A139E9CDD517E76 /* PXMultiForwarder-dummy.m */; };
+		27DD200495FA0B252EFCAD50C3B3B69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		373CFAB7DAA3A26208A4F93EB0D5371E /* PXInfiniteContentInternalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC10996B0C8D59D201C2FEC1967F6 /* PXInfiniteContentInternalView.m */; };
+		3885AFE81C7E16DECEADA1D9F8584082 /* PXInfiniteContentInternalView.h in Headers */ = {isa = PBXBuildFile; fileRef = D735F3473C5184DA60EFF1EE0D42DA29 /* PXInfiniteContentInternalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39F06F076F68214292EB3104264C5655 /* SPHStringContentFillView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A13D8CF4468CFE6F2F97227D273133A /* SPHStringContentFillView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9D05B6A04868322D20654710388AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		47A38588B9E08C80B10DC11EE418DBAA /* SPHStringContentFillView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2D6857922FDACA4E3547A325DDB8E52 /* SPHStringContentFillView.mm */; };
+		4C88F995BC5DFD13156445D8A4D01117 /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585A7DE145FCD78024463B376949F25 /* Pods-PXInfiniteContentView_Tests-dummy.m */; };
+		4F6F588765C603D38815724245197D13 /* PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C07EE2DFC13D475E258F6EB7979856 /* PXBelowStatusBarView.m */; };
+		520E32DA9911D85746160F9E76A4A17E /* PXInfiniteContentView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E8AE9666953876E0942D9F800E5E7 /* PXInfiniteContentView-iOS8.0-dummy.m */; };
+		536A17BA3F54DB14F87A6F0F88246694 /* PXInfiniteContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A05449FDD6EE9D6E23DBB0F5E0D6A25A /* PXInfiniteContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5565A3F54665D8B32D9EA04FF3081844 /* PXBelowStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2AEB07225FCE07ABC68261E41A3561 /* PXBelowStatusBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55F653D1938D73030D0FCFD9A7CC6F46 /* PXPageIndexBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A23B0309622A46F39E793F46736409 /* PXPageIndexBounds.m */; };
+		5F579ED639C45EBE03C9B1285C1B8F4F /* PXMultiForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA531BC0F7E35C1EA66E102FA335BA79 /* PXMultiForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B470E4E41791FB8448F29AA53C3E995 /* PXInfiniteContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A066DF3DD1E92EC7F88FB8F0991906BA /* PXInfiniteContentView.m */; };
+		6F514AAAFF2F0371EA971A2F39B6FA0F /* PXInfiniteContentView-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84155FB763A254F6942939282BF05EDF /* PXInfiniteContentView-iOS10.2-dummy.m */; };
+		70C8D6929F8DBE465169717520B98978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		748E645639CBC57484C3C16F0091DC42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7DF0475B09BC24A5C80BBAD6C68AF2A6 /* PXBelowStatusBarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18ACFADA131E5AC5B308B90CEB9DC2 /* PXBelowStatusBarView-dummy.m */; };
+		8111C9692605E191985CAE22A1D3B0E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		825BD8E148F4D6F6F81510C9F97BD1DB /* PXPageIndexBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E11E4B45DC2F9ABC12062B54261580 /* PXPageIndexBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825F42B418E047959182C9E5CE6CDF06 /* PXInfiniteContentInternalView.h in Headers */ = {isa = PBXBuildFile; fileRef = D735F3473C5184DA60EFF1EE0D42DA29 /* PXInfiniteContentInternalView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8519E979818133C9E41BF6DC08022D61 /* PXInfiniteContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A066DF3DD1E92EC7F88FB8F0991906BA /* PXInfiniteContentView.m */; };
+		855D682124CD4280BB517F4F1BD66C14 /* SPHStringContentFillView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 785AAF99B6E3EDE470FAEE00B2BB6949 /* SPHStringContentFillView.bundle */; };
+		85AA26CAF68B6771B03208FBD307D7A7 /* PXPageIndexBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A23B0309622A46F39E793F46736409 /* PXPageIndexBounds.m */; };
+		89A3AB8E0C64E2DA3D5D9006E8BF7E0E /* SPHStringContentFillView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7696D8239D9BF47E7C6A87B97D9624AE /* SPHStringContentFillView-dummy.m */; };
+		8A458FCDFDBF0F5FFC645309074D6E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8C2784F7D8853AE78F438198F7316C2F /* PXPageIndexBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E11E4B45DC2F9ABC12062B54261580 /* PXPageIndexBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91753C21F720F499146EE46985FAF9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		91D42F3AC89FF138EDE84E3C2886FE64 /* Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC6E9E8DC8515100263C89398A030E /* Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m */; };
+		91F961FE89559EBDAF67B23861CA1D33 /* PXMultiForwarder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29425D1D2CE80322E4F715B6EB97A21A /* PXMultiForwarder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2F145EB7DB1775370FF24EE156D777 /* PXInfiniteContentView-iOS10.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 327D2269762FF2AC7882DD9DF976E40B /* PXInfiniteContentView-iOS10.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1FCB101552A670417ADA6BB963AB53 /* PXBelowStatusBarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 766E58810556199FB864AA0624011A4E /* PXBelowStatusBarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C385022B9A68F200CC81BDCDDAE7785C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CF5F8F2D03FBBF5B34749D176D66D868 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 238947F7E0C2B4CF822F5C26830CDE7B /* Pods-PXInfiniteContentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B1E8893BB7ACF9D7681063C73C3F75 /* PXBelowStatusBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78C65784C2D5DEB84056ED075FE2165E /* PXBelowStatusBarView.bundle */; };
+		F1BA3872755DA6E369B1517E53513C2B /* UIViewController+PXBelowStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A35AA02A59C034AF0D9B1E02A53608 /* UIViewController+PXBelowStatusBarView.m */; };
+		F2D2F05A4301C12E942F7FA301D6BCE8 /* Pods-PXInfiniteContentView_SwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D84942E96DB1A682AD4B277C142CEA /* Pods-PXInfiniteContentView_SwiftExample-dummy.m */; };
+		F2D93A03E7CAEB03F2C3F7D5541592C9 /* PXMultiForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 51609583FC5C4C03F99953CAB21726CB /* PXMultiForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B42399144A0C6E2ACDD4CCEA4D6B92 /* PXInfiniteContentInternalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC10996B0C8D59D201C2FEC1967F6 /* PXInfiniteContentInternalView.m */; };
+		FA730FC8CDC7E0711C01E9A14319E613 /* Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B529632136F7B971FABF61FDA8AA9A8 /* Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08223BE4CE88AE9016BE1A0FA8589E46 /* PBXContainerItemProxy */ = {
+		02374C4BDDAB5C685EC3CC702693C0B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A53211B9BBDE9F9E65A04305C4094F26;
-			remoteInfo = "SPHStringContentFillView-SPHStringContentFillView";
-		};
-		1C4423A5B0A5B5F8BC10C866CD29BCD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFBD222675837D14CE0A1335215B4323;
-			remoteInfo = "PXMultiForwarder-PXMultiForwarder";
-		};
-		4EB2CA68F4906EEF949DA3EE2D91CEB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4924123EE0A73C74FE2FB21E2980C32F;
-			remoteInfo = PXMultiForwarder;
-		};
-		9740886E3C2D68E641553CF19BCFB3EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2741FC5583FDBB5EB6F5191749F2DFC;
+			remoteGlobalIDString = 136966959DF1B176CD5709FBB8509A00;
 			remoteInfo = "PXBelowStatusBarView-PXBelowStatusBarView";
 		};
-		975C6C8CCDDD54F8D4CA7A182D8B0CE0 /* PBXContainerItemProxy */ = {
+		1E081254FBB19A22D4E9546F7DAEB937 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C66C003B19E31E35A7EA85D093133BB3;
-			remoteInfo = SPHStringContentFillView;
+			remoteGlobalIDString = 61ABC1A9C6B2EEF7BB8FC444C0DC4CFC;
+			remoteInfo = PXMultiForwarder;
 		};
-		9A87BF83C808FF9E8F19F484FBAED198 /* PBXContainerItemProxy */ = {
+		332DF19E29D9051CA9C9A829A51F7A8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DA89ED11E8CCD25BB284221AF9C9D51;
+			remoteGlobalIDString = C1649FF860C84A1DD3775286423B5DEA;
 			remoteInfo = PXBelowStatusBarView;
 		};
-		9D2FA3A26980531FDAD7E6EE0B4392D8 /* PBXContainerItemProxy */ = {
+		5879803D2EB7995ABDE27F7DB784F75D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F6D945AB840231AD5D637D497D3D50BF;
-			remoteInfo = PXInfiniteContentView;
+			remoteGlobalIDString = FDEE5B4D18B03D849C8BD7D32D15127A;
+			remoteInfo = "PXInfiniteContentView-iOS8.0";
 		};
-		BC480897E3BC33BB2AFC67E173AC6EB6 /* PBXContainerItemProxy */ = {
+		6521D56B1BA97D9DF24323D268FF553C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18270FEA44513E2DA5FFAFE42FCCA59A;
-			remoteInfo = "PXInfiniteContentView-PXInfiniteContentView";
+			remoteGlobalIDString = 14B6DE3DB75C3B5BE44855023DC85545;
+			remoteInfo = "SPHStringContentFillView-SPHStringContentFillView";
 		};
-		E85DB572BE4B6F6F8CCB0535A1F3D560 /* PBXContainerItemProxy */ = {
+		773CBB9AB5544526CD32E745FBD2EA68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F6D945AB840231AD5D637D497D3D50BF;
-			remoteInfo = PXInfiniteContentView;
+			remoteGlobalIDString = 38C6E0C5AF33273BD306FA72FE3C22FB;
+			remoteInfo = SPHStringContentFillView;
+		};
+		A480F30DE3F3120AE43873E449B5C0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C6E0C5AF33273BD306FA72FE3C22FB;
+			remoteInfo = SPHStringContentFillView;
+		};
+		C16D6D8BBA73F327B797099CB31636AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ABC1A9C6B2EEF7BB8FC444C0DC4CFC;
+			remoteInfo = PXMultiForwarder;
+		};
+		D357A2C71C89D51B99BD0121318CFD7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEE5B4D18B03D849C8BD7D32D15127A;
+			remoteInfo = "PXInfiniteContentView-iOS8.0";
+		};
+		D6861791300A47FB6B45CB29D4B15980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEE5B4D18B03D849C8BD7D32D15127A;
+			remoteInfo = "PXInfiniteContentView-iOS8.0";
+		};
+		DC70C83F367E78BA69136821DF3D62DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48E0BE6105DE9E7313C40AEE73DBCE4;
+			remoteInfo = "PXInfiniteContentView-iOS10.2";
+		};
+		E4CA1E020AF6ADC4B4197E9E4D154BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1649FF860C84A1DD3775286423B5DEA;
+			remoteInfo = PXBelowStatusBarView;
+		};
+		E865DEC54F390F3777B24AF5B775DA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58847F60EEB0E57D90F4F1144F14916;
+			remoteInfo = "PXMultiForwarder-PXMultiForwarder";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXInfiniteContentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInfiniteContentView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXBelowStatusBarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXMultiForwarder.m; path = Pod/Classes/PXMultiForwarder.m; sourceTree = "<group>"; };
-		29B2E6E7C16E6A43394F2276339B9B90 /* PXBelowStatusBarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXBelowStatusBarView.modulemap; sourceTree = "<group>"; };
-		2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPageIndexBounds.m; sourceTree = "<group>"; };
-		2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
-		34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Example-umbrella.h"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FF735222408D9F4ACC6E255131C7933 /* PXBelowStatusBarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-prefix.pch"; sourceTree = "<group>"; };
-		433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXMultiForwarder-dummy.m"; sourceTree = "<group>"; };
-		50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBelowStatusBarView.h; path = Pod/Classes/PXBelowStatusBarView.h; sourceTree = "<group>"; };
-		5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentInternalView.h; sourceTree = "<group>"; };
-		612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
-		64628F349B92F9D113DE228311DD0051 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		664352B92B0A1341917A9D2D1E1AC0A1 /* PXMultiForwarder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXMultiForwarder.modulemap; sourceTree = "<group>"; };
-		6B764F05FB07E991182E02A55F6A4FED /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72B9E88F822817FDD88CC3213CDA0A5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Example-dummy.m"; sourceTree = "<group>"; };
-		760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMultiForwarder.h; path = Pod/Classes/PXMultiForwarder.h; sourceTree = "<group>"; };
-		7AEB80669621BE4079F384919967D94F /* PXInfiniteContentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-prefix.pch"; sourceTree = "<group>"; };
-		7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPHStringContentFillView.h; path = Pod/Classes/SPHStringContentFillView.h; sourceTree = "<group>"; };
-		87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-umbrella.h"; sourceTree = "<group>"; };
-		8AADCF9165D38BE0DBED66B11D7C9374 /* SPHStringContentFillView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-prefix.pch"; sourceTree = "<group>"; };
-		9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Tests-dummy.m"; sourceTree = "<group>"; };
-		91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9EF2ED9CBAB248E64C2B4393626A4981 /* SPHStringContentFillView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPHStringContentFillView.modulemap; sourceTree = "<group>"; };
-		A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-umbrella.h"; sourceTree = "<group>"; };
-		A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXMultiForwarder.xcconfig; sourceTree = "<group>"; };
-		A39FF6A2B223BC18BF7F2019E9AF2503 /* Pods-PXInfiniteContentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Tests.modulemap"; sourceTree = "<group>"; };
-		A5FDB1483D93E9742383FAEE63FCBF1B /* Pods-PXInfiniteContentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD73AC5CC329B4901C442A66F2EFFF5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXBelowStatusBarView.m; path = Pod/Classes/PXBelowStatusBarView.m; sourceTree = "<group>"; };
-		B1CB7768ECAE8DA4389B6B6D264326CE /* PXInfiniteContentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXInfiniteContentView.modulemap; sourceTree = "<group>"; };
-		B1FCAFAB5B247A513945700CE2E2DF90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentView.m; sourceTree = "<group>"; };
-		B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentInternalView.m; sourceTree = "<group>"; };
-		B83DCF6E1682F6566AC5EF3EE6D199A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8BB7BC9C7C3E4C5A354BC0B76A9D860 /* Pods-PXInfiniteContentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-resources.sh"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE635B860179E93E46DA20709A37794F /* Pods-PXInfiniteContentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PXBelowStatusBarView.m"; path = "Pod/Classes/UIViewController+PXBelowStatusBarView.m"; sourceTree = "<group>"; };
-		C643C06826F8A1EB5C7CF7233EAAEDE8 /* Pods-PXInfiniteContentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SPHStringContentFillView.mm; path = Pod/Classes/SPHStringContentFillView.mm; sourceTree = "<group>"; };
-		CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXMultiForwarder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
-		CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXMultiForwarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentView.h; sourceTree = "<group>"; };
-		D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-umbrella.h"; sourceTree = "<group>"; };
-		DAD9113257E0E056DA58FFA5B6715EC9 /* PXMultiForwarder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-prefix.pch"; sourceTree = "<group>"; };
-		E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXBelowStatusBarView-dummy.m"; sourceTree = "<group>"; };
-		E248E1B4300C8C3942B4D7EC9E84316A /* Pods-PXInfiniteContentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXBelowStatusBarView.xcconfig; sourceTree = "<group>"; };
-		E77B51AC27B33714B2CDFD9E03666F39 /* Pods-PXInfiniteContentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-resources.sh"; sourceTree = "<group>"; };
-		EE71FD5035B03C6D6AB8CAA7AD12A88D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF41208A957FDD331C147B0E8BB8B5A2 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXInfiniteContentView-dummy.m"; sourceTree = "<group>"; };
-		F615EEDB24CAE6016DF3CEA6D6D09ACA /* Pods-PXInfiniteContentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Example.modulemap"; sourceTree = "<group>"; };
-		F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPageIndexBounds.h; sourceTree = "<group>"; };
-		FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXBelowStatusBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXInfiniteContentView.xcconfig; sourceTree = "<group>"; };
+		125F74B55FAF8CA4AF2FAF58DDD12286 /* SPHStringContentFillView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-prefix.pch"; sourceTree = "<group>"; };
+		130DDCC46F29C32F85EDD95BE862449E /* PXMultiForwarder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXMultiForwarder.modulemap; sourceTree = "<group>"; };
+		132E6EC13E1D6D6040B4C3393296E88E /* PXInfiniteContentView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXInfiniteContentView-iOS8.0-prefix.pch"; path = "../PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		1450B20315C53811165B71A42420A4D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A35AA02A59C034AF0D9B1E02A53608 /* UIViewController+PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PXBelowStatusBarView.m"; path = "Pod/Classes/UIViewController+PXBelowStatusBarView.m"; sourceTree = "<group>"; };
+		1CC882B5FC822DB0E76F638D5614289C /* Pods-PXInfiniteContentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F287E802A65FD5B031BA2CE2B33A619 /* Pods-PXInfiniteContentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		233628466F882BCD95100000BE933138 /* PXMultiForwarder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXMultiForwarder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		238947F7E0C2B4CF822F5C26830CDE7B /* Pods-PXInfiniteContentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2585A7DE145FCD78024463B376949F25 /* Pods-PXInfiniteContentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Tests-dummy.m"; sourceTree = "<group>"; };
+		29425D1D2CE80322E4F715B6EB97A21A /* PXMultiForwarder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-umbrella.h"; sourceTree = "<group>"; };
+		3081B9A3B3E3EABB2014AE8261106FAE /* Pods-PXInfiniteContentView_SwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_SwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		327D2269762FF2AC7882DD9DF976E40B /* PXInfiniteContentView-iOS10.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-iOS10.2-umbrella.h"; sourceTree = "<group>"; };
+		3472F816850DDB24EAC1A2C1BAA82645 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		353F916D7F3E529AFCA53B60C6C8A6EB /* SPHStringContentFillView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPHStringContentFillView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9BE06637780B2969995431A3462D3C /* Pods-PXInfiniteContentView_SwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_SwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		3ABE3DB163558B2C574E853F219973E4 /* Pods-PXInfiniteContentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3D7E8AE9666953876E0942D9F800E5E7 /* PXInfiniteContentView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PXInfiniteContentView-iOS8.0-dummy.m"; path = "../PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		3FB8D338BBCBD8AD0190DDF8BAD7ED47 /* Pods_PXInfiniteContentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40671BA0D8F6CACFC3B3B3A41869E4CA /* Pods-PXInfiniteContentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4255A7BBE5DCBD06DD2642827E8E563B /* Pods-PXInfiniteContentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Example.modulemap"; sourceTree = "<group>"; };
+		44D84942E96DB1A682AD4B277C142CEA /* Pods-PXInfiniteContentView_SwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_SwiftExample-dummy.m"; sourceTree = "<group>"; };
+		45FBA9BFFF9D2ABF62A82A2F77F2F252 /* Pods-PXInfiniteContentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Example-resources.sh"; sourceTree = "<group>"; };
+		4B754686E9BEE7004FC2A4A148580DDC /* Pods-PXInfiniteContentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E2AEB07225FCE07ABC68261E41A3561 /* PXBelowStatusBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBelowStatusBarView.h; path = Pod/Classes/PXBelowStatusBarView.h; sourceTree = "<group>"; };
+		513E29340E894850DFC1B334964FA3CE /* Pods-PXInfiniteContentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_Example-dummy.m"; sourceTree = "<group>"; };
+		51609583FC5C4C03F99953CAB21726CB /* PXMultiForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMultiForwarder.h; path = Pod/Classes/PXMultiForwarder.h; sourceTree = "<group>"; };
+		523E49F12E5E0512F383CAB825391D3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DC6E9E8DC8515100263C89398A030E /* Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m"; sourceTree = "<group>"; };
+		5E1BA2DCC3722A34C3D88CA2BA6CE884 /* PXBelowStatusBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXBelowStatusBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAF0E5CB14E87A138F6C4D0EB4A1241 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BAFC012DD8A491330224DF768635F /* PXBelowStatusBarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-prefix.pch"; sourceTree = "<group>"; };
+		6359D317F9386B620911AE14814A0477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A03EF249DDFC1DCF6378428DDE68EF /* Pods_PXInfiniteContentView_SwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_SwiftExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5E93CEF820660EEAE4CD8F6ED64FDF /* Pods-PXInfiniteContentView_SwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_SwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		6BA5903365DC018AF7A67425C270F485 /* Pods-PXInfiniteContentView_SwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_SwiftExample-resources.sh"; sourceTree = "<group>"; };
+		6FA6CFBE46F868046CF5BE8AF97AFDCD /* Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70CA2C3248A2823DBD82832F434FC862 /* ResourceBundle-SPHStringContentFillView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SPHStringContentFillView-Info.plist"; sourceTree = "<group>"; };
+		71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPHStringContentFillView.xcconfig; sourceTree = "<group>"; };
+		736358F9FE66CA5EA46812CACBABDD3A /* Pods-PXInfiniteContentView_SwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_SwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		746DEC159A2C39A96A139E9CDD517E76 /* PXMultiForwarder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXMultiForwarder-dummy.m"; sourceTree = "<group>"; };
+		748F6C19E43CD7B8CB0B4A3E9B4CE6F6 /* Pods-PXInfiniteContentView_SwiftExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_SwiftExampleTests-resources.sh"; sourceTree = "<group>"; };
+		749647AD908657BA53E5B8B61DBEAFA8 /* Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		766E58810556199FB864AA0624011A4E /* PXBelowStatusBarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXBelowStatusBarView-umbrella.h"; sourceTree = "<group>"; };
+		7696D8239D9BF47E7C6A87B97D9624AE /* SPHStringContentFillView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPHStringContentFillView-dummy.m"; sourceTree = "<group>"; };
+		785AAF99B6E3EDE470FAEE00B2BB6949 /* SPHStringContentFillView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHStringContentFillView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C65784C2D5DEB84056ED075FE2165E /* PXBelowStatusBarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXBelowStatusBarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		816A47735A5586F4EF54EDD81DB7486E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../PXInfiniteContentView-iOS8.0/Info.plist"; sourceTree = "<group>"; };
+		820415B38623E64225A4FA7934180DB2 /* Pods-PXInfiniteContentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83A1E6DE5845D06608572962F66E4C77 /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInfiniteContentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXMultiForwarder.xcconfig; sourceTree = "<group>"; };
+		84155FB763A254F6942939282BF05EDF /* PXInfiniteContentView-iOS10.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXInfiniteContentView-iOS10.2-dummy.m"; sourceTree = "<group>"; };
+		87A0EF5FE8ECEAFF3F9C31347A6F3A57 /* PXMultiForwarder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMultiForwarder-prefix.pch"; sourceTree = "<group>"; };
+		89F863A8A9C08B0AC7A63ABA800F10B4 /* Pods-PXInfiniteContentView_SwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_SwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8A13D8CF4468CFE6F2F97227D273133A /* SPHStringContentFillView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPHStringContentFillView.h; path = Pod/Classes/SPHStringContentFillView.h; sourceTree = "<group>"; };
+		8BFDCDE5F5BC7C4994B83968856699A6 /* Pods-PXInfiniteContentView_SwiftExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_SwiftExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		8D2FA8138A00C18474D28F20EC31C897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912D3BD8AB58A19CACC00A8802CBBAD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9470D22B1B40927ECD072FB98B067130 /* Pods-PXInfiniteContentView_SwiftExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_SwiftExampleTests.modulemap"; sourceTree = "<group>"; };
+		9ADF0EE90915942EB15FCA76F534FE84 /* Pods_PXInfiniteContentView_SwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_SwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B529632136F7B971FABF61FDA8AA9A8 /* Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		9C9EC10996B0C8D59D201C2FEC1967F6 /* PXInfiniteContentInternalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentInternalView.m; sourceTree = "<group>"; };
+		9CC94C6D721141B34850B32D8F57CC4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05449FDD6EE9D6E23DBB0F5E0D6A25A /* PXInfiniteContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentView.h; sourceTree = "<group>"; };
+		A066DF3DD1E92EC7F88FB8F0991906BA /* PXInfiniteContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInfiniteContentView.m; sourceTree = "<group>"; };
+		A18E4FBC5E1CE22E03D3A445F64E5CC2 /* Pods-PXInfiniteContentView_SwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_SwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		A3DBEFA1DC8BB00FE14DCB04488E258B /* Pods-PXInfiniteContentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInfiniteContentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A9ABF14C20CDAC5B4317149166001E63 /* Pods-PXInfiniteContentView_SwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_SwiftExample.modulemap"; sourceTree = "<group>"; };
+		AAC18ACB4281E33A0B4CB5F613217A8D /* PXInfiniteContentView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXInfiniteContentView-iOS8.0-umbrella.h"; path = "../PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		AE06060C2E998CFFFCCE8D8C212FCF0F /* Pods_PXInfiniteContentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXInfiniteContentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1533BCA68FAAA75C4C4DEA142B1BFB6 /* PXMultiForwarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXMultiForwarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B299DE0A51A6851C1CA70523C24E9F0C /* Pods-PXInfiniteContentView_SwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_SwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A23B0309622A46F39E793F46736409 /* PXPageIndexBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPageIndexBounds.m; sourceTree = "<group>"; };
+		B9B3C0484258CBA2ABBBE14C1C0991B8 /* PXInfiniteContentView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PXInfiniteContentView-iOS8.0.xcconfig"; path = "../PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		BAC799910E44E274DDC942F87817C5A3 /* PXInfiniteContentView-iOS10.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXInfiniteContentView-iOS10.2-prefix.pch"; sourceTree = "<group>"; };
+		BC2D145CC5468EB07260D7C614B4BABE /* Pods-PXInfiniteContentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C3E11E4B45DC2F9ABC12062B54261580 /* PXPageIndexBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPageIndexBounds.h; sourceTree = "<group>"; };
+		C58D154E6E07CB6FA23E6A4302DFA75B /* ResourceBundle-PXMultiForwarder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXMultiForwarder-Info.plist"; sourceTree = "<group>"; };
+		C649D79ECA1E7A74D0D6C8E1E50CF167 /* Pods-PXInfiniteContentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXInfiniteContentView_Tests.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCF4290C96039980C3892E3E6865B84A /* PXBelowStatusBarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXBelowStatusBarView.modulemap; sourceTree = "<group>"; };
+		D16E649B1AA543E0F9F52D63AEDBA5ED /* SPHStringContentFillView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SPHStringContentFillView.modulemap; sourceTree = "<group>"; };
+		D735F3473C5184DA60EFF1EE0D42DA29 /* PXInfiniteContentInternalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInfiniteContentInternalView.h; sourceTree = "<group>"; };
+		D920A07621180393E75E4A411A61FAD1 /* PXInfiniteContentView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "PXInfiniteContentView-iOS8.0.modulemap"; path = "../PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		DA531BC0F7E35C1EA66E102FA335BA79 /* PXMultiForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXMultiForwarder.m; path = Pod/Classes/PXMultiForwarder.m; sourceTree = "<group>"; };
+		DBC422046D790FDF2E2B193DB9ED6CB1 /* ResourceBundle-PXBelowStatusBarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXBelowStatusBarView-Info.plist"; sourceTree = "<group>"; };
+		DE18ACFADA131E5AC5B308B90CEB9DC2 /* PXBelowStatusBarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXBelowStatusBarView-dummy.m"; sourceTree = "<group>"; };
+		DF3981BBA07FB511284587311C6B7570 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1978A63984E950BE018A425D7F9CBCE /* Pods-PXInfiniteContentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInfiniteContentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E22B309E26FA3B69FACD38854C952ECB /* Pods-PXInfiniteContentView_SwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInfiniteContentView_SwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2D6857922FDACA4E3547A325DDB8E52 /* SPHStringContentFillView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SPHStringContentFillView.mm; path = Pod/Classes/SPHStringContentFillView.mm; sourceTree = "<group>"; };
+		E2E7F9E239C093173094876D9D21EC34 /* PXInfiniteContentView-iOS10.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXInfiniteContentView-iOS10.2.xcconfig"; sourceTree = "<group>"; };
+		E85167D42B9B3850FC2B851FD7276205 /* SPHStringContentFillView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPHStringContentFillView-umbrella.h"; sourceTree = "<group>"; };
+		EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXBelowStatusBarView.xcconfig; sourceTree = "<group>"; };
+		EF023A0E9A6C4E30B81245DF0E57006B /* PXInfiniteContentView-iOS10.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "PXInfiniteContentView-iOS10.2.modulemap"; sourceTree = "<group>"; };
+		F1C07EE2DFC13D475E258F6EB7979856 /* PXBelowStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXBelowStatusBarView.m; path = Pod/Classes/PXBelowStatusBarView.m; sourceTree = "<group>"; };
+		F5E2C2322BAC5C05BCC1F4ED7578C514 /* PXInfiniteContentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXInfiniteContentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF2141C956E70321F5E00980942EE73 /* PXInfiniteContentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXInfiniteContentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF82E8ADBEE9654EE1911C22A4582976 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10957B3323C08AF2A0814E971A975597 /* Frameworks */ = {
+		1EC640479297A97D1CC483A3C818410E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A458FCDFDBF0F5FFC645309074D6E9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22676AF1504A978A1646DA0A2DDEF0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8111C9692605E191985CAE22A1D3B0E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243FB2251B245BEEC7E734322DFC8582 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15B57707C193D335C4D4633C37BA8DEA /* Frameworks */ = {
+		362CFBAC36198CAFC241EE2072FE7107 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B582DBAA420CE5E83B887C0610F309FB /* Foundation.framework in Frameworks */,
+				C385022B9A68F200CC81BDCDDAE7785C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F7EC32F57184FA18FDD09A077449B1D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA7A7C95DEBBC4867FF69E041CAEC2D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AA6C8D7B9B26EAA89705AD67EA2AD65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92C72D351BF4C0E89040742027D27862 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E004E9C36FAD9C71C8C9C8040656F04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D0938686108C22175CCEB9245D9771B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6856D978160457CCEE4DDE845ADB9A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAB67FA58C8111E96B703C2988BA9845 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC0063B141DB2D0E36B081A2AE809938 /* Frameworks */ = {
+		48B1D0DD7BF95EBB4C30ADDF0ECF451D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F21BFCF86FF8E2CB1A9EE6BC7363A194 /* Frameworks */ = {
+		73A6990BAA146A8B8B7DDDEBECCAB3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C8D6929F8DBE465169717520B98978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8588896941CA445F6F7D2B92A5FB8744 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4E50279521E4A772124EB0EAD084434 /* Frameworks */ = {
+		878333524E88BDD22D499A2089CCBB5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FB1692CD1CF819480D6DB9B60F987D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC80C86ECEE99351743531B3982770AC /* Frameworks */ = {
+		A5FF51A2EE77D851EE3DBDF29632D508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E112D657023A852869C060725BF0E9E7 /* Foundation.framework in Frameworks */,
+				91753C21F720F499146EE46985FAF9E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFC649D2FA205521B55F2B5E1E81FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748E645639CBC57484C3C16F0091DC42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5723A30885FEAADBAF5EF282CBEB760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DD200495FA0B252EFCAD50C3B3B69D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFC1B92227EAD2326F33799E48313B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D05B6A04868322D20654710388AEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17C3E3156FAEFE5DDE6F7295B71BE80E /* SPHStringContentFillView */ = {
+		0A4E41C853ABC8C755921E370FF9D2CD /* Pods-PXInfiniteContentView_SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
-				866234B87C2B35D677839BDAF3EE3A38 /* SPHStringContentFillView.h */,
-				C8E40F38D72F660A7FE49965A6A2775E /* SPHStringContentFillView.mm */,
-				E528F7F537688AC1D94F632D85AF409E /* Support Files */,
+				6359D317F9386B620911AE14814A0477 /* Info.plist */,
+				A9ABF14C20CDAC5B4317149166001E63 /* Pods-PXInfiniteContentView_SwiftExample.modulemap */,
+				E22B309E26FA3B69FACD38854C952ECB /* Pods-PXInfiniteContentView_SwiftExample-acknowledgements.markdown */,
+				736358F9FE66CA5EA46812CACBABDD3A /* Pods-PXInfiniteContentView_SwiftExample-acknowledgements.plist */,
+				44D84942E96DB1A682AD4B277C142CEA /* Pods-PXInfiniteContentView_SwiftExample-dummy.m */,
+				A18E4FBC5E1CE22E03D3A445F64E5CC2 /* Pods-PXInfiniteContentView_SwiftExample-frameworks.sh */,
+				6BA5903365DC018AF7A67425C270F485 /* Pods-PXInfiniteContentView_SwiftExample-resources.sh */,
+				3A9BE06637780B2969995431A3462D3C /* Pods-PXInfiniteContentView_SwiftExample-umbrella.h */,
+				89F863A8A9C08B0AC7A63ABA800F10B4 /* Pods-PXInfiniteContentView_SwiftExample.debug.xcconfig */,
+				6B5E93CEF820660EEAE4CD8F6ED64FDF /* Pods-PXInfiniteContentView_SwiftExample.release.xcconfig */,
 			);
-			path = SPHStringContentFillView;
+			name = "Pods-PXInfiniteContentView_SwiftExample";
+			path = "Target Support Files/Pods-PXInfiniteContentView_SwiftExample";
 			sourceTree = "<group>";
 		};
-		1E77668F6A9058FF9604532E451A3945 /* Pods-PXInfiniteContentView_Tests */ = {
+		198FCD86B71EFB1470F840B2AC0BA3F8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				72B9E88F822817FDD88CC3213CDA0A5D /* Info.plist */,
-				A39FF6A2B223BC18BF7F2019E9AF2503 /* Pods-PXInfiniteContentView_Tests.modulemap */,
-				A5FDB1483D93E9742383FAEE63FCBF1B /* Pods-PXInfiniteContentView_Tests-acknowledgements.markdown */,
-				BE635B860179E93E46DA20709A37794F /* Pods-PXInfiniteContentView_Tests-acknowledgements.plist */,
-				9014F4A9270DA3256D46DE9FBC88E148 /* Pods-PXInfiniteContentView_Tests-dummy.m */,
-				C643C06826F8A1EB5C7CF7233EAAEDE8 /* Pods-PXInfiniteContentView_Tests-frameworks.sh */,
-				E77B51AC27B33714B2CDFD9E03666F39 /* Pods-PXInfiniteContentView_Tests-resources.sh */,
-				7DA19D47BCF516978B603B14757C6945 /* Pods-PXInfiniteContentView_Tests-umbrella.h */,
-				F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */,
-				0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */,
+				816A47735A5586F4EF54EDD81DB7486E /* Info.plist */,
+				9CC94C6D721141B34850B32D8F57CC4E /* Info.plist */,
+				EF023A0E9A6C4E30B81245DF0E57006B /* PXInfiniteContentView-iOS10.2.modulemap */,
+				E2E7F9E239C093173094876D9D21EC34 /* PXInfiniteContentView-iOS10.2.xcconfig */,
+				84155FB763A254F6942939282BF05EDF /* PXInfiniteContentView-iOS10.2-dummy.m */,
+				BAC799910E44E274DDC942F87817C5A3 /* PXInfiniteContentView-iOS10.2-prefix.pch */,
+				327D2269762FF2AC7882DD9DF976E40B /* PXInfiniteContentView-iOS10.2-umbrella.h */,
+				D920A07621180393E75E4A411A61FAD1 /* PXInfiniteContentView-iOS8.0.modulemap */,
+				B9B3C0484258CBA2ABBBE14C1C0991B8 /* PXInfiniteContentView-iOS8.0.xcconfig */,
+				3D7E8AE9666953876E0942D9F800E5E7 /* PXInfiniteContentView-iOS8.0-dummy.m */,
+				132E6EC13E1D6D6040B4C3393296E88E /* PXInfiniteContentView-iOS8.0-prefix.pch */,
+				AAC18ACB4281E33A0B4CB5F613217A8D /* PXInfiniteContentView-iOS8.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXInfiniteContentView-iOS10.2";
+			sourceTree = "<group>";
+		};
+		302A193304B5E39F1567F979DF2AEBD0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D735F3473C5184DA60EFF1EE0D42DA29 /* PXInfiniteContentInternalView.h */,
+				9C9EC10996B0C8D59D201C2FEC1967F6 /* PXInfiniteContentInternalView.m */,
+				A05449FDD6EE9D6E23DBB0F5E0D6A25A /* PXInfiniteContentView.h */,
+				A066DF3DD1E92EC7F88FB8F0991906BA /* PXInfiniteContentView.m */,
+				C3E11E4B45DC2F9ABC12062B54261580 /* PXPageIndexBounds.h */,
+				B6A23B0309622A46F39E793F46736409 /* PXPageIndexBounds.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3FDBBAF6A66DC1D3F098F01E1F17A78F /* Pods-PXInfiniteContentView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D2FA8138A00C18474D28F20EC31C897 /* Info.plist */,
+				C649D79ECA1E7A74D0D6C8E1E50CF167 /* Pods-PXInfiniteContentView_Tests.modulemap */,
+				40671BA0D8F6CACFC3B3B3A41869E4CA /* Pods-PXInfiniteContentView_Tests-acknowledgements.markdown */,
+				820415B38623E64225A4FA7934180DB2 /* Pods-PXInfiniteContentView_Tests-acknowledgements.plist */,
+				2585A7DE145FCD78024463B376949F25 /* Pods-PXInfiniteContentView_Tests-dummy.m */,
+				A3DBEFA1DC8BB00FE14DCB04488E258B /* Pods-PXInfiniteContentView_Tests-frameworks.sh */,
+				3ABE3DB163558B2C574E853F219973E4 /* Pods-PXInfiniteContentView_Tests-resources.sh */,
+				1F287E802A65FD5B031BA2CE2B33A619 /* Pods-PXInfiniteContentView_Tests-umbrella.h */,
+				3472F816850DDB24EAC1A2C1BAA82645 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */,
+				4B754686E9BEE7004FC2A4A148580DDC /* Pods-PXInfiniteContentView_Tests.release.xcconfig */,
 			);
 			name = "Pods-PXInfiniteContentView_Tests";
 			path = "Target Support Files/Pods-PXInfiniteContentView_Tests";
 			sourceTree = "<group>";
 		};
-		34523B4EEBA17FACBA9C40D74DE05BC5 /* PXBelowStatusBarView */ = {
+		56AB67B4EA1EEC93F4A2393812B2B80A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50B9974AC7C7586EFD493EA46487B3F9 /* PXBelowStatusBarView.h */,
-				AED283C2FB4C5EF13A0862270219C911 /* PXBelowStatusBarView.m */,
-				C2BF35C5C631264D2826CF7B6BDBA020 /* UIViewController+PXBelowStatusBarView.m */,
-				42A020D8884CB4A5E2A830A4E4971C5E /* Support Files */,
+				3FB8D338BBCBD8AD0190DDF8BAD7ED47 /* Pods_PXInfiniteContentView_Example.framework */,
+				9ADF0EE90915942EB15FCA76F534FE84 /* Pods_PXInfiniteContentView_SwiftExample.framework */,
+				66A03EF249DDFC1DCF6378428DDE68EF /* Pods_PXInfiniteContentView_SwiftExampleTests.framework */,
+				AE06060C2E998CFFFCCE8D8C212FCF0F /* Pods_PXInfiniteContentView_Tests.framework */,
+				78C65784C2D5DEB84056ED075FE2165E /* PXBelowStatusBarView.bundle */,
+				5E1BA2DCC3722A34C3D88CA2BA6CE884 /* PXBelowStatusBarView.framework */,
+				FDF2141C956E70321F5E00980942EE73 /* PXInfiniteContentView.framework */,
+				F5E2C2322BAC5C05BCC1F4ED7578C514 /* PXInfiniteContentView.framework */,
+				233628466F882BCD95100000BE933138 /* PXMultiForwarder.bundle */,
+				B1533BCA68FAAA75C4C4DEA142B1BFB6 /* PXMultiForwarder.framework */,
+				785AAF99B6E3EDE470FAEE00B2BB6949 /* SPHStringContentFillView.bundle */,
+				353F916D7F3E529AFCA53B60C6C8A6EB /* SPHStringContentFillView.framework */,
 			);
-			path = PXBelowStatusBarView;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		417AC4901DB2A0D43F59345C72D18698 /* Classes */ = {
+		5A4386BDBB8CFA7A6EEB7471EFDD81F6 /* Pods-PXInfiniteContentView_SwiftExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				F801D351BE586279E366FC73CCAB2E4B /* PXPageIndexBounds.h */,
-				2AE616D80412C358694AC01A0E0854B2 /* PXPageIndexBounds.m */,
-				5ED3DD506DAB04FB9AA703DCA584099B /* PXInfiniteContentInternalView.h */,
-				B760CBC7FDDA9F1AAE255849313D5129 /* PXInfiniteContentInternalView.m */,
-				D12FC87B828951B08145756BEF3D163A /* PXInfiniteContentView.h */,
-				B46A8A307D14FB426C59EAEE5460B2A6 /* PXInfiniteContentView.m */,
+				912D3BD8AB58A19CACC00A8802CBBAD4 /* Info.plist */,
+				9470D22B1B40927ECD072FB98B067130 /* Pods-PXInfiniteContentView_SwiftExampleTests.modulemap */,
+				749647AD908657BA53E5B8B61DBEAFA8 /* Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.markdown */,
+				6FA6CFBE46F868046CF5BE8AF97AFDCD /* Pods-PXInfiniteContentView_SwiftExampleTests-acknowledgements.plist */,
+				54DC6E9E8DC8515100263C89398A030E /* Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m */,
+				8BFDCDE5F5BC7C4994B83968856699A6 /* Pods-PXInfiniteContentView_SwiftExampleTests-frameworks.sh */,
+				748F6C19E43CD7B8CB0B4A3E9B4CE6F6 /* Pods-PXInfiniteContentView_SwiftExampleTests-resources.sh */,
+				9B529632136F7B971FABF61FDA8AA9A8 /* Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h */,
+				B299DE0A51A6851C1CA70523C24E9F0C /* Pods-PXInfiniteContentView_SwiftExampleTests.debug.xcconfig */,
+				3081B9A3B3E3EABB2014AE8261106FAE /* Pods-PXInfiniteContentView_SwiftExampleTests.release.xcconfig */,
 			);
-			path = Classes;
+			name = "Pods-PXInfiniteContentView_SwiftExampleTests";
+			path = "Target Support Files/Pods-PXInfiniteContentView_SwiftExampleTests";
 			sourceTree = "<group>";
 		};
-		42A020D8884CB4A5E2A830A4E4971C5E /* Support Files */ = {
+		5B5FC7798D3598E2C1BD43601A70DE73 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1FCAFAB5B247A513945700CE2E2DF90 /* Info.plist */,
-				29B2E6E7C16E6A43394F2276339B9B90 /* PXBelowStatusBarView.modulemap */,
-				E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */,
-				E1F65D2302640AD14F98CDEA54DABB5D /* PXBelowStatusBarView-dummy.m */,
-				3FF735222408D9F4ACC6E255131C7933 /* PXBelowStatusBarView-prefix.pch */,
-				87A1EB5BAF7B70970567B94287131C01 /* PXBelowStatusBarView-umbrella.h */,
+				ED43F0600F134827325D379E220EBB21 /* Pods-PXInfiniteContentView_Example */,
+				0A4E41C853ABC8C755921E370FF9D2CD /* Pods-PXInfiniteContentView_SwiftExample */,
+				5A4386BDBB8CFA7A6EEB7471EFDD81F6 /* Pods-PXInfiniteContentView_SwiftExampleTests */,
+				3FDBBAF6A66DC1D3F098F01E1F17A78F /* Pods-PXInfiniteContentView_Tests */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PXBelowStatusBarView";
-			sourceTree = "<group>";
-		};
-		5D980AD4453156554AAD6E6D4ED3C41E /* PXInfiniteContentView */ = {
-			isa = PBXGroup;
-			children = (
-				FEBED350D14F1614350898179B6F5051 /* Pod */,
-				7B25241F00085414499DA1335C18E4BE /* Support Files */,
-			);
-			name = PXInfiniteContentView;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		6BB01B27639A6622DEBB472E089225F4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D980AD4453156554AAD6E6D4ED3C41E /* PXInfiniteContentView */,
+				94078E7FFC1E9A2FA20AA2198F2A0FA8 /* PXInfiniteContentView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7B25241F00085414499DA1335C18E4BE /* Support Files */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AD73AC5CC329B4901C442A66F2EFFF5B /* Info.plist */,
-				B1CB7768ECAE8DA4389B6B6D264326CE /* PXInfiniteContentView.modulemap */,
-				FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */,
-				F48322FC7696226E4247B31812959159 /* PXInfiniteContentView-dummy.m */,
-				7AEB80669621BE4079F384919967D94F /* PXInfiniteContentView-prefix.pch */,
-				D3930CF3A337942CFF2A9AC1DEE30030 /* PXInfiniteContentView-umbrella.h */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PXInfiniteContentView";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B6996956971BC532BA759CAB95EBE38 /* SPHStringContentFillView */ = {
+			isa = PBXGroup;
+			children = (
+				8A13D8CF4468CFE6F2F97227D273133A /* SPHStringContentFillView.h */,
+				E2D6857922FDACA4E3547A325DDB8E52 /* SPHStringContentFillView.mm */,
+				996F3B615BAC4BED063F13779B964150 /* Support Files */,
+			);
+			path = SPHStringContentFillView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6BB01B27639A6622DEBB472E089225F4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A09F3D8185C2ED1A2B587A69F203D90B /* Pods */,
-				DAB3D3672047A52993537FE5AB1A92E0 /* Products */,
-				FD351449E62CB4BD321FDA2C8D727C27 /* Targets Support Files */,
+				56AB67B4EA1EEC93F4A2393812B2B80A /* Products */,
+				5B5FC7798D3598E2C1BD43601A70DE73 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92A375240C9623091C038795B11B046A /* Support Files */ = {
+		94078E7FFC1E9A2FA20AA2198F2A0FA8 /* PXInfiniteContentView */ = {
 			isa = PBXGroup;
 			children = (
-				EE71FD5035B03C6D6AB8CAA7AD12A88D /* Info.plist */,
-				664352B92B0A1341917A9D2D1E1AC0A1 /* PXMultiForwarder.modulemap */,
-				A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */,
-				4823ABED3FC8B3D262D7A84AACBBFDCF /* PXMultiForwarder-dummy.m */,
-				DAD9113257E0E056DA58FFA5B6715EC9 /* PXMultiForwarder-prefix.pch */,
-				A19503720DC24B4DDAA9623C48ADCF05 /* PXMultiForwarder-umbrella.h */,
+				E8E72E55C3FF1B35E8C53AC9C221DDF3 /* Pod */,
+				198FCD86B71EFB1470F840B2AC0BA3F8 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PXMultiForwarder";
+			name = PXInfiniteContentView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A09F3D8185C2ED1A2B587A69F203D90B /* Pods */ = {
+		996F3B615BAC4BED063F13779B964150 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				34523B4EEBA17FACBA9C40D74DE05BC5 /* PXBelowStatusBarView */,
-				BE45AAC2E0EA915036637057D1635E2C /* PXMultiForwarder */,
-				17C3E3156FAEFE5DDE6F7295B71BE80E /* SPHStringContentFillView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AB5F0A1A0255FFAD5EB5DA7020488B67 /* Pods-PXInfiniteContentView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				64628F349B92F9D113DE228311DD0051 /* Info.plist */,
-				F615EEDB24CAE6016DF3CEA6D6D09ACA /* Pods-PXInfiniteContentView_Example.modulemap */,
-				EF41208A957FDD331C147B0E8BB8B5A2 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */,
-				6B764F05FB07E991182E02A55F6A4FED /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */,
-				743F6EA504920224E2E995323599C4E5 /* Pods-PXInfiniteContentView_Example-dummy.m */,
-				E248E1B4300C8C3942B4D7EC9E84316A /* Pods-PXInfiniteContentView_Example-frameworks.sh */,
-				B8BB7BC9C7C3E4C5A354BC0B76A9D860 /* Pods-PXInfiniteContentView_Example-resources.sh */,
-				34C7218DBAD44A1907B25CA5269C6BA1 /* Pods-PXInfiniteContentView_Example-umbrella.h */,
-				D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */,
-				91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */,
-			);
-			name = "Pods-PXInfiniteContentView_Example";
-			path = "Target Support Files/Pods-PXInfiniteContentView_Example";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE45AAC2E0EA915036637057D1635E2C /* PXMultiForwarder */ = {
-			isa = PBXGroup;
-			children = (
-				760CFA52281FACA96A6ECEED2BFB3FAC /* PXMultiForwarder.h */,
-				1C7186ABB933C7649DFFEF963716E084 /* PXMultiForwarder.m */,
-				92A375240C9623091C038795B11B046A /* Support Files */,
-			);
-			path = PXMultiForwarder;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAB3D3672047A52993537FE5AB1A92E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */,
-				433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */,
-				1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */,
-				FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */,
-				0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */,
-				0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */,
-				CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */,
-				CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */,
-				612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */,
-				F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E528F7F537688AC1D94F632D85AF409E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B83DCF6E1682F6566AC5EF3EE6D199A5 /* Info.plist */,
-				9EF2ED9CBAB248E64C2B4393626A4981 /* SPHStringContentFillView.modulemap */,
-				2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */,
-				CF27986ACF745C6AB4B88E34C42F915E /* SPHStringContentFillView-dummy.m */,
-				8AADCF9165D38BE0DBED66B11D7C9374 /* SPHStringContentFillView-prefix.pch */,
-				61FFD4E38FBAB1627E94CA790B6407FE /* SPHStringContentFillView-umbrella.h */,
+				523E49F12E5E0512F383CAB825391D3C /* Info.plist */,
+				70CA2C3248A2823DBD82832F434FC862 /* ResourceBundle-SPHStringContentFillView-Info.plist */,
+				D16E649B1AA543E0F9F52D63AEDBA5ED /* SPHStringContentFillView.modulemap */,
+				71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */,
+				7696D8239D9BF47E7C6A87B97D9624AE /* SPHStringContentFillView-dummy.m */,
+				125F74B55FAF8CA4AF2FAF58DDD12286 /* SPHStringContentFillView-prefix.pch */,
+				E85167D42B9B3850FC2B851FD7276205 /* SPHStringContentFillView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SPHStringContentFillView";
 			sourceTree = "<group>";
 		};
-		FD351449E62CB4BD321FDA2C8D727C27 /* Targets Support Files */ = {
+		A09F3D8185C2ED1A2B587A69F203D90B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB5F0A1A0255FFAD5EB5DA7020488B67 /* Pods-PXInfiniteContentView_Example */,
-				1E77668F6A9058FF9604532E451A3945 /* Pods-PXInfiniteContentView_Tests */,
+				EE97EEA71715F6661BA185CDFD4E95B7 /* PXBelowStatusBarView */,
+				FB834F7DF4F426262378415FA38A4DB9 /* PXMultiForwarder */,
+				7B6996956971BC532BA759CAB95EBE38 /* SPHStringContentFillView */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		FEBED350D14F1614350898179B6F5051 /* Pod */ = {
+		AD2C4B74E78976FCBE19640D4CA9831E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				417AC4901DB2A0D43F59345C72D18698 /* Classes */,
+				1450B20315C53811165B71A42420A4D1 /* Info.plist */,
+				CCF4290C96039980C3892E3E6865B84A /* PXBelowStatusBarView.modulemap */,
+				EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */,
+				DE18ACFADA131E5AC5B308B90CEB9DC2 /* PXBelowStatusBarView-dummy.m */,
+				616BAFC012DD8A491330224DF768635F /* PXBelowStatusBarView-prefix.pch */,
+				766E58810556199FB864AA0624011A4E /* PXBelowStatusBarView-umbrella.h */,
+				DBC422046D790FDF2E2B193DB9ED6CB1 /* ResourceBundle-PXBelowStatusBarView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXBelowStatusBarView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E72E55C3FF1B35E8C53AC9C221DDF3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				302A193304B5E39F1567F979DF2AEBD0 /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		ED43F0600F134827325D379E220EBB21 /* Pods-PXInfiniteContentView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF82E8ADBEE9654EE1911C22A4582976 /* Info.plist */,
+				4255A7BBE5DCBD06DD2642827E8E563B /* Pods-PXInfiniteContentView_Example.modulemap */,
+				5FAF0E5CB14E87A138F6C4D0EB4A1241 /* Pods-PXInfiniteContentView_Example-acknowledgements.markdown */,
+				83A1E6DE5845D06608572962F66E4C77 /* Pods-PXInfiniteContentView_Example-acknowledgements.plist */,
+				513E29340E894850DFC1B334964FA3CE /* Pods-PXInfiniteContentView_Example-dummy.m */,
+				1CC882B5FC822DB0E76F638D5614289C /* Pods-PXInfiniteContentView_Example-frameworks.sh */,
+				45FBA9BFFF9D2ABF62A82A2F77F2F252 /* Pods-PXInfiniteContentView_Example-resources.sh */,
+				238947F7E0C2B4CF822F5C26830CDE7B /* Pods-PXInfiniteContentView_Example-umbrella.h */,
+				BC2D145CC5468EB07260D7C614B4BABE /* Pods-PXInfiniteContentView_Example.debug.xcconfig */,
+				E1978A63984E950BE018A425D7F9CBCE /* Pods-PXInfiniteContentView_Example.release.xcconfig */,
+			);
+			name = "Pods-PXInfiniteContentView_Example";
+			path = "Target Support Files/Pods-PXInfiniteContentView_Example";
+			sourceTree = "<group>";
+		};
+		EE97EEA71715F6661BA185CDFD4E95B7 /* PXBelowStatusBarView */ = {
+			isa = PBXGroup;
+			children = (
+				4E2AEB07225FCE07ABC68261E41A3561 /* PXBelowStatusBarView.h */,
+				F1C07EE2DFC13D475E258F6EB7979856 /* PXBelowStatusBarView.m */,
+				16A35AA02A59C034AF0D9B1E02A53608 /* UIViewController+PXBelowStatusBarView.m */,
+				AD2C4B74E78976FCBE19640D4CA9831E /* Support Files */,
+			);
+			path = PXBelowStatusBarView;
+			sourceTree = "<group>";
+		};
+		F0A4561C4037A8EC3F8D75B2133743F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3981BBA07FB511284587311C6B7570 /* Info.plist */,
+				130DDCC46F29C32F85EDD95BE862449E /* PXMultiForwarder.modulemap */,
+				83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */,
+				746DEC159A2C39A96A139E9CDD517E76 /* PXMultiForwarder-dummy.m */,
+				87A0EF5FE8ECEAFF3F9C31347A6F3A57 /* PXMultiForwarder-prefix.pch */,
+				29425D1D2CE80322E4F715B6EB97A21A /* PXMultiForwarder-umbrella.h */,
+				C58D154E6E07CB6FA23E6A4302DFA75B /* ResourceBundle-PXMultiForwarder-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXMultiForwarder";
+			sourceTree = "<group>";
+		};
+		FB834F7DF4F426262378415FA38A4DB9 /* PXMultiForwarder */ = {
+			isa = PBXGroup;
+			children = (
+				51609583FC5C4C03F99953CAB21726CB /* PXMultiForwarder.h */,
+				DA531BC0F7E35C1EA66E102FA335BA79 /* PXMultiForwarder.m */,
+				F0A4561C4037A8EC3F8D75B2133743F1 /* Support Files */,
+			);
+			path = PXMultiForwarder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02C885E39EF0DDB2281EC028435463A0 /* Headers */ = {
+		07CAE57F5E939F70224354EFBA3D0771 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA5C717DB84984944F69A6C50E4627A /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */,
+				1EEF78F0D094297AA9A1FB3D7300863E /* SPHStringContentFillView-umbrella.h in Headers */,
+				39F06F076F68214292EB3104264C5655 /* SPHStringContentFillView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D2781867AD62F6CF85735CF8ADCDB73 /* Headers */ = {
+		08B929C8A947D400533DF824047C7DCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D8138E10BB01B92F4093DB7ED79706 /* PXBelowStatusBarView-umbrella.h in Headers */,
-				F78DEB1A41645DC79539EA504FCDFC54 /* PXBelowStatusBarView.h in Headers */,
+				3885AFE81C7E16DECEADA1D9F8584082 /* PXInfiniteContentInternalView.h in Headers */,
+				16A59CA8306B4D86873F1D50DDB74658 /* PXInfiniteContentView-iOS8.0-umbrella.h in Headers */,
+				536A17BA3F54DB14F87A6F0F88246694 /* PXInfiniteContentView.h in Headers */,
+				8C2784F7D8853AE78F438198F7316C2F /* PXPageIndexBounds.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6472706F64F410BAD09B5EF85555E954 /* Headers */ = {
+		092416E06C75C27E4D42D0213F35506A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694CBB09A20EB82850CA0B0B031899EF /* PXPageIndexBounds.h in Headers */,
-				2FE7BA5D12183ADB97347E4BF7FF94AF /* PXInfiniteContentInternalView.h in Headers */,
-				0952468058BDEE235EBBA4D3D3F47C4F /* PXInfiniteContentView-umbrella.h in Headers */,
-				C2126148E056CF0492C7C1F56821D2ED /* PXInfiniteContentView.h in Headers */,
+				FA730FC8CDC7E0711C01E9A14319E613 /* Pods-PXInfiniteContentView_SwiftExampleTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B44813C2D56535A0B2CC79C86B1413AA /* Headers */ = {
+		0BE58877D8185EB7D7C38FB3BFB56F85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475DA3BF46D69DC37CFA17ABCDF1F0D3 /* PXMultiForwarder-umbrella.h in Headers */,
-				820C3FC7604460EBB4DD0E476A88727C /* PXMultiForwarder.h in Headers */,
+				91F961FE89559EBDAF67B23861CA1D33 /* PXMultiForwarder-umbrella.h in Headers */,
+				F2D93A03E7CAEB03F2C3F7D5541592C9 /* PXMultiForwarder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E33DA1DA4556D6DBBED02DA84E1DEB3C /* Headers */ = {
+		0D3FE79D059F6D789933B6319D83B46E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F9836EE023A4123A990F1584A8BB89 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */,
+				825F42B418E047959182C9E5CE6CDF06 /* PXInfiniteContentInternalView.h in Headers */,
+				9C2F145EB7DB1775370FF24EE156D777 /* PXInfiniteContentView-iOS10.2-umbrella.h in Headers */,
+				197563F6933A095FE0B4F94606810C48 /* PXInfiniteContentView.h in Headers */,
+				825BD8E148F4D6F6F81510C9F97BD1DB /* PXPageIndexBounds.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F017D0B0B968C5A1BE1BD6BB48C9C599 /* Headers */ = {
+		204D346105A4F93A3206C8391ACBC769 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94971718231B5844436F1670FF777639 /* SPHStringContentFillView-umbrella.h in Headers */,
-				AE501BC4F9831E2EB81F2814293C1A69 /* SPHStringContentFillView.h in Headers */,
+				CF5F8F2D03FBBF5B34749D176D66D868 /* Pods-PXInfiniteContentView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7421D112D85D392F6F0DBAB9473047E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB94E9EB93FF4F08FBB6DE20B6E6C19 /* Pods-PXInfiniteContentView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AED0FCA08AA8DE095E985EFAB8F1314 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1FCB101552A670417ADA6BB963AB53 /* PXBelowStatusBarView-umbrella.h in Headers */,
+				5565A3F54665D8B32D9EA04FF3081844 /* PXBelowStatusBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5A804E180119D8BC3C2A9C9A2D2852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495E1075ADE902E91D286B8CC0D1C15 /* Pods-PXInfiniteContentView_SwiftExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */ = {
+		0F1A0F377DC45278140B1854889BB41C /* Pods-PXInfiniteContentView_SwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24BCF6413DF5F8D7547385E8C1126626 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */;
+			buildConfigurationList = 7AF7E7C00CFB9762972FAA5DFE1D5E3B /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_SwiftExample" */;
 			buildPhases = (
-				FA24DE598AF86E374FEC4916A7132E82 /* Sources */,
-				F21BFCF86FF8E2CB1A9EE6BC7363A194 /* Frameworks */,
-				955B011457E3DE726CDDBCEE468F9D5F /* Resources */,
+				78F288760F9AA45694493E76858B178D /* Sources */,
+				EFFC1B92227EAD2326F33799E48313B8 /* Frameworks */,
+				CB5A804E180119D8BC3C2A9C9A2D2852 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D214CB99E9B64ABB272F810B526853EC /* PBXTargetDependency */,
+				C798F2D913F817D6BEF9FF0B07311D91 /* PBXTargetDependency */,
+				8355BEC691B2D96A61371D9D1206AD85 /* PBXTargetDependency */,
+				703FF82694D01CF7DAE5899995207CF7 /* PBXTargetDependency */,
 			);
-			name = "PXInfiniteContentView-PXInfiniteContentView";
-			productName = "PXInfiniteContentView-PXInfiniteContentView";
-			productReference = 0F0901EF90C30EDDC179B15E88E71CDB /* PXInfiniteContentView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		3D8C6EC75120F57CB12520E756209FAB /* Pods-PXInfiniteContentView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E82DA84AC2059C3DF3F8223F75F2750E /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */;
-			buildPhases = (
-				D532C761892E48E4025D815ADB904660 /* Sources */,
-				FC80C86ECEE99351743531B3982770AC /* Frameworks */,
-				E33DA1DA4556D6DBBED02DA84E1DEB3C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB2BFBD73F22EF2EE28FE929123E816C /* PBXTargetDependency */,
-				23ACD47250733AD33EF4E252FAD7892F /* PBXTargetDependency */,
-				EE5D563A1AB2E019545311F8839384EC /* PBXTargetDependency */,
-				C4D226145D1BE8E0E18CE0F81B78C3B3 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXInfiniteContentView_Example";
-			productName = "Pods-PXInfiniteContentView_Example";
-			productReference = B442E7A8328F9FBE6EA6018717D8C5F4 /* Pods_PXInfiniteContentView_Example.framework */;
+			name = "Pods-PXInfiniteContentView_SwiftExample";
+			productName = "Pods-PXInfiniteContentView_SwiftExample";
+			productReference = 9ADF0EE90915942EB15FCA76F534FE84 /* Pods_PXInfiniteContentView_SwiftExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */ = {
+		136966959DF1B176CD5709FBB8509A00 /* PXBelowStatusBarView-PXBelowStatusBarView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0467EC67E3D78BD1E42FEE5BCA68AA1F /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */;
+			buildConfigurationList = 05F8EBF2AA07690C380671598B075E27 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */;
 			buildPhases = (
-				78292C36610D3EEC9DDE5EA9A930C6C3 /* Sources */,
-				A6856D978160457CCEE4DDE845ADB9A3 /* Frameworks */,
-				D0D9F211A4B57393F64F0C49CC5E1009 /* Resources */,
-				B44813C2D56535A0B2CC79C86B1413AA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				058552A863E812FD9023D68027D2B6F4 /* PBXTargetDependency */,
-			);
-			name = PXMultiForwarder;
-			productName = PXMultiForwarder;
-			productReference = CF8CF60920C593929BDC7EC21F17B042 /* PXMultiForwarder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6709DBCF59A0F2A264972BE961B650E4 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */;
-			buildPhases = (
-				C4C39B5A9948877242BA9E9C7E7ED5EB /* Sources */,
-				5AA6C8D7B9B26EAA89705AD67EA2AD65 /* Frameworks */,
-				BD18C48E8EBF53384E3954E8E52CBFE5 /* Resources */,
-				1D2781867AD62F6CF85735CF8ADCDB73 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC88ECD13FF8AE978714B5DE24414685 /* PBXTargetDependency */,
-			);
-			name = PXBelowStatusBarView;
-			productName = PXBelowStatusBarView;
-			productReference = FCAF612DF9C9E9028BD4F6D70B45014B /* PXBelowStatusBarView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BF39F874F0046B79A8FF951CC5512DC /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
-			buildPhases = (
-				8C21C1EB47C66E8ED2B0BF940BAE9B50 /* Sources */,
-				10957B3323C08AF2A0814E971A975597 /* Frameworks */,
-				1E167597DADACB1376D351735CBA15AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SPHStringContentFillView-SPHStringContentFillView";
-			productName = "SPHStringContentFillView-SPHStringContentFillView";
-			productReference = 612595CB485B2D3703E0D747A4E09F10 /* SPHStringContentFillView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		B90C14AEF2567029749C85592DADDF5E /* Pods-PXInfiniteContentView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B34B5EF110D923C039919DEAB9CC2B02 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */;
-			buildPhases = (
-				20133C3044E5B1832094CFA2EEB82232 /* Sources */,
-				15B57707C193D335C4D4633C37BA8DEA /* Frameworks */,
-				02C885E39EF0DDB2281EC028435463A0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6663CCFD2ACF6A091474E84161DA5207 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXInfiniteContentView_Tests";
-			productName = "Pods-PXInfiniteContentView_Tests";
-			productReference = 433E1ACCE6D06672D05FED361D4D05B4 /* Pods_PXInfiniteContentView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D11DFB1A5CF4C3CE3ADECEFABB4095E /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
-			buildPhases = (
-				8F683DC5642C2BC397BC0C5F08C96D9F /* Sources */,
-				7E004E9C36FAD9C71C8C9C8040656F04 /* Frameworks */,
-				0333CF8F7BD63336C46EFE023FD70DAE /* Resources */,
-				F017D0B0B968C5A1BE1BD6BB48C9C599 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5F138A4A37E3F679A49BB4F3AE4D4CD /* PBXTargetDependency */,
-			);
-			name = SPHStringContentFillView;
-			productName = SPHStringContentFillView;
-			productReference = F46A415E68BC413FA4C2C5500ADC37BC /* SPHStringContentFillView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBFAE127EB6614B1547AD01B351AE20B /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */;
-			buildPhases = (
-				FF883947CFAA3A61228D815E7F9F63F8 /* Sources */,
-				EC0063B141DB2D0E36B081A2AE809938 /* Frameworks */,
-				73F64DCF7CA042FFEE15DEE5D295027C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PXMultiForwarder-PXMultiForwarder";
-			productName = "PXMultiForwarder-PXMultiForwarder";
-			productReference = CAEBC08ADA22D17D0B719CAE350A42B5 /* PXMultiForwarder.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92697288146C7C4700F22A68DB4EA0EA /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */;
-			buildPhases = (
-				80240F3E742321045F0BE831707916DE /* Sources */,
-				F4E50279521E4A772124EB0EAD084434 /* Frameworks */,
-				44BF1489D286C20A4E986311781301F6 /* Resources */,
+				B2DAD5F31D679DC874479FA5A68342C0 /* Sources */,
+				8588896941CA445F6F7D2B92A5FB8744 /* Frameworks */,
+				A9B6EB0A80D7AA916809C3989391DFB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -709,26 +749,189 @@
 			);
 			name = "PXBelowStatusBarView-PXBelowStatusBarView";
 			productName = "PXBelowStatusBarView-PXBelowStatusBarView";
-			productReference = 1919FFAB5CA41066268D467DA51C3BCE /* PXBelowStatusBarView.bundle */;
+			productReference = 78C65784C2D5DEB84056ED075FE2165E /* PXBelowStatusBarView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */ = {
+		14B6DE3DB75C3B5BE44855023DC85545 /* SPHStringContentFillView-SPHStringContentFillView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47C193B4A43E00C62EA7DC9E896F743A /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */;
+			buildConfigurationList = 33982018D37338423ADC7EA78674935B /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */;
 			buildPhases = (
-				4A4B9BC281DD436EF233AB00A615E14B /* Sources */,
-				2F7EC32F57184FA18FDD09A077449B1D /* Frameworks */,
-				6FA2768E5B00449E4BB6745386266A3B /* Resources */,
-				6472706F64F410BAD09B5EF85555E954 /* Headers */,
+				5081BF4B5782FDDCDD7907E204C3E4C2 /* Sources */,
+				48B1D0DD7BF95EBB4C30ADDF0ECF451D /* Frameworks */,
+				B66CDA657A4A63277BBE37264C357DBF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DDDA198B40EB378AC0F8EB92A7EC698 /* PBXTargetDependency */,
 			);
-			name = PXInfiniteContentView;
-			productName = PXInfiniteContentView;
-			productReference = 0058DAE832B75AEFC91276E0F4AAB33E /* PXInfiniteContentView.framework */;
+			name = "SPHStringContentFillView-SPHStringContentFillView";
+			productName = "SPHStringContentFillView-SPHStringContentFillView";
+			productReference = 785AAF99B6E3EDE470FAEE00B2BB6949 /* SPHStringContentFillView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		38C6E0C5AF33273BD306FA72FE3C22FB /* SPHStringContentFillView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D14D7AF1D6027EE2EE9FC6ED47CC16 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */;
+			buildPhases = (
+				E1250C0A7B7BDBC6A6D57C0E936E07BF /* Sources */,
+				1EC640479297A97D1CC483A3C818410E /* Frameworks */,
+				BC226BD95F61CADBDA57371E28A986C1 /* Resources */,
+				07CAE57F5E939F70224354EFBA3D0771 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DA01E5D2F209AC40F8DC32631A4AC8 /* PBXTargetDependency */,
+			);
+			name = SPHStringContentFillView;
+			productName = SPHStringContentFillView;
+			productReference = 353F916D7F3E529AFCA53B60C6C8A6EB /* SPHStringContentFillView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61ABC1A9C6B2EEF7BB8FC444C0DC4CFC /* PXMultiForwarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9AE32708CAFF4CFC2BB342EFDEA1D6 /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */;
+			buildPhases = (
+				2C3A2A651D5FB158EE7FF5BDF0814A70 /* Sources */,
+				E5723A30885FEAADBAF5EF282CBEB760 /* Frameworks */,
+				4E2BD078B7E42061E55F92B6CE5E1ED0 /* Resources */,
+				0BE58877D8185EB7D7C38FB3BFB56F85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B1FB49B0F1DBC186006967B84CAA20 /* PBXTargetDependency */,
+			);
+			name = PXMultiForwarder;
+			productName = PXMultiForwarder;
+			productReference = B1533BCA68FAAA75C4C4DEA142B1BFB6 /* PXMultiForwarder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DAC1DAAC78E24BB73C1DA2EDFB8CE70 /* Pods-PXInfiniteContentView_SwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CF8DE893A607C7995998645CF84393 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_SwiftExampleTests" */;
+			buildPhases = (
+				4FD3826FB31681B761729AE14A6ACCEA /* Sources */,
+				A5FF51A2EE77D851EE3DBDF29632D508 /* Frameworks */,
+				092416E06C75C27E4D42D0213F35506A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BC2A8CCE04D84334C0944243136A9C /* PBXTargetDependency */,
+			);
+			name = "Pods-PXInfiniteContentView_SwiftExampleTests";
+			productName = "Pods-PXInfiniteContentView_SwiftExampleTests";
+			productReference = 66A03EF249DDFC1DCF6378428DDE68EF /* Pods_PXInfiniteContentView_SwiftExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A48E0BE6105DE9E7313C40AEE73DBCE4 /* PXInfiniteContentView-iOS10.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71DD80F041C19CD2F96FEF2BA09D285 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-iOS10.2" */;
+			buildPhases = (
+				E1108B59EB40394C290A0D3AE5E06CB2 /* Sources */,
+				362CFBAC36198CAFC241EE2072FE7107 /* Frameworks */,
+				0D3FE79D059F6D789933B6319D83B46E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXInfiniteContentView-iOS10.2";
+			productName = "PXInfiniteContentView-iOS10.2";
+			productReference = FDF2141C956E70321F5E00980942EE73 /* PXInfiniteContentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B85B7D8D9DCB5622EC45FA16C0864B1B /* Pods-PXInfiniteContentView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AD5773B6B6CD008D423F24C4C50341 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */;
+			buildPhases = (
+				43E66CE74DC87487E3DB0A6BFD7C9F30 /* Sources */,
+				BDFC649D2FA205521B55F2B5E1E81FEF /* Frameworks */,
+				204D346105A4F93A3206C8391ACBC769 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95382666839204103593AC5FEAC1C36C /* PBXTargetDependency */,
+				4CAED9C3B227094AC85E2674986BC900 /* PBXTargetDependency */,
+				E1C2790BFA4E48C9E9EF20FD6A569E9D /* PBXTargetDependency */,
+				414C33ABEDA9B41A36209B879AF74F4F /* PBXTargetDependency */,
+			);
+			name = "Pods-PXInfiniteContentView_Example";
+			productName = "Pods-PXInfiniteContentView_Example";
+			productReference = 3FB8D338BBCBD8AD0190DDF8BAD7ED47 /* Pods_PXInfiniteContentView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1649FF860C84A1DD3775286423B5DEA /* PXBelowStatusBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B99569F54992F17542171E858C2AB8F /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */;
+			buildPhases = (
+				EB2A152EB8AC4D1F9F75EF69BB7E15D0 /* Sources */,
+				22676AF1504A978A1646DA0A2DDEF0F2 /* Frameworks */,
+				0BE7A16AFDA3AE8E6C54245654E6BC6C /* Resources */,
+				8AED0FCA08AA8DE095E985EFAB8F1314 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F6EC154CF6BED0A4FD0333276D6058 /* PBXTargetDependency */,
+			);
+			name = PXBelowStatusBarView;
+			productName = PXBelowStatusBarView;
+			productReference = 5E1BA2DCC3722A34C3D88CA2BA6CE884 /* PXBelowStatusBarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D58847F60EEB0E57D90F4F1144F14916 /* PXMultiForwarder-PXMultiForwarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185BF3A56C9ABD8AE96B0262C6DEC5C4 /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */;
+			buildPhases = (
+				CE30BD0C5D750650FE96AF76CC7304B6 /* Sources */,
+				243FB2251B245BEEC7E734322DFC8582 /* Frameworks */,
+				FE5C129C2313AA96366AD042228794D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXMultiForwarder-PXMultiForwarder";
+			productName = "PXMultiForwarder-PXMultiForwarder";
+			productReference = 233628466F882BCD95100000BE933138 /* PXMultiForwarder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DECAFCE244BD66FEE0C8D9B50E65E1A2 /* Pods-PXInfiniteContentView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51CDFCEBFD913908DF3D5BF58678F9F5 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */;
+			buildPhases = (
+				F0C9C27F86D3618AC8B2BA9D6778DAA9 /* Sources */,
+				73A6990BAA146A8B8B7DDDEBECCAB3F2 /* Frameworks */,
+				7421D112D85D392F6F0DBAB9473047E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD4424C179D10D0CE216ABF020E0C8A /* PBXTargetDependency */,
+			);
+			name = "Pods-PXInfiniteContentView_Tests";
+			productName = "Pods-PXInfiniteContentView_Tests";
+			productReference = AE06060C2E998CFFFCCE8D8C212FCF0F /* Pods_PXInfiniteContentView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDEE5B4D18B03D849C8BD7D32D15127A /* PXInfiniteContentView-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49096CD740C16BCB83BCB31531F93796 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-iOS8.0" */;
+			buildPhases = (
+				C3989F2D03C5B0F15E69E235628E2E2C /* Sources */,
+				878333524E88BDD22D499A2089CCBB5D /* Frameworks */,
+				08B929C8A947D400533DF824047C7DCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXInfiniteContentView-iOS8.0";
+			productName = "PXInfiniteContentView-iOS8.0";
+			productReference = F5E2C2322BAC5C05BCC1F4ED7578C514 /* PXInfiniteContentView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -737,8 +940,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -748,299 +951,302 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DAB3D3672047A52993537FE5AB1A92E0 /* Products */;
+			productRefGroup = 56AB67B4EA1EEC93F4A2393812B2B80A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D8C6EC75120F57CB12520E756209FAB /* Pods-PXInfiniteContentView_Example */,
-				B90C14AEF2567029749C85592DADDF5E /* Pods-PXInfiniteContentView_Tests */,
-				9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */,
-				E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */,
-				F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */,
-				18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */,
-				4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */,
-				CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */,
-				C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */,
-				A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */,
+				B85B7D8D9DCB5622EC45FA16C0864B1B /* Pods-PXInfiniteContentView_Example */,
+				0F1A0F377DC45278140B1854889BB41C /* Pods-PXInfiniteContentView_SwiftExample */,
+				9DAC1DAAC78E24BB73C1DA2EDFB8CE70 /* Pods-PXInfiniteContentView_SwiftExampleTests */,
+				DECAFCE244BD66FEE0C8D9B50E65E1A2 /* Pods-PXInfiniteContentView_Tests */,
+				C1649FF860C84A1DD3775286423B5DEA /* PXBelowStatusBarView */,
+				136966959DF1B176CD5709FBB8509A00 /* PXBelowStatusBarView-PXBelowStatusBarView */,
+				A48E0BE6105DE9E7313C40AEE73DBCE4 /* PXInfiniteContentView-iOS10.2 */,
+				FDEE5B4D18B03D849C8BD7D32D15127A /* PXInfiniteContentView-iOS8.0 */,
+				61ABC1A9C6B2EEF7BB8FC444C0DC4CFC /* PXMultiForwarder */,
+				D58847F60EEB0E57D90F4F1144F14916 /* PXMultiForwarder-PXMultiForwarder */,
+				38C6E0C5AF33273BD306FA72FE3C22FB /* SPHStringContentFillView */,
+				14B6DE3DB75C3B5BE44855023DC85545 /* SPHStringContentFillView-SPHStringContentFillView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0333CF8F7BD63336C46EFE023FD70DAE /* Resources */ = {
+		0BE7A16AFDA3AE8E6C54245654E6BC6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24573DB608BB0EFAD5062F2B760F1970 /* SPHStringContentFillView.bundle in Resources */,
+				D6B1E8893BB7ACF9D7681063C73C3F75 /* PXBelowStatusBarView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E167597DADACB1376D351735CBA15AA /* Resources */ = {
+		4E2BD078B7E42061E55F92B6CE5E1ED0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2383BD12C299187B3093F16253ACF602 /* PXMultiForwarder.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44BF1489D286C20A4E986311781301F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FA2768E5B00449E4BB6745386266A3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				159BFF18D23A06704AB39E45D6A70402 /* PXInfiniteContentView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73F64DCF7CA042FFEE15DEE5D295027C /* Resources */ = {
+		A9B6EB0A80D7AA916809C3989391DFB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		955B011457E3DE726CDDBCEE468F9D5F /* Resources */ = {
+		B66CDA657A4A63277BBE37264C357DBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD18C48E8EBF53384E3954E8E52CBFE5 /* Resources */ = {
+		BC226BD95F61CADBDA57371E28A986C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC94C8381893E1AC2DBA3F433A7B73D /* PXBelowStatusBarView.bundle in Resources */,
+				855D682124CD4280BB517F4F1BD66C14 /* SPHStringContentFillView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0D9F211A4B57393F64F0C49CC5E1009 /* Resources */ = {
+		FE5C129C2313AA96366AD042228794D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A8028B823FBD477EA3E51A1B1ABE19 /* PXMultiForwarder.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20133C3044E5B1832094CFA2EEB82232 /* Sources */ = {
+		2C3A2A651D5FB158EE7FF5BDF0814A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7533E91B5ED051298D005FAE4DE686BE /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */,
+				2567316DD9ABB8E7556AC63E01D6E09A /* PXMultiForwarder-dummy.m in Sources */,
+				5F579ED639C45EBE03C9B1285C1B8F4F /* PXMultiForwarder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A4B9BC281DD436EF233AB00A615E14B /* Sources */ = {
+		43E66CE74DC87487E3DB0A6BFD7C9F30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793FA6009907BA78641822391321532F /* PXPageIndexBounds.m in Sources */,
-				0C32594099B1F9DE872E2EC248384A06 /* PXInfiniteContentInternalView.m in Sources */,
-				96E76145DDFD874CF358A6F7BFAB756E /* PXInfiniteContentView-dummy.m in Sources */,
-				407D4DB9E101BB858BEFE226B2D860AE /* PXInfiniteContentView.m in Sources */,
+				0353A32EC9B9B51929E1127C79546147 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78292C36610D3EEC9DDE5EA9A930C6C3 /* Sources */ = {
+		4FD3826FB31681B761729AE14A6ACCEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A9417269ADEDE2C27EA0E504DF1E0A /* PXMultiForwarder-dummy.m in Sources */,
-				A6AEF01AB06E93623361FBE213872755 /* PXMultiForwarder.m in Sources */,
+				91D42F3AC89FF138EDE84E3C2886FE64 /* Pods-PXInfiniteContentView_SwiftExampleTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80240F3E742321045F0BE831707916DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C21C1EB47C66E8ED2B0BF940BAE9B50 /* Sources */ = {
+		5081BF4B5782FDDCDD7907E204C3E4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F683DC5642C2BC397BC0C5F08C96D9F /* Sources */ = {
+		78F288760F9AA45694493E76858B178D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AE4A65E5E03C54E3179F6BCD24CBBE /* SPHStringContentFillView-dummy.m in Sources */,
-				DC6337FC01E010B4564730C789151B95 /* SPHStringContentFillView.mm in Sources */,
+				F2D2F05A4301C12E942F7FA301D6BCE8 /* Pods-PXInfiniteContentView_SwiftExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4C39B5A9948877242BA9E9C7E7ED5EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F1065AAA7D90BF763439F7E9575C257 /* PXBelowStatusBarView-dummy.m in Sources */,
-				3671B777ABB7EB563E6A92F072988FB4 /* PXBelowStatusBarView.m in Sources */,
-				7BD279BB214BE5421BC9934EB73B1281 /* UIViewController+PXBelowStatusBarView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D532C761892E48E4025D815ADB904660 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD6C227A383F0DDCAA2ECB7E7675AD82 /* Pods-PXInfiniteContentView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA24DE598AF86E374FEC4916A7132E82 /* Sources */ = {
+		B2DAD5F31D679DC874479FA5A68342C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF883947CFAA3A61228D815E7F9F63F8 /* Sources */ = {
+		C3989F2D03C5B0F15E69E235628E2E2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373CFAB7DAA3A26208A4F93EB0D5371E /* PXInfiniteContentInternalView.m in Sources */,
+				520E32DA9911D85746160F9E76A4A17E /* PXInfiniteContentView-iOS8.0-dummy.m in Sources */,
+				6B470E4E41791FB8448F29AA53C3E995 /* PXInfiniteContentView.m in Sources */,
+				85AA26CAF68B6771B03208FBD307D7A7 /* PXPageIndexBounds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE30BD0C5D750650FE96AF76CC7304B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1108B59EB40394C290A0D3AE5E06CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B42399144A0C6E2ACDD4CCEA4D6B92 /* PXInfiniteContentInternalView.m in Sources */,
+				6F514AAAFF2F0371EA971A2F39B6FA0F /* PXInfiniteContentView-iOS10.2-dummy.m in Sources */,
+				8519E979818133C9E41BF6DC08022D61 /* PXInfiniteContentView.m in Sources */,
+				55F653D1938D73030D0FCFD9A7CC6F46 /* PXPageIndexBounds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1250C0A7B7BDBC6A6D57C0E936E07BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A3AB8E0C64E2DA3D5D9006E8BF7E0E /* SPHStringContentFillView-dummy.m in Sources */,
+				47A38588B9E08C80B10DC11EE418DBAA /* SPHStringContentFillView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2A152EB8AC4D1F9F75EF69BB7E15D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF0475B09BC24A5C80BBAD6C68AF2A6 /* PXBelowStatusBarView-dummy.m in Sources */,
+				4F6F588765C603D38815724245197D13 /* PXBelowStatusBarView.m in Sources */,
+				F1BA3872755DA6E369B1517E53513C2B /* UIViewController+PXBelowStatusBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C9C27F86D3618AC8B2BA9D6778DAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C88F995BC5DFD13156445D8A4D01117 /* Pods-PXInfiniteContentView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		058552A863E812FD9023D68027D2B6F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PXMultiForwarder-PXMultiForwarder";
-			target = CFBD222675837D14CE0A1335215B4323 /* PXMultiForwarder-PXMultiForwarder */;
-			targetProxy = 1C4423A5B0A5B5F8BC10C866CD29BCD1 /* PBXContainerItemProxy */;
-		};
-		23ACD47250733AD33EF4E252FAD7892F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXInfiniteContentView;
-			target = F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */;
-			targetProxy = 9D2FA3A26980531FDAD7E6EE0B4392D8 /* PBXContainerItemProxy */;
-		};
-		5DDDA198B40EB378AC0F8EB92A7EC698 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PXInfiniteContentView-PXInfiniteContentView";
-			target = 18270FEA44513E2DA5FFAFE42FCCA59A /* PXInfiniteContentView-PXInfiniteContentView */;
-			targetProxy = BC480897E3BC33BB2AFC67E173AC6EB6 /* PBXContainerItemProxy */;
-		};
-		6663CCFD2ACF6A091474E84161DA5207 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXInfiniteContentView;
-			target = F6D945AB840231AD5D637D497D3D50BF /* PXInfiniteContentView */;
-			targetProxy = E85DB572BE4B6F6F8CCB0535A1F3D560 /* PBXContainerItemProxy */;
-		};
-		A5F138A4A37E3F679A49BB4F3AE4D4CD /* PBXTargetDependency */ = {
+		02DA01E5D2F209AC40F8DC32631A4AC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SPHStringContentFillView-SPHStringContentFillView";
-			target = A53211B9BBDE9F9E65A04305C4094F26 /* SPHStringContentFillView-SPHStringContentFillView */;
-			targetProxy = 08223BE4CE88AE9016BE1A0FA8589E46 /* PBXContainerItemProxy */;
+			target = 14B6DE3DB75C3B5BE44855023DC85545 /* SPHStringContentFillView-SPHStringContentFillView */;
+			targetProxy = 6521D56B1BA97D9DF24323D268FF553C /* PBXContainerItemProxy */;
 		};
-		AB2BFBD73F22EF2EE28FE929123E816C /* PBXTargetDependency */ = {
+		2CD4424C179D10D0CE216ABF020E0C8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PXBelowStatusBarView;
-			target = 9DA89ED11E8CCD25BB284221AF9C9D51 /* PXBelowStatusBarView */;
-			targetProxy = 9A87BF83C808FF9E8F19F484FBAED198 /* PBXContainerItemProxy */;
+			name = "PXInfiniteContentView-iOS8.0";
+			target = FDEE5B4D18B03D849C8BD7D32D15127A /* PXInfiniteContentView-iOS8.0 */;
+			targetProxy = 5879803D2EB7995ABDE27F7DB784F75D /* PBXContainerItemProxy */;
 		};
-		C4D226145D1BE8E0E18CE0F81B78C3B3 /* PBXTargetDependency */ = {
+		32B1FB49B0F1DBC186006967B84CAA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXMultiForwarder-PXMultiForwarder";
+			target = D58847F60EEB0E57D90F4F1144F14916 /* PXMultiForwarder-PXMultiForwarder */;
+			targetProxy = E865DEC54F390F3777B24AF5B775DA6B /* PBXContainerItemProxy */;
+		};
+		414C33ABEDA9B41A36209B879AF74F4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SPHStringContentFillView;
-			target = C66C003B19E31E35A7EA85D093133BB3 /* SPHStringContentFillView */;
-			targetProxy = 975C6C8CCDDD54F8D4CA7A182D8B0CE0 /* PBXContainerItemProxy */;
+			target = 38C6E0C5AF33273BD306FA72FE3C22FB /* SPHStringContentFillView */;
+			targetProxy = 773CBB9AB5544526CD32E745FBD2EA68 /* PBXContainerItemProxy */;
 		};
-		EC88ECD13FF8AE978714B5DE24414685 /* PBXTargetDependency */ = {
+		4CAED9C3B227094AC85E2674986BC900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "PXBelowStatusBarView-PXBelowStatusBarView";
-			target = E2741FC5583FDBB5EB6F5191749F2DFC /* PXBelowStatusBarView-PXBelowStatusBarView */;
-			targetProxy = 9740886E3C2D68E641553CF19BCFB3EA /* PBXContainerItemProxy */;
+			name = "PXInfiniteContentView-iOS8.0";
+			target = FDEE5B4D18B03D849C8BD7D32D15127A /* PXInfiniteContentView-iOS8.0 */;
+			targetProxy = D357A2C71C89D51B99BD0121318CFD7D /* PBXContainerItemProxy */;
 		};
-		EE5D563A1AB2E019545311F8839384EC /* PBXTargetDependency */ = {
+		703FF82694D01CF7DAE5899995207CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPHStringContentFillView;
+			target = 38C6E0C5AF33273BD306FA72FE3C22FB /* SPHStringContentFillView */;
+			targetProxy = A480F30DE3F3120AE43873E449B5C0A2 /* PBXContainerItemProxy */;
+		};
+		8355BEC691B2D96A61371D9D1206AD85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXMultiForwarder;
-			target = 4924123EE0A73C74FE2FB21E2980C32F /* PXMultiForwarder */;
-			targetProxy = 4EB2CA68F4906EEF949DA3EE2D91CEB4 /* PBXContainerItemProxy */;
+			target = 61ABC1A9C6B2EEF7BB8FC444C0DC4CFC /* PXMultiForwarder */;
+			targetProxy = C16D6D8BBA73F327B797099CB31636AD /* PBXContainerItemProxy */;
+		};
+		95382666839204103593AC5FEAC1C36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXBelowStatusBarView;
+			target = C1649FF860C84A1DD3775286423B5DEA /* PXBelowStatusBarView */;
+			targetProxy = 332DF19E29D9051CA9C9A829A51F7A8C /* PBXContainerItemProxy */;
+		};
+		C798F2D913F817D6BEF9FF0B07311D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXInfiniteContentView-iOS8.0";
+			target = FDEE5B4D18B03D849C8BD7D32D15127A /* PXInfiniteContentView-iOS8.0 */;
+			targetProxy = D6861791300A47FB6B45CB29D4B15980 /* PBXContainerItemProxy */;
+		};
+		D214CB99E9B64ABB272F810B526853EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXBelowStatusBarView;
+			target = C1649FF860C84A1DD3775286423B5DEA /* PXBelowStatusBarView */;
+			targetProxy = E4CA1E020AF6ADC4B4197E9E4D154BEA /* PBXContainerItemProxy */;
+		};
+		E1C2790BFA4E48C9E9EF20FD6A569E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXMultiForwarder;
+			target = 61ABC1A9C6B2EEF7BB8FC444C0DC4CFC /* PXMultiForwarder */;
+			targetProxy = 1E081254FBB19A22D4E9546F7DAEB937 /* PBXContainerItemProxy */;
+		};
+		F4F6EC154CF6BED0A4FD0333276D6058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXBelowStatusBarView-PXBelowStatusBarView";
+			target = 136966959DF1B176CD5709FBB8509A00 /* PXBelowStatusBarView-PXBelowStatusBarView */;
+			targetProxy = 02374C4BDDAB5C685EC3CC702693C0B6 /* PBXContainerItemProxy */;
+		};
+		F7BC2A8CCE04D84334C0944243136A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXInfiniteContentView-iOS10.2";
+			target = A48E0BE6105DE9E7313C40AEE73DBCE4 /* PXInfiniteContentView-iOS10.2 */;
+			targetProxy = DC70C83F367E78BA69136821DF3D62DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		0019758C39E6D557F48B639CD64F4DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3081B9A3B3E3EABB2014AE8261106FAE /* Pods-PXInfiniteContentView_SwiftExampleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		05A407FCD2977E698AC5855B1D2ADFE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DF57EAFCB5B44A943864E2E2591B48 /* Pods-PXInfiniteContentView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExampleTests/Pods-PXInfiniteContentView_SwiftExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_SwiftExampleTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1050,15 +1256,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1069,129 +1282,180 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		1961B2EF9AC736EB9DA0C378D503427A /* Release */ = {
+		04645B6CF3686D8ABE69C60D3726DB87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			baseConfigurationReference = B9B3C0484258CBA2ABBBE14C1C0991B8 /* PXInfiniteContentView-iOS8.0.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXInfiniteContentView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		20D67022AE14E2F0166B86229B812980 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SPHStringContentFillView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		2B559B2245E65E635D85AA8251FBA030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView-iOS8.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SPHStringContentFillView;
+				PRODUCT_NAME = PXInfiniteContentView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		40643C46D0CB0CBB49762C0487E3F82B /* Release */ = {
+		0E5534442B26704C33FF87D755CF8610 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			baseConfigurationReference = 83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXMultiForwarder/PXMultiForwarder-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PXMultiForwarder/PXMultiForwarder.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = PXMultiForwarder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		504619A6C7C12ECE8D325417722ECB8F /* Debug */ = {
+		3D90B9C4C1655137B404E46B8E171B09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			baseConfigurationReference = E2E7F9E239C093173094876D9D21EC34 /* PXInfiniteContentView-iOS10.2.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXMultiForwarder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6019156D95C6976B3B36BB3A4704C44F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXInfiniteContentView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		64269EB2D9FCE66DFE4DAE77856821A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FD625C10749E653CEBF32969FB8600 /* Pods-PXInfiniteContentView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView-iOS10.2/PXInfiniteContentView-iOS10.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView-iOS10.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView-iOS10.2/PXInfiniteContentView-iOS10.2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E973C5496B3015ECF944520C97DD2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2D145CC5468EB07260D7C614B4BABE /* Pods-PXInfiniteContentView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		401CED9CFE79E550DDC11790A22C3433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXMultiForwarder";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/ResourceBundle-PXMultiForwarder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXMultiForwarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		420673FEBED7063F90FAD53E15E6FCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1978A63984E950BE018A425D7F9CBCE /* Pods-PXInfiniteContentView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Example/Pods-PXInfiniteContentView_Example.modulemap";
@@ -1199,6 +1463,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_PXInfiniteContentView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1208,91 +1473,160 @@
 			};
 			name = Release;
 		};
-		6F90C4E2ECF024DC1083F1A9ACA3F4B2 /* Debug */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		780F307A88BE83B65E5F3EC84AFBB8AD /* Debug */ = {
+		5360F6AB07E76BED2764F254BAA0EACF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			baseConfigurationReference = 71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXInfiniteContentView;
+				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Release;
+		};
+		587B0D39AFEBDDE0D167DBBD0148AE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXBelowStatusBarView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/ResourceBundle-PXBelowStatusBarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Debug;
 		};
-		865CC2B6A4B5DF30F52FD4A926F68817 /* Debug */ = {
+		7085439FB4690846192BD19652712578 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
+			baseConfigurationReference = 83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXMultiForwarder";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/ResourceBundle-PXMultiForwarder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXMultiForwarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		769B5647A122253FBDD4F6B87FC519DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPHStringContentFillView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/ResourceBundle-SPHStringContentFillView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		A82411455D7581FD7CBC0FB5425E42D7 /* Release */ = {
+		79FBC4BB292CC075C35935B291CE77EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD5C28C3FA915C299CEED3C8D5CE94D2 /* PXInfiniteContentView.xcconfig */;
+			baseConfigurationReference = 4B754686E9BEE7004FC2A4A148580DDC /* Pods-PXInfiniteContentView_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView/PXInfiniteContentView.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PXInfiniteContentView;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1301,175 +1635,248 @@
 			};
 			name = Release;
 		};
-		AC6551A11591CA84C2DB87226C9CAD05 /* Release */ = {
+		7A2AB7D300B629216558EEABA62AC24D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
+			baseConfigurationReference = 3472F816850DDB24EAC1A2C1BAA82645 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXMultiForwarder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B23634FA3B7CE328DB32404B086F4E53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A389159D9DD4428FEAAC934BF917AF74 /* PXMultiForwarder.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		824AD783BFF698C89033BCCCA5A9EEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92C000324F72A478280E8E14796D8170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B299DE0A51A6851C1CA70523C24E9F0C /* Pods-PXInfiniteContentView_SwiftExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExampleTests/Pods-PXInfiniteContentView_SwiftExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_SwiftExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2622632526340053A3FAC6D002FF9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C87E4A888224A93E69932C44B4A4AE /* PXMultiForwarder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXMultiForwarder/PXMultiForwarder-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PXMultiForwarder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PXMultiForwarder/PXMultiForwarder.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PXMultiForwarder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B286289E0EF953F031118D1B042230E0 /* Debug */ = {
+		AB1FB2DCFC684707DBDA5F1DDBF2432C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F73C4EF3C4813CD78C09D3B181173F24 /* Pods-PXInfiniteContentView_Tests.debug.xcconfig */;
+			baseConfigurationReference = EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFCD91F29AF459CE3669345251688574 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B22D1A4EE948C1594F7C332C08A5C9A /* Pods-PXInfiniteContentView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_Tests/Pods-PXInfiniteContentView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PXInfiniteContentView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF9ACFA974D8519C9FF7C8870D5FCD91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = PXBelowStatusBarView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E1B6BB9EC0F6FF21D1AE03476ED496BD /* Release */ = {
+		B4FF552D4023235E265DEB69009E47D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B85B80D1545C1BFB66FC301C00C2881 /* SPHStringContentFillView.xcconfig */;
+			baseConfigurationReference = 71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPHStringContentFillView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/ResourceBundle-SPHStringContentFillView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = SPHStringContentFillView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		E2612FCE251E812F0C44915E08E5E7B1 /* Release */ = {
+		C4C231F552FB786A5C3B1C040CA2AFA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
+			baseConfigurationReference = 71C98B2EC2FEA30EF21BCC34D93C02D1 /* SPHStringContentFillView.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F2E049ED030F9813778095AEB13F719B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5122C9DAC0F4E056965EE7C4D2FDCA0 /* PXBelowStatusBarView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPHStringContentFillView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXBelowStatusBarView/PXBelowStatusBarView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SPHStringContentFillView/SPHStringContentFillView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXBelowStatusBarView;
+				PRODUCT_NAME = SPHStringContentFillView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C679F97CD8D4992D3D4D0BC7B4B5321B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F863A8A9C08B0AC7A63ABA800F10B4 /* Pods-PXInfiniteContentView_SwiftExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExample/Pods-PXInfiniteContentView_SwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_SwiftExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1477,24 +1884,149 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CDBB315A5CBF97D73A02521F32A544E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFE9CD669A37B8AEE87B2528A63D279 /* PXBelowStatusBarView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXBelowStatusBarView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXBelowStatusBarView/ResourceBundle-PXBelowStatusBarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXBelowStatusBarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CED1995CF9D1B9CF0A456FA696B56F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B3C0484258CBA2ABBBE14C1C0991B8 /* PXInfiniteContentView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView-iOS8.0/PXInfiniteContentView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E73DE834C07E63E8D03AF0DE363C2DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E7F9E239C093173094876D9D21EC34 /* PXInfiniteContentView-iOS10.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXInfiniteContentView-iOS10.2/PXInfiniteContentView-iOS10.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXInfiniteContentView-iOS10.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXInfiniteContentView-iOS10.2/PXInfiniteContentView-iOS10.2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXInfiniteContentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F938885DF910D3718F0361E48356865D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5E93CEF820660EEAE4CD8F6ED64FDF /* Pods-PXInfiniteContentView_SwiftExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXInfiniteContentView_SwiftExample/Pods-PXInfiniteContentView_SwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXInfiniteContentView_SwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0467EC67E3D78BD1E42FEE5BCA68AA1F /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */ = {
+		05F8EBF2AA07690C380671598B075E27 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B23634FA3B7CE328DB32404B086F4E53 /* Debug */,
-				40643C46D0CB0CBB49762C0487E3F82B /* Release */,
+				587B0D39AFEBDDE0D167DBBD0148AE3A /* Debug */,
+				CDBB315A5CBF97D73A02521F32A544E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24BCF6413DF5F8D7547385E8C1126626 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-PXInfiniteContentView" */ = {
+		0D9AE32708CAFF4CFC2BB342EFDEA1D6 /* Build configuration list for PBXNativeTarget "PXMultiForwarder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6019156D95C6976B3B36BB3A4704C44F /* Debug */,
-				1961B2EF9AC736EB9DA0C378D503427A /* Release */,
+				A2622632526340053A3FAC6D002FF9A5 /* Debug */,
+				0E5534442B26704C33FF87D755CF8610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185BF3A56C9ABD8AE96B0262C6DEC5C4 /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401CED9CFE79E550DDC11790A22C3433 /* Debug */,
+				7085439FB4690846192BD19652712578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1502,80 +2034,89 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D11DFB1A5CF4C3CE3ADECEFABB4095E /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
+		33982018D37338423ADC7EA78674935B /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				865CC2B6A4B5DF30F52FD4A926F68817 /* Debug */,
-				2B559B2245E65E635D85AA8251FBA030 /* Release */,
+				769B5647A122253FBDD4F6B87FC519DC /* Debug */,
+				B4FF552D4023235E265DEB69009E47D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47C193B4A43E00C62EA7DC9E896F743A /* Build configuration list for PBXNativeTarget "PXInfiniteContentView" */ = {
+		3B99569F54992F17542171E858C2AB8F /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				780F307A88BE83B65E5F3EC84AFBB8AD /* Debug */,
-				A82411455D7581FD7CBC0FB5425E42D7 /* Release */,
+				824AD783BFF698C89033BCCCA5A9EEFC /* Debug */,
+				AB1FB2DCFC684707DBDA5F1DDBF2432C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6709DBCF59A0F2A264972BE961B650E4 /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView" */ = {
+		49096CD740C16BCB83BCB31531F93796 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-iOS8.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2E049ED030F9813778095AEB13F719B /* Debug */,
-				CF9ACFA974D8519C9FF7C8870D5FCD91 /* Release */,
+				CED1995CF9D1B9CF0A456FA696B56F64 /* Debug */,
+				04645B6CF3686D8ABE69C60D3726DB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BF39F874F0046B79A8FF951CC5512DC /* Build configuration list for PBXNativeTarget "SPHStringContentFillView-SPHStringContentFillView" */ = {
+		49AD5773B6B6CD008D423F24C4C50341 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20D67022AE14E2F0166B86229B812980 /* Debug */,
-				E1B6BB9EC0F6FF21D1AE03476ED496BD /* Release */,
+				3E973C5496B3015ECF944520C97DD2D9 /* Debug */,
+				420673FEBED7063F90FAD53E15E6FCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92697288146C7C4700F22A68DB4EA0EA /* Build configuration list for PBXNativeTarget "PXBelowStatusBarView-PXBelowStatusBarView" */ = {
+		51CDFCEBFD913908DF3D5BF58678F9F5 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F90C4E2ECF024DC1083F1A9ACA3F4B2 /* Debug */,
-				E2612FCE251E812F0C44915E08E5E7B1 /* Release */,
+				7A2AB7D300B629216558EEABA62AC24D /* Debug */,
+				79FBC4BB292CC075C35935B291CE77EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B34B5EF110D923C039919DEAB9CC2B02 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Tests" */ = {
+		78D14D7AF1D6027EE2EE9FC6ED47CC16 /* Build configuration list for PBXNativeTarget "SPHStringContentFillView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B286289E0EF953F031118D1B042230E0 /* Debug */,
-				BFCD91F29AF459CE3669345251688574 /* Release */,
+				C4C231F552FB786A5C3B1C040CA2AFA3 /* Debug */,
+				5360F6AB07E76BED2764F254BAA0EACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBFAE127EB6614B1547AD01B351AE20B /* Build configuration list for PBXNativeTarget "PXMultiForwarder-PXMultiForwarder" */ = {
+		7AF7E7C00CFB9762972FAA5DFE1D5E3B /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_SwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504619A6C7C12ECE8D325417722ECB8F /* Debug */,
-				AC6551A11591CA84C2DB87226C9CAD05 /* Release */,
+				C679F97CD8D4992D3D4D0BC7B4B5321B /* Debug */,
+				F938885DF910D3718F0361E48356865D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E82DA84AC2059C3DF3F8223F75F2750E /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_Example" */ = {
+		C71DD80F041C19CD2F96FEF2BA09D285 /* Build configuration list for PBXNativeTarget "PXInfiniteContentView-iOS10.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05A407FCD2977E698AC5855B1D2ADFE5 /* Debug */,
-				64269EB2D9FCE66DFE4DAE77856821A1 /* Release */,
+				3D90B9C4C1655137B404E46B8E171B09 /* Debug */,
+				E73DE834C07E63E8D03AF0DE363C2DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CF8DE893A607C7995998645CF84393 /* Build configuration list for PBXNativeTarget "Pods-PXInfiniteContentView_SwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C000324F72A478280E8E14796D8170 /* Debug */,
+				0019758C39E6D557F48B639CD64F4DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
