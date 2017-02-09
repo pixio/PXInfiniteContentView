@@ -1,5 +1,5 @@
 framework module PXInfiniteContentView {
-  umbrella header "PXInfiniteContentView-umbrella.h"
+  umbrella header "PXInfiniteContentView-iOS10.2-umbrella.h"
 
   export *
   module * { export * }

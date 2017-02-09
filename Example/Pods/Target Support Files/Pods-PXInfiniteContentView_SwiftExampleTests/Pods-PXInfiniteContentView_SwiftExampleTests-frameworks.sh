@@ -89,10 +89,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PXInfiniteContentView-iOS8.0/PXInfiniteContentView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PXInfiniteContentView-iOS10.2/PXInfiniteContentView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PXInfiniteContentView-iOS8.0/PXInfiniteContentView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PXInfiniteContentView-iOS10.2/PXInfiniteContentView.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

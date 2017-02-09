@@ -49,11 +49,11 @@ class ViewController: UIViewController, PXInfiniteContentViewDelegate {
         allViews.backgroundColor = UIColor.white
     }
     
-    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView!, transitionedTo index: Int32) {
+    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView, transitionedTo index: Int32) {
         allViews.regenerate()
     }
     
-    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView!, willShowView view: Any!, for index: Int32) {
+    func infiniteContentView(_ infiniteContentView: PXInfiniteContentView, willShow view: UIView, for index: Int32) {
         (view as! SPHStringContentFillView).contentString = "Content +\(index)"
     }
 }

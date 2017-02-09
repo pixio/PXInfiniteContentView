@@ -10,6 +10,16 @@ end
 
 target 'PXInfiniteContentView_Tests' do
   pod "PXInfiniteContentView", :path => "../"
+end
 
-  
+target 'PXInfiniteContentView_SwiftExample' do
+    pod "PXInfiniteContentView", :path => "../"
+    pod 'SPHStringContentFillView'
+    pod 'PXBelowStatusBarView'
+    pod 'PXMultiForwarder'
+end
+
+target 'PXInfiniteContentView_SwiftExampleTests' do
+    pod "PXInfiniteContentView", :path => "../"
+
 end

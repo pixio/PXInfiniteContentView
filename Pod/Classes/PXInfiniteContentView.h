@@ -30,15 +30,15 @@
  */
 @interface PXInfiniteContentView : UIView
 
-- (instancetype _Nullable) init __attribute__((unavailable("Use one of the other init methods")));
+- (instancetype _Nonnull) init __attribute__((unavailable("Use one of the other init methods")));
 - (instancetype _Nonnull) initWithFrame:(CGRect)frame __attribute__((unavailable("Use one of the other init methods")));
-- (instancetype _Nullable) initWithViewClass:(Class _Nonnull)class;
+- (instancetype _Nonnull) initWithViewClass:(Class _Nonnull)class;
 
 @property (nonatomic, weak, nullable) id<PXInfiniteContentViewDelegate> delegate;
 
-@property (nonatomic, nullable) UIView* leftView;
-@property (nonatomic, nullable) UIView* centerView;
-@property (nonatomic, nullable) UIView* rightView;
+@property (nonatomic, nonnull) UIView* leftView;
+@property (nonatomic, nonnull) UIView* centerView;
+@property (nonatomic, nonnull) UIView* rightView;
 @property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 
 /**

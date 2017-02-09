@@ -1,0 +1,6 @@
+framework module PXInfiniteContentView {
+  umbrella header "PXInfiniteContentView-iOS8.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

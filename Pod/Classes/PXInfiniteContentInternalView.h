@@ -21,13 +21,13 @@
 - (instancetype _Nonnull) init __attribute__((unavailable("Use one of the other init methods")));
 - (instancetype _Nonnull) initWithFrame:(CGRect)frame __attribute__((unavailable("Use one of the other init methods")));
 
-- (instancetype _Nonnull) initWithLeftView:(UIView * _Nullable)leftView centerView:(UIView * _Nullable)centerView rightView:(UIView * _Nullable)rightView;
+- (instancetype _Nonnull) initWithLeftView:(UIView * _Nonnull)leftView centerView:(UIView * _Nonnull)centerView rightView:(UIView * _Nonnull)rightView;
 
 @property (weak, nullable) id<PXInfiniteContentInternalViewDelegate> internalDelegate;
 
-@property (nonatomic, nullable) UIView* leftView;
-@property (nonatomic, nullable) UIView* centerView;
-@property (nonatomic, nullable) UIView* rightView;
+@property (nonatomic, nonnull) UIView* leftView;
+@property (nonatomic, nonnull) UIView* centerView;
+@property (nonatomic, nonnull) UIView* rightView;
 @property (nonatomic) BOOL shouldBeRequiredToFailByGestureRecognizers;
 @property (nonatomic) int index;
 @property (nonatomic, nonnull) PXPageIndexBounds* pageIndexBounds;
